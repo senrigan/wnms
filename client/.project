@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>client</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>classes</name>
+			<type>2</type>
+			<location>C:/Users/senrigan/workspace/workspaceWork/dev/development/source/packages/clientui/build/classes</location>
+		</link>
+		<link>
+			<name>common.jar</name>
+			<type>1</type>
+			<location>C:/Users/senrigan/workspace/workspaceWork/dev/development/source/packages/common/dist/common.jar</location>
+		</link>
+		<link>
+			<name>model.jar</name>
+			<type>1</type>
+			<location>C:/Users/senrigan/workspace/workspaceWork/dev/development/source/packages/model/dist/model.jar</location>
+		</link>
+		<link>
+			<name>serverinterface.jar</name>
+			<type>1</type>
+			<location>C:/Users/senrigan/workspace/workspaceWork/dev/development/source/packages/server/dist/serverinterface.jar</location>
+		</link>
+		<link>
+			<name>src</name>
+			<type>2</type>
+			<location>C:/Users/senrigan/workspace/workspaceWork/dev/development/source/packages/clientui/src</location>
+		</link>
+	</linkedResources>
+</projectDescription>

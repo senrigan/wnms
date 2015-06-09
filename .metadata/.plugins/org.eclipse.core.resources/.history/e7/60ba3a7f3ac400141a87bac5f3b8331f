@@ -1,0 +1,17 @@
+package connection;
+
+import com.gdc.nms.model.Device;
+import com.thoughtworks.xstream.XStream;
+import com.thoughtworks.xstream.io.xml.DomDriver;
+
+public class DeviceXML {
+	public static String toXML(Device device){
+		XStream xstream = new XStream(new DomDriver());
+		return xstream.toXML(device);
+	}
+	
+	public static Device fromXML(String xmlFile){
+		XStream xstream = new XStream(new DomDriver());
+		return  (Device) xstream.fromXML(xmlFile);
+	}
+}

@@ -1,0 +1,54 @@
+<project name="serverstarter package" default="package" basedir=".">
+    <description>
+        Build process of the Network Monitoring System's serverstarter package
+    </description>
+
+    <!-- global properties for this build -->
+    <property name="web" location="web" />
+    <property name="classes" location="build/WEB-INF/classes" />
+    <property name="lib" location="build/WEB-INF/lib" />
+
+    <property name="war.name" value="nms.stats.war" />
+
+    <!-- once the properties have been set, import the main file -->
+    <import file="../application/main.xml" />
+
+    <path id="src.classpath">
+        <pathelement location="${common.jar.path}" />
+        <pathelement location="${snmp4j.jar.path}" />
+        <pathelement location="${slf4j.api.jar.path}" />
+        <fileset dir="${jee.jars.path}" includes="*.jar" />
+    </path>
+
+    <target name="clean" description="clean up">
+        <!-- call main's clean target -->
+        <antcall target="main.clean" />
+        <delete dir="${web}/META-INF" />
+    </target>
+
+    <target name="compile" depends="init" description="compiles the source ">
+        <!-- compile the java code from ${src} into ${classes} -->
+        <javac srcdir="${src}" destdir="${classes}" debug="true" debuglevel="lines,source">
+            <classpath refid="src.classpath" />
+        </javac>
+        <!-- copy all non-java files from ${src} to ${classes} -->
+        <copy todir="${classes}">
+            <fileset dir="${src}" includes="**/**" excludes="**/*.java,**/*.jfd" />
+        </copy>
+        <copy todir="${build}">
+            <fileset dir="${web}" includes="**/**" excludes="**/*.java,**/*.jfd" />
+        </copy>
+        <!-- copy all library files to ${lib} -->
+        <copy file="${common.jar.path}" todir="${lib}" />
+        <copy file="${snmp4j.jar.path}" todir="${lib}" />
+        <copy file="${slf4j.api.jar.path}" todir="${lib}" />
+        <copy file="${slf4j.jul.jar.path}" todir="${lib}" />
+    </target>
+
+    <target name="package" depends="dist" description="generates the jar file">
+        <!-- create the jar file -->
+        <jar jarfile="${dist}/${war.name}" basedir="${build}" />
+    </target>
+
+</project>
+

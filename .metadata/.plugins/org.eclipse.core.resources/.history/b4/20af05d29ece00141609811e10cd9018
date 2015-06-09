@@ -1,0 +1,79 @@
+package com.gdc.nms.server.driver.test;
+
+import static org.junit.Assert.assertEquals;
+
+
+import java.util.ArrayList;
+import java.util.Collection;
+import org.apache.log4j.Logger;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.junit.runners.Parameterized;
+import org.junit.runners.Parameterized.Parameters;
+
+import com.gdc.nms.model.Device;
+import com.gdc.nms.testing.Client;
+
+
+@RunWith(Parameterized.class)
+public class TestDevice {
+	static Logger log=Logger.getLogger(TestDevice.class);
+	//TODO crear logs para los devices ya sean warging inform etc... y en ese archivi imprimir ip sysos oid y que driver se esta utilizando
+	//responder si los response devolvieron nulo o si los metodos de los respondos regresan nulo
+	
+	private Device device;
+	private Client client;
+//	@BeforeClass
+//	public static  void setUp(){
+//		
+//		
+//       
+//	}
+	public TestDevice(Device device){
+		this.device=device;
+	}
+	
+	
+	@Parameters
+	public static Collection<Device[]> getData(){
+		TestConsult consult=new TestConsult();
+		//consult.setUp();
+		consult.initConexionServerToData();
+		ArrayList<Device> devices=consult.getDevices();
+		System.out.println("devices"+devices.size());
+		final Collection <Device[]> data=new ArrayList<Device[]>();
+		for(Device device:devices){
+			data.add(new Device[]{device});
+		}
+		return data;
+	}
+	
+	
+	
+	private long getTimeOut(){
+		return this.device.getSnmpTimeout()*2;
+	}
+//	@Test(expected = NullPointerException.class)
+	@Test
+	public void testResource() throws Exception{
+////		Device device=devices.get(3);
+////		try {
+//			///si esta pendejada regresa nulo ya valio verga
+//			DeviceResourcesResponse driver=client.getDeviceResources(device, receiver, TIMEOUT);
+//			System.out.println("resourcers List"+driver.getDeviceResources().size());
+//			//si el metodo de esta pendejada regresa nulo fue lo que regreso el device y no valio verga
+//			
+//			assertNotNull(driver.getDeviceResources());
+//			assertTrue((!driver.getDeviceResources().isEmpty()));
+////		} catch (Exception e) {
+////			System.out.println("ocurrio un error con device resources");
+////			// TODO Auto-generated catch block
+////			e.printStackTrace();
+////		} 
+		//log.info("se esta probando el dispositivo"+this.device.getSysObjectID());
+		System.out.println("device"+this.device.getSysObjectID());
+		assertEquals("1.3.6.1.4.1.9.1.620",this.device.getSysObjectID());
+		
+	}
+}

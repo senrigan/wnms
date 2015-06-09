@@ -1,0 +1,38 @@
+<project name="common package" default="package" basedir=".">
+    <description>
+        Build process of the Network Monitoring System's common package
+    </description>
+
+    <property name="jar.name" value="common.jar" />
+	
+
+    <!-- once the properties have been set, import the main file -->
+    <import file="../application/main.xml" />
+	
+	<property name="libnms" value="${classes}/bin/libnms" />
+
+    <path id="src.classpath">
+        <pathelement location="${slf4j.api.jar.path}" />
+        <pathelement location="${truelicense.core.jar.path}" />
+    	<pathelement location="${jms.jar.path}"/>
+    	<pathelement location="${imq.jar.path}"/>
+        <fileset dir="${jee.jars.path}" includes="*.jar"/>
+    </path>
+	
+	<target name="package" depends="dist" description="generates the jar file">
+        <mkdir dir="${libnms}" />
+        <copy todir="${libnms}">
+            <fileset dir="${libnms.path}" />
+        </copy>     
+
+        <!-- create the jar file -->
+        <jar jarfile="${dist}/${jar.name}" basedir="${classes}" />
+    </target>
+    
+    <target name="clean" description="clean up">
+        <!-- call main's clean target -->
+        <antcall target="main.clean" />
+        <delete dir="${src}/META-INF" />
+	</target>
+</project>
+

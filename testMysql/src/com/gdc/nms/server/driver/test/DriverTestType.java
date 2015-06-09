@@ -1,0 +1,23 @@
+package com.gdc.nms.server.driver.test;
+
+import com.gdc.nms.server.testutil.ConditionalIgnoreRule.IgnoreCondition;
+import com.googlecode.junit.ext.checkers.Checker;
+
+//public class DriverTestType implements IgnoreCondition{
+public class DriverTestType implements Checker{
+
+
+		@Override
+		public boolean satisfy() {
+			System.out.println("es igual");
+			return false;
+			// TODO Auto-generated method stub
+		}
+
+		//@Override
+		public boolean isSatisfied() {
+			System.out.println("es igual");
+			return true;
+			// TODO Auto-generated method stub
+		}
+	}

@@ -1,0 +1,89 @@
+package com.gdc.nms.server.driver.test;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Set;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.junit.runners.Parameterized;
+import org.junit.runners.Parameterized.Parameters;
+
+import com.gdc.nms.model.Device;
+
+import static org.junit.Assert.assertEquals;
+//import static org.mockito.Mock;
+import static org.mockito.Mockito.*;
+@RunWith(Parameterized.class)
+public class TestMockito {
+	private String name;
+//	@Test
+//	public void test(){
+//		TestConsult mockedTest=mock(TestConsult.class);
+//		mockedTest.initConexionServerToData();
+//		ArrayList<Device> devices= TestConsult.devices;
+////		System.out.println("devices "+devices.size());
+////		System.out.println("name"+mockedTest.getDriverNameClass(devices.get(3)));
+////		when(mockedTest.getDriverNameClass(devices.get(3))).thenReturn("ya valio mockito");
+////		assertEquals("ya valio mockito",mockedTest.getDriverNameClass(devices.get(2)));
+//		
+//		verify(mockedTest)
+//		.getDriverNameClass(devices.get(3));
+//		
+//	}
+	
+	
+	public TestMockito(String nombre,String n){
+		this.name=nombre;
+	}
+	@Parameters
+	public static Collection<Device[]> data(){
+//		ArrayList<String> nombres=new ArrayList<String>();
+//		nombres.add("pablo");
+//		nombres.add("juan");
+//		nombres.add("luis");
+//		nombres.add("miguel");
+//		Object[]nom=nombres.toArray();
+//		return (Collection<Object[]>) Arrays.asList(nom);
+	    final Collection<Device[]> datos=new ArrayList<Device[]>();
+	    Map<String, ArrayList<Device>> m = new HashMap<>();
+	    Set<Entry<String,ArrayList<Device>>> entrySet = m.entrySet();
+	    
+	    ArrayList<Device> d = new ArrayList<>();
+	    
+	    for(Entry<String,ArrayList<Device>> entry : entrySet){
+	    	d.addAll(entry.getValue());
+	    }
+	    
+	    Device[] de = new Device[d.size()+1];
+	    
+	    
+	    datos.add(new Device[]{});
+	    return datos;
+//		List<T> col=new ArrayList<String>(nombres);
+//		return col;
+	}
+	
+	@Test
+	public void testName(){
+		System.out.println("nombre"+name);
+	}
+	
+	
+	
+//	public static void main(String[] args) {
+//		TestConsult mockedTest=mock(TestConsult.class);
+//		TestConsult.initConexionServerToData();
+//		ArrayList<Device> devices= TestConsult.devices;
+//		System.out.println("devices "+devices.size());
+//		System.out.println("name"+mockedTest.getDriverNameClass(devices.get(500)));
+//		when(mockedTest.getDriverNameClass(devices.get(3))).thenReturn("ya valio mockito");
+//		assertEquals("ya valio mockito",mockedTest.getDriverNameClass(devices.get(3)));
+//	}
+
+}

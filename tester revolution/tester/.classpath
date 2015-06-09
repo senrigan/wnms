@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk6.45"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/tester"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/common"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/server"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/model"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/Documents/librerias/JADE-all-4.3.3/JADE-bin-4.3.3/jade/lib/jade.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/wnms/tester revolution/tester/libraries/common.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/wnms/tester revolution/tester/libraries/jade.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/wnms/tester revolution/tester/libraries/javaee.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/wnms/tester revolution/tester/libraries/model.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/wnms/tester revolution/tester/libraries/server.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/wnms/tester revolution/tester/lib/testing/server.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/wnms/tester revolution/tester/lib/testing/model.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/wnms/tester revolution/tester/lib/testing/common.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/wnms/tester revolution/tester/lib/testing/jade.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/wnms/tester revolution/tester/lib/testing/javaee.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/wnms/tester revolution/tester/lib/nms/jsch-0.1.51.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/wnms/tester revolution/tester/lib/nms/xstream-1.4.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/wnms/tester revolution/tester/lib/nms/commons-io-2.0.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

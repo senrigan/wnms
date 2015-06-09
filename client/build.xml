@@ -1,0 +1,58 @@
+<project name="client package" default="package" basedir=".">
+    <description>
+        Build process of the Network Monitoring System's client package
+    </description>
+
+    <property name="jar.name" value="client.jar" />
+    <!-- once the properties have been set, import the main file -->
+    <import file="../application/main.xml" />
+    
+    <property name="jta.bin" value="${classes}/bin/jta" />
+
+    <path id="src.classpath">
+        <pathelement location="${common.jar.path}" />
+        <pathelement location="${model.jar.path}" />
+        <pathelement location="${serverinterface.jar.path}" />
+        <pathelement location="${jgraph.jar.path}" />
+        <pathelement location="${slf4j.api.jar.path}" />
+        <pathelement location="${forms.jar.path}" />
+        <pathelement location="${validation.jar.path}" />
+        <pathelement location="${glazedlists.jar.path}" />
+    	<pathelement location="${swingx.jar.path}" />
+    	<pathelement location="${eclipselink.jar.path}" />
+    	<pathelement location="${jfreechart.jar.path}" />
+    	<pathelement location="${jcommon.jar.path}"/>	
+    	<pathelement location="${icepdf.viewer.jar.path}"/>
+    	<pathelement location="${icepdf.core.jar.path}"/>
+    	<pathelement location="${commons.lang.jar.path}"/>
+    	<pathelement location="${djnativeswing.jar.path}"/>
+    	<pathelement location="${djnativeswing-swt.jar.path}"/>
+        <pathelement location="${xstream.jar.path}"/>
+    	<pathelement location="${jms.jar.path}"/>
+        <pathelement location="${imq.jar.path}"/>
+        <pathelement location="${apache.http.client.jar.path}"/>
+    	
+        <fileset dir="${jee.jars.path}" includes="*.jar" />
+    </path>
+
+    <target name="package" depends="dist" description="generates the jar file">
+        <mkdir dir="${jta.bin}" />
+        <copy todir="${jta.bin}">
+          <fileset dir="${jta.path}" />
+        </copy>
+        
+        <!-- create the jar file -->
+        <jar jarfile="${dist}/${jar.name}" basedir="${classes}">
+            <manifest>
+                <attribute name="Main-Class" value="com.gdc.nms.client.ClientStarter" />
+            	<attribute name="Application-Name" value="Network Monitoring System"/>
+				<attribute name="Implementation-Vendor" value="General Datacomm de México S.A. de C.V."/>
+            	<attribute name="Implementation-URL" value="http://www.gdc-cala.com.mx/gdc/"/>
+            	<attribute name="Permissions" value="all-permissions"/>
+                <attribute name="Class-Path" value="" />            	
+            </manifest>
+        </jar>
+    </target>
+
+</project>
+

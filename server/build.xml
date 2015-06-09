@@ -1,0 +1,49 @@
+<project name="server package" default="package" basedir=".">
+    <description>
+        Build process of the Network Monitoring System's server package
+    </description>
+
+    <property name="jar.name" value="server.jar" />
+    <property name="client.jar.name" value="serverinterface.jar" />
+    
+    <!-- once the properties have been set, import the main file -->
+    <import file="../application/main.xml" />
+
+    <path id="src.classpath">
+        <pathelement location="${common.jar.path}" />
+        <pathelement location="${model.jar.path}" />
+        <pathelement location="${slf4j.api.jar.path}" />
+        <pathelement location="${snmp4j.jar.path}" />
+        <pathelement location="${eclipselink.jar.path}" />
+    	<pathelement location="${commons.net.jar.path}"/> 
+    	<pathelement location="${slf4j.jul.jar.path}"/>
+    	<pathelement location="${sshj.jar.path}"/>
+    	<pathelement location="${poi.jar.path}"/>
+        <pathelement location="${truelicense.core.jar.path}"/>
+        <pathelement location="${truelicense.xml.jar.path}"/>
+        <pathelement location="${commons.codec.jar.path}"/>
+        <pathelement location="${hqapi.jar.path}"/>
+        <pathelement location="${jsch.jar.path}"/>
+
+        <fileset dir="${jee.jars.path}" includes="*.jar" />
+    </path>
+    
+    <target name="tag" if="build.tag" description="sets the build tag">
+        <!-- sets the build tag to the server.properties file -->
+        <replace file="${classes}/META-INF/server.properties" value="${build.tag}">
+          <replacefilter token="%build.tag"/>
+        </replace>
+    </target>  
+
+    <target name="package" depends="dist, tag" description="generates the jar file">
+        <copy file="${licensing.package.path}/src/com/gdc/nms/licensing/resource/public.jks" todir="${classes}/com/gdc/nms/server/resource/"/>
+        <!-- create the jar file -->
+        <jar jarfile="${dist}/${jar.name}" basedir="${classes}" excludes="**/*Remote.class">
+            <manifest>
+                <attribute name="Class-Path" value="${client.jar.name}" />
+            </manifest>
+        </jar>
+        <jar jarfile="${dist}/${client.jar.name}" basedir="${classes}" includes="**/*Service.class **/*Remote.class **/*Exception.class" />
+    </target>
+</project>
+

@@ -1,0 +1,158 @@
+<project name="licensing package" default="package" basedir=".">
+    <description>
+        Build process of the Network Monitoring System's serverstarter package
+    </description>
+
+    <!-- global properties for this build -->
+    <property name="web" location="web" />
+    <property name="classes" location="build/WEB-INF/classes" />
+    <property name="lib" location="build/WEB-INF/lib" />
+    <property name="jar.name" value="classes.jar" />
+    <property name="app.name" value="nms.licensing" />
+    <property name="war.name" value="${app.name}.war" />
+
+    <!-- once the properties have been set, import the main file -->
+    <import file="../application/main.xml" />
+
+    <path id="src.classpath">
+        <pathelement location="${common.jar.path}" />
+    	<pathelement location="${truelicense.core.jar.path}" />
+        <pathelement location="${truelicense.xml.jar.path}" />
+        <fileset dir="${jee.jars.path}" includes="*.jar"/>
+    </path>
+
+    <target name="clean" description="clean up">
+        <!-- call main's clean target -->
+        <antcall target="main.clean" />
+        <delete dir="${web}/META-INF" />
+	</target>
+
+  <target name="compile" depends="init" description="compiles the source ">
+        <!-- compile the java code from ${src} into ${classes} -->
+        <javac srcdir="${src}" destdir="${classes}" debug="true" debuglevel="lines,source">
+            <classpath refid="src.classpath" />
+        </javac>
+        <!-- create the ${lib}/${jar.name} file -->
+        <copy todir="${classes}">
+            <fileset dir="${src}" includes="**/**" excludes="**/*.java,**/*.jfd" />
+        </copy>
+  		<mkdir dir="${lib}"/>
+        <jar jarfile="${lib}/${jar.name}" basedir="${classes}" />
+        <copy file="${common.jar.path}" todir="${lib}" />
+        <copy file="${truelicense.core.jar.path}" todir="${lib}" />
+        <copy file="${truelicense.xml.jar.path}" todir="${lib}" />
+        <copy file="${commons.codec.jar.path}" todir="${lib}" />
+        <delete dir="${classes}" />
+        <!-- copy all other files to ${build} -->
+        <copy todir="${build}">
+            <fileset dir="${web}" includes="**/**" excludes="**/*.java,**/*.jfd" />
+        </copy>
+    </target>
+
+    <target name="package" depends="dist" description="generates the jar file">
+        <!-- create the war file -->
+        <jar jarfile="${dist}/${war.name}" basedir="${build}" />
+    </target>
+
+        <target name="tools">
+            <!-- set multiplatform properties -->
+            <condition property="javaee-script-suffix" value=".bat">
+                <os family="windows" />
+            </condition>
+            <condition property="javaee-script-suffix" value="">
+                <not>
+                    <os family="windows" />
+                </not>
+            </condition>
+            <condition property="path.separator" value=";">
+                <os family="windows" />
+            </condition>
+            <condition property="path.separator" value=":">
+                <not>
+                    <os family="windows" />
+                </not>
+            </condition>
+            <!-- setup properties for Java EE tools -->
+            <property name="asadmin" value="${javaee.home}/bin/asadmin${javaee-script-suffix}" />
+            <property name="appclient" value="${javaee.home}/bin/appclient${javaee-script-suffix}" />
+
+            <!-- connection pool exist? -->
+            <exec executable="${asadmin}" outputproperty="jdbc.connection.pool">
+                <arg line=" list-jdbc-connection-pools" />
+                <arg line=" --user ${javaee.server.username}" />
+                <arg line=" --passwordfile ${javaee.server.passwordfile}" />
+            </exec>
+            <condition property="create.connection.pool">
+                <not>
+                    <contains string="${jdbc.connection.pool}" substring="${mysql.pool.name}" />
+                </not>
+            </condition>
+
+            <!-- jdbc resource exist? -->
+            <exec executable="${asadmin}" outputproperty="jdbc-resources">
+                <arg line=" list-jdbc-resources" />
+                <arg line=" --user ${javaee.server.username}" />
+                <arg line=" --passwordfile ${javaee.server.passwordfile}" />
+            </exec>
+            <condition property="create.jdbc.resource">
+                <not>
+                    <contains string="${jdbc-resources}" substring="${mysql.jdbc.resource.name}" />
+                </not>
+            </condition>
+
+            <!-- jms resource exist? -->
+            <exec executable="${asadmin}" outputproperty="jms-resources">
+                <arg line=" list-jms-resources" />
+                <arg line=" --user ${javaee.server.username}" />
+                <arg line=" --passwordfile ${javaee.server.passwordfile}" />
+            </exec>
+            <condition property="create.jms.resource">
+                <not>
+                    <contains string="${jms-resources}" substring="${connection.factory.name}" />
+                </not>
+            </condition>
+        </target>
+
+        <target name="create-connection-pool" depends="tools" description="create the connection pool" if="create.connection.pool">
+            <exec executable="${asadmin}" failonerror="false">
+                <arg line="create-jdbc-connection-pool" />
+                <arg line=" --user ${javaee.server.username}" />
+                <arg line=" --passwordfile ${javaee.server.passwordfile}" />
+                <arg line=" --host ${javaee.server.name}" />
+                <arg line=" --port ${javaee.adminserver.port}" />
+                <arg line=" --datasourceclassname  ${mysql.datasource}" />
+                <arg line=" --restype javax.sql.DataSource" />
+                <arg line=" --property user=${mysql.user}:password=${mysql.password}:DatabaseName=${mysql.databasename}:ServerName=${mysql.serverName}:port=${mysql.ServerPort}" />
+                <arg line=" ${mysql.pool.name}" />
+            </exec>
+        </target>
+
+        <target name="create-jdbc-resource" depends="create-connection-pool" description="create the jdbc resource" if="create.jdbc.resource">
+            <exec executable="${asadmin}" failonerror="false">
+                <arg line="create-jdbc-resource" />
+                <arg line=" --user ${javaee.server.username}" />
+                <arg line=" --passwordfile ${javaee.server.passwordfile}" />
+                <arg line=" --host ${javaee.server.name}" />
+                <arg line=" --port ${javaee.adminserver.port}" />
+                <arg line=" --connectionpoolid ${mysql.pool.name}" />
+                <arg line=" ${mysql.jdbc.resource.name}" />
+            </exec>
+        </target>
+    
+    <target name="deploy" depends="package,tools" description="deploys the application">
+        <exec executable="${asadmin}" failonerror="true">
+            <arg line=" deploy " />
+            <arg line=" --user ${javaee.server.username}" />
+            <arg line=" --passwordfile ${javaee.server.passwordfile}" />
+            <arg line=" --host ${javaee.server.name}" />
+            <arg line=" --port ${javaee.adminserver.port}" />
+            <arg line=" --name ${app.name}" />
+            <arg line=" --force=true " />
+            <arg line=" --upload=true " />
+            <!-- arg line=" - -dbvendorname ${db.vendorname} "/ -->
+            <arg line="${dist}/${war.name}" />
+        </exec>
+
+    </target>
+</project>
+

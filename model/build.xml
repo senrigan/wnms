@@ -1,0 +1,19 @@
+<project name="model package" default="package" basedir=".">
+	<description>
+		Build process of the Network Monitoring System's model package
+    </description>
+
+	<property name="jar.name" value="model.jar" />
+
+    <!-- once the properties have been set, import the main file -->
+	<import file="../application/main.xml" />
+
+	<path id="src.classpath">
+		<pathelement location="${common.jar.path}" />
+		<pathelement location="${eclipselink.jar.path}" />
+		<pathelement location="${gson222.jar.path}"/>
+		<fileset dir="${jee.jars.path}" includes="*.jar" />
+	</path>
+
+</project>
+

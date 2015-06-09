@@ -1,0 +1,55 @@
+package com.gdc.nms.server.testutil;
+
+import jade.core.AID;
+
+import com.gdc.nms.testing.Client;
+import com.gdc.nms.testing.exception.IllegalLocalAddress;
+
+public class TestManager {
+	private static TestManager instance;
+	private static Client client;
+	private static AID receiver ;
+	
+	private TestManager(){
+		
+	}
+	
+	public static TestManager getIntance(){
+		if(instance==null){
+			instance=new TestManager();
+		}
+		return instance;
+	}
+	
+	public void setReciver(String host){
+		receiver=client.getServerByHostname(host);
+	}
+	
+	public  AID getReciver(){
+		return receiver;
+	}
+	
+	public  Client getClient(){
+		
+		return client;
+	}
+	
+	public void startClientConection(){
+		if(client==null){
+		
+			try {
+				client = new Client();
+				client.start();
+			} catch (IllegalLocalAddress e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+		
+	}
+	
+	
+	public void stopClientConection(){
+		client.stop();
+	}
+}

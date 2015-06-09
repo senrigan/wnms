@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="classes" path="src"/>
+	<classpathentry kind="var" path="JRE_LIB" sourcepath="JRE_SRC"/>
+	<classpathentry kind="con" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/source/packages/common/dist/common.jar"/>
+	<classpathentry kind="con" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/source/packages/model/dist/model.jar"/>
+	<classpathentry kind="con" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/source/packages/server/dist/serverinterface.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/jgraph/jgraph.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/slf4j/slf4j-api-1.5.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/jgoodies/forms.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/jgoodies/validation-2.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/glazedlists/glazedlists-1.8.0_java15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/swingx/swingx-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/eclipselink/eclipselink-2.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/jfreechart/jfreechart-1.0.13.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/jcommon/jcommon-1.0.16.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/icepdf/icepdf-viewer.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/icepdf/icepdf-core.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/commons/commons-lang-2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/djnativeswing/DJNativeSwing.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/djnativeswing/DJNativeSwing-SWT.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/xstream/xstream-1.4.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/imq/jms.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/imq/imq.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/apache/http/httpclient-4.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/jee/activation.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/jee/appserv-jstl.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/jee/appserv-rt.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/jee/appserv-tags.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/jee/appserv-ws.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/jee/javaee.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/jee/jsf-impl.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/jee/mail.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/common"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/model"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/server"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

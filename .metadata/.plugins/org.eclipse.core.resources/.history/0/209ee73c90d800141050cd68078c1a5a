@@ -1,0 +1,182 @@
+package com.gdc.nms.server.driver.test;
+
+
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.HashMap;
+
+
+
+
+
+import java.util.List;
+
+import org.junit.Test;
+
+import com.gdc.nms.model.Device;
+import com.gdc.nms.server.testutil.LoaderDriver;
+import com.gdc.nms.server.testutil.TestConfig;
+import com.gdc.nms.server.testutil.TestConfig.TestMode;
+import com.gdc.nms.server.testutil.TestInformed;
+
+import connection.ConectorServer;
+import connection.MysqlData;
+import connection.credential.Server;
+
+
+/**
+ * 
+ * @author Gilberto Cordero
+ *
+ */
+public class RunTest {
+	private String testConfigPath="./src./TestProperties.ini";
+	public static Device device;
+
+	/**
+	 * 
+	 * this enum is because i running in java 6 and i canot use a switch with String
+	 * the method run by the test mode in the testconfiguration file
+	 * @throws IOException if the testconfiguration file cannot found or red
+	 */
+	
+	public HashMap<String,ArrayList<Device>>  runTestMode() throws IOException{
+		
+		TestConfig configTest=new TestConfig(testConfigPath);
+		TestMode mode=configTest.getTestMode();
+		HashMap<String,ArrayList<Device>> driverToTest=null;
+		if(configTest.canGenerateData()){
+			System.out.println("generando data");
+			generateDataPerRun();
+		}else{
+			System.out.println("usando data");
+			useDataPerRun();
+		}
+		if(configTest.isvalidFile()){
+			LoaderDriver driverLoader=new LoaderDriver();
+			
+			switch(mode){
+			case ALL:
+				if(configTest.existDriverNames()){
+					driverToTest=driverLoader.getDriversWithNames(configTest.getDriverNames(),configTest.getMaximumPerDriver());
+
+				}else{
+					driverToTest=driverLoader.getDriversWithoutNames(configTest.getMaximumPerDriver());
+				}
+				
+				break;
+			case BOTH:
+				if(configTest.existDriverNames()){
+					driverToTest=driverLoader.getEspecifcAndGeneralDriver(configTest.getDriverNames(),configTest.getMaximumPerDriver(),configTest.getIpDataDevice());
+
+				}else{
+					driverToTest=driverLoader.getEspecifcAndGeneralDriver(configTest.getMaximumPerDriver(),configTest.getIpDataDevice());
+				}
+				
+				break;
+			case ESPECIFIC:
+				
+				driverToTest=driverLoader.getDeviceByIp(configTest.getIpDataDevice());
+				System.out.println("driver to tes test mode"+driverToTest);
+				break;
+		
+				
+			}
+		}else{
+			System.out.println("algo en el archivo de configuracion esta mal");
+		}
+		return driverToTest;
+		
+		
+
+	}
+	
+	public void generateDataPerRun(){
+	
+			ConectorServer conector=new ConectorServer();
+			List<Server> servers=conector.getServerList();
+			MysqlData mysql=new MysqlData();
+			for(Server serv:servers){
+				mysql.createFilesAndFolders(serv);
+
+			}
+	
+	}
+	
+	public void useDataPerRun(){
+		ConectorServer conector=new ConectorServer();
+		List<Server> servers=conector.getServerList();
+		MysqlData mysql=new MysqlData();
+		for(Server serv:servers){
+			if(mysql.isServerFilesDevicesCreated(serv)){
+				
+			}else{
+				mysql.createFilesAndFolders(serv);
+
+			}
+
+		}
+	}
+
+	
+	
+	@Test
+	public void runAllTest(){
+//		try {
+//			loadTestProperties();
+//		} catch (IOException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+//		JUnitCore junit =new JUnitCore();
+//		int numDevicesTested=0,numErrors=0,numIgnoreCase=0;
+//		for(String driverName:driverToTest.keySet()){
+//			ArrayList<Device> devices=driverToTest.get(driverName);
+//			System.out.println("driver a testear"+driverName+"***");
+//			for(Device device:devices){
+//				Result resultTest=junit.run(TestDevice.class);
+//				System.out.println("fallidos"+resultTest.getFailureCount());
+//				numErrors+=resultTest.getFailureCount();
+//				numDevicesTested++;
+//				numIgnoreCase+=resultTest.getIgnoreCount();
+//				RunTest.device=device;
+//			}
+//		}
+//		System.out.println("devices Tested"+numDevicesTested);
+//		System.out.println("num of error"+numErrors);
+//		System.out.println("num of ignore case"+numIgnoreCase);
+//		assertEquals("se encontraron errores en el test",0,numErrors);
+		try {
+			HashMap<String,ArrayList<Device>> driverToTest=runTestMode();
+			System.out.println("in the tes**"+driverToTest);
+			for(String driverName:driverToTest.keySet()){
+				TestInformed tester=new TestInformed();
+				System.out.println("probando dispositivos del driver"+driverName);
+				ArrayList<Device> devices=driverToTest.get(driverName);
+				for(Device deviceToTest:devices){
+					RunTest.device=deviceToTest;
+					tester.runTestClass(TestDevice.class);
+
+				}
+				
+			}
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			System.out.println("hubo un error al leer el archivo");
+			e.printStackTrace();
+		}
+		
+		
+	}
+	public static void main(String[] args) {
+		RunTest run=new RunTest();
+	
+//			run.loadTestProperties();
+			run.runAllTest();
+			
+
+		
+	}
+
+}

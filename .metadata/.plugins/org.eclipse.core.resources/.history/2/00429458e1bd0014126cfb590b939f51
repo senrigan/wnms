@@ -1,0 +1,100 @@
+package com.gdc.nms.testing.client.util;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class Functions {
+    private static final String NMS_TESTING_PATH = ".nmstesting";
+
+    private static final String CONFIGURATION_FILE = "configuration.dat";
+
+    private static final String SSH_CREDENTIAL_FILE = "sshcredential.dat";
+
+    private static final String MYSQL_CREDENTIAL_FILE = "mysqlcredential.dat";
+
+    private static final String DEVICES_FILE = "devices.dat";
+
+    public static final char FILE_SEPARATOR = File.separatorChar;
+
+    public static File getSSHCredential(String address) {
+        String file = createPath(getNMSTestingPath(), address).concat(SSH_CREDENTIAL_FILE);
+
+        File f = new File(file);
+
+        if (f.exists()) {
+            return f;
+        }
+
+        return null;
+    }
+
+    public static File getMySQLCredential(String address) {
+        String file = createPath(getNMSTestingPath(), address).concat(MYSQL_CREDENTIAL_FILE);
+
+        File f = new File(file);
+
+        if (f.exists()) {
+            return f;
+        }
+
+        return null;
+    }
+
+    public static void getDevices(String address) {
+        String file = createPath(getNMSTestingPath(), address).concat(DEVICES_FILE);
+        List<Object> devices = new ArrayList<Object>();
+
+        File f = new File(file);
+
+        try {
+            FileInputStream stream = new FileInputStream(f);
+
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+
+    }
+
+    public static String getNMSTestingPath() {
+        return createPath(getUserHome(), NMS_TESTING_PATH);
+    }
+
+    public static File getConfiguration() {
+        File f = new File(getNMSTestingPath().concat(CONFIGURATION_FILE));
+
+        if (f.exists()) {
+            return f;
+        }
+
+        return null;
+    }
+
+    public static String createPath(String... str) {
+        StringBuffer buffer = new StringBuffer();
+
+        for (String s : str) {
+            buffer.append(s);
+            if (!s.endsWith(String.valueOf(FILE_SEPARATOR))) {
+                buffer.append(FILE_SEPARATOR);
+            }
+        }
+
+        return buffer.toString();
+    }
+
+    public static String creteFilePath(String... str) {
+        String[] copyOfRange = Arrays.copyOfRange(str, 0, str.length - 1);
+
+        String path = createPath(copyOfRange);
+
+        return path.concat(str[str.length - 1]);
+    }
+
+    public static String getUserHome() {
+        return System.getProperty("user.home");
+    }
+}

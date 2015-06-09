@@ -1,0 +1,41 @@
+java -jar NMS/client.jar -h arcom.nms.com.mx
+	//ubicacion del paquete en este caso esta en senrigan\autjar\arcom.nms.com.mx
+			//-h es para el nombre del host
+
+
+hacer pruebas por escirp
+ solo usar printf en ligar de system.out.println
+http://arcom.nms.com.mx:8080/nms/web/bshexecutor.jsp
+	ejemplo
+
+import java.io.File;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.List;
+
+import com.gdc.nms.model.Device;
+import com.gdc.nms.model.DeviceResource;
+import com.gdc.nms.server.ServerManager;
+import com.gdc.nms.server.drivers.snmp.Driver;
+import com.gdc.nms.server.drivers.snmp.DriverManager;
+
+		ServerManager i = ServerManager.getInstance();
+		Device device = i.getDeviceCache().byIp("192.168.204.200");
+		
+		Driver driver = DriverManager.getInstance().getDriver(device);
+		try{
+			List resources = driver.getDeviceResources();
+			if(resources == null){
+				print("No mames");
+			} else {
+				print(resources.size());
+			}
+		} catch(Exception e){
+			print(e.getMessage());
+		} finally {
+			if(driver != null){
+				driver.unbind();
+			}
+		}

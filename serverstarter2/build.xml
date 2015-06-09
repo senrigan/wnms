@@ -1,0 +1,93 @@
+<project name="serverstarter package" default="package" basedir=".">
+    <description>
+        Build process of the Network Monitoring System's serverstarter package
+    </description>
+
+    <!-- global properties for this build -->
+    <property name="web" location="web" />
+    <property name="classes" location="build/WEB-INF/classes" />
+    <property name="lib" location="build/WEB-INF/lib" />
+    <property name="jar.name" value="classes.jar" />
+    <property name="war.name" value="serverstarter.war" />
+	<property name="swt" value="build/bin/swt" />
+
+    <!-- once the properties have been set, import the main file -->
+    <import file="../application/main.xml" />
+
+    <path id="src.classpath">
+    	<pathelement location="${model.jar.path}" />
+        <pathelement location="${common.jar.path}" />
+        <pathelement location="${server.jar.path}" />
+        <pathelement location="${slf4j.api.jar.path}" />
+    	<pathelement location="${poi.jar.path}" />
+    	<pathelement location="${jfreechart.jar.path}"/>
+    	<pathelement location="${eclipselink.jar.path}" />
+        <pathelement location="${beanshell.jar.path}" />
+    	<pathelement location="${fileUpload.jar.path}" />
+        <pathelement location="${truelicense.core.jar.path}" />
+		<pathelement location="${gson222.jar.path}"/>
+    	<pathelement location="${snmp4j.jar.path}"/>    	
+    	<pathelement location="${xstream.jar.path}"/>
+    	<pathelement location="${commonsio.jar.path}"/>
+
+
+		<pathelement location="${zk.jar.path}"/>
+		<pathelement location="${zcommon.jar.path}"/>
+		<pathelement location="${zel.jar.path}"/>
+		<pathelement location="${zhtml.jar.path}"/>
+		<pathelement location="${zkbind.jar.path}"/>
+		<pathelement location="${zkplus.jar.path}"/>
+		<pathelement location="${zul.jar.path}"/>
+		<pathelement location="${zweb.jar.path}"/>
+		<pathelement location="${zkmax.jar.path}"/>
+		<pathelement location="${zkcharts.jar.path}"/>
+		<pathelement location="${apache.http.client.jar.path}"/>
+    	<pathelement location="${sshj.jar.path}"/>
+    	<pathelement location="${commons.net.jar.path}"/>
+
+        <pathelement location="${jsch.jar.path}"/>
+    	
+        <fileset dir="${jee.jars.path}" includes="*.jar"/>
+
+    </path>
+
+    <target name="clean" description="clean up">
+        <!-- call main's clean target -->
+        <antcall target="main.clean" />
+        <delete dir="${web}/META-INF" />
+	</target>
+
+  <target name="compile" depends="init" description="compiles the source ">
+        <!-- compile the java code from ${src} into ${classes} -->
+        <javac srcdir="${src}" destdir="${classes}" debug="true" debuglevel="lines,source">
+            <classpath refid="src.classpath" />
+        </javac>
+        <!-- create the ${lib}/${jar.name} file -->
+        <copy todir="${classes}">
+            <fileset dir="${src}" includes="**/**" excludes="**/*.java,**/*.jfd" />
+        </copy>
+  		<mkdir dir="${lib}"/>
+        <jar jarfile="${lib}/${jar.name}" basedir="${classes}" />
+        <delete dir="${classes}" />
+        <!-- copy all other files to ${build} -->
+        <copy todir="${build}">
+            <fileset dir="${web}" includes="**/**" excludes="**/*.java,**/*.jfd" />
+        </copy>
+    </target>
+
+    <target name="package" depends="dist" description="generates the jar file">
+    	
+        <mkdir dir="${swt}" />
+        <copy file="${swt.windows.jar.path}" tofile="${swt}/swt-win32-win32-x86.nar"/>
+        <copy file="${swt.windows.64.jar.path}" tofile="${swt}/swt-win32-win32-x86_64.nar"/>
+        <copy file="${swt.linux.jar.path}" tofile="${swt}/swt-gtk-linux-x86.nar"/>
+        <copy file="${swt.linux.64.jar.path}" tofile="${swt}/swt-gtk-linux-x86_64.nar"/>
+        <copy file="${swt.mac.jar.path}" tofile="${swt}/swt-cocoa-macosx.nar"/>
+        <copy file="${swt.mac.64.jar.path}" tofile="${swt}/swt-cocoa-macosx-x86_64.nar"/>
+    	
+        <!-- create the war file -->
+        <jar jarfile="${dist}/${war.name}" basedir="${build}" />
+    </target>
+
+</project>
+

@@ -1,0 +1,189 @@
+package com.gdc.nms.server.driver.test;
+
+import jade.util.leap.Set;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.List;
+
+import org.apache.commons.io.FileUtils;
+
+import com.gdc.nms.model.Device;
+
+import connection.ConectorServer;
+import connection.DeviceXML;
+import connection.MysqlData;
+import connection.credential.Server;
+/**
+ * 
+ * @author Gilberto Cordero
+ *
+ */
+public class RunTest {
+	private int maximumPerDevice;
+	private String testMode;
+	private ArrayList<String> ipDevice;
+	private ArrayList<String> drivers;
+	private String path="./src./TestProperties.ini";
+	private CfgFile fileIni;
+	private HashMap<String,ArrayList<Device>> driverToTest;
+	
+	public void loadTestProperties() throws IOException{
+	
+		fileIni=new CfgFile(path);
+		maximumPerDevice=Integer.parseInt(fileIni.getString("configuration","maximum.per.device" ));
+		
+		runTestMode();
+		
+	}
+	/**
+	 * 
+	 * this enum is because i running in java 6 and i canot use a switch with String
+	 * the method run by the test mode in the testconfiguration file
+	 */
+	private void runTestMode(){
+		testMode=fileIni.getString("configuration", "testMode");
+		try{
+			TestMode mode=TestMode.valueOf(testMode.toUpperCase());
+
+			switch(mode){
+			case ALL:
+				getDriverToTest();
+				loadAllDevice();
+				break;
+			case BOTH:
+				getDriverToTest();
+				getIpDevice();
+				loadAllDevice();
+				break;
+			case ESPECIFIC:
+				getIpDevice();
+				break;
+		
+				
+			}
+		}catch(IllegalArgumentException e){
+			throw new IllegalArgumentException("el modo de test no es uno valido de la configuracion del test");
+		}
+		
+
+	}
+	/**
+	 * load the list of server and load all device of them for separated by the drivers in the configuration file
+	 */
+	private void loadAllDevice(){
+		 ConectorServer cont=new ConectorServer();
+ 		 List<Server> servers=cont.getServerList();
+ 		 for(Server serv:servers){
+ 			 loadDriver(serv);
+ 		 }
+	}
+	
+	private void loadDriver(Server server){
+		ArrayList<Device>  devices=new ArrayList<Device>(); 
+		MysqlData mysql=new MysqlData();
+		driverToTest =new HashMap<String,ArrayList<Device>>();
+		if(!mysql.isServerFilesDevicesCreated(server)){
+			mysql.createFilesAndFolders(server);
+		}
+		for(String driver:drivers){
+			devices=mysql.getDevicesofDriver(server, driver);
+			System.out.println("deviecs"+devices);
+			if(maximumPerDevice>0){
+				ArrayList<Device> dev=new ArrayList<Device>();
+				for(int i=0;i<maximumPerDevice;i++){
+					if(devices.size()>=i){
+						dev.add(devices.get(i));
+					}
+					
+					
+				}
+				driverToTest.put(driver,dev);
+			}else if(maximumPerDevice==-1){
+				driverToTest.put("driver",devices);
+			}
+		}
+		
+		
+		
+		
+		
+	}
+	/**
+	 * this function separate the String of drivers by ,
+	 */
+	private void getDriverToTest(){
+		String driversToTest;
+		drivers=new ArrayList<String>();
+		driversToTest=fileIni.getString("configuration", "driver.to.test");
+		String[]drvs=driversToTest.split(",");
+		for(String drv:drvs){
+			drivers.add(drv);
+		}
+		
+	}
+	
+	
+	@Override
+	public String toString() {
+		return "RunTest [maximumPerDevice=" + maximumPerDevice
+				+ ", driversToTest=" + drivers + ", testMode=" + testMode
+				+ ", ipDevice=" + ipDevice + ", path=" + path + "]";
+	}
+
+	
+	/**
+	 * get the ip separated by , in the file of configuration
+	 */
+	private void getIpDevice() {
+		ipDevice=new ArrayList<String>();
+		Iterator<String> itera=fileIni.getKeySection().iterator();
+		System.out.println("key set"+fileIni.getKeySection().size());
+		while(itera.hasNext()){
+			String ip=itera.next();
+			System.out.println("ip"+ip);
+			if(!ip.equals("configuration")){
+				ipDevice.add(ip);
+			}
+		}
+	}
+	/**
+	 * 
+	 * this enum is because i running in java 6 and i canot use a switch with STring
+	 *
+	 */
+	public enum TestMode{
+		ALL,
+		BOTH,
+		ESPECIFIC
+	}
+
+	public void run(){
+		try {
+			loadTestProperties();
+			for(String driv:drivers){
+				ArrayList<Device> devices=driverToTest.get(driv);
+				String xml=DeviceXML.toXML(devices);
+				File file=new File("/toTest/"+driv+".test");
+				FileUtils.writeStringToFile(file,xml);
+			}
+			
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	public static void main(String[] args) {
+		RunTest run=new RunTest();
+	
+//			run.loadTestProperties();
+			run.run();
+			System.out.println(""+run);
+
+		
+	}
+
+}

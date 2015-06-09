@@ -1,0 +1,327 @@
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Vector;
+
+import com.jcraft.jsch.Channel;
+import com.jcraft.jsch.ChannelExec;
+import com.jcraft.jsch.ChannelSftp;
+import com.jcraft.jsch.ChannelSftp.LsEntry;
+import com.jcraft.jsch.JSch;
+import com.jcraft.jsch.JSchException;
+import com.jcraft.jsch.Logger;
+import com.jcraft.jsch.Session;
+import com.jcraft.jsch.SftpException;
+import com.jcraft.jsch.SftpProgressMonitor;
+
+public class SecureShell {
+
+    private static final SecureShell INSTANCE = new SecureShell();
+    private static final int DEFAULT_TIMEOUT = 30000;
+
+    private JSch jsch;
+    private Session session;
+    private String currentPath;
+
+    private static List<String> ignoreFile;
+
+    static {
+        ignoreFile = new ArrayList<String>();
+        ignoreFile.add(".");
+        ignoreFile.add("..");
+        ignoreFile.add("common.jar");
+        ignoreFile.add("model.jar");
+        ignoreFile.add("server.jar");
+    }
+
+    private SecureShell() {
+        jsch = new JSch();
+    }
+
+    public void setLogger(Logger logger) {
+        JSch.setLogger(logger);
+    }
+
+    public static SecureShell getInstance() {
+        return INSTANCE;
+    }
+
+    public void connect(String hostname, String username, String password, int port) throws JSchException {
+        connect(hostname, username, password, port, DEFAULT_TIMEOUT);
+    }
+
+    public void connect(Credential credential) throws JSchException {
+        connect(credential, DEFAULT_TIMEOUT);
+    }
+
+    public void connect(String hostname, String username, String password, int port, int timeout) throws JSchException {
+        connect(new Credential(hostname, username, password, port), timeout);
+    }
+
+    public void connect(Credential credential, int timeout) throws JSchException {
+        if (session == null) {
+            session = jsch.getSession(credential.getUsername(), credential.getHostname(), credential.getPort());
+            session.setPassword(credential.getPassword());
+            session.setConfig("StrictHostKeyChecking", "no");
+            session.connect(timeout);
+        }
+    }
+
+    public Channel getChannel(String type) throws JSchException {
+        return session.openChannel(type);
+    }
+
+    public String getCurrentPath() {
+
+        if (currentPath == null) {
+            ChannelSftp channel = null;
+            try {
+                channel = (ChannelSftp) getChannel("sftp");
+                channel.setPty(true);
+                channel.connect();
+                currentPath = channel.pwd();
+            } catch (JSchException e) {
+                e.printStackTrace();
+            } catch (SftpException e) {
+                e.printStackTrace();
+            } finally {
+                if (channel != null) {
+                    channel.exit();
+                    channel.disconnect();
+                }
+            }
+        }
+
+        return currentPath;
+    }
+
+    public void uploadFile(String file, String path, SftpProgressMonitor monitor) {
+        ChannelSftp channel = null;
+
+        try {
+            channel = (ChannelSftp) getChannel("sftp");
+            channel.setPty(true);
+            channel.connect();
+            int lastIndexOf = file.lastIndexOf(Functions.FILE_SEPARATOR);
+            try {
+                channel.stat(path);
+            } catch (SftpException e) {
+                channel.mkdir(path);
+            }
+            
+            channel
+                .put(file, Functions.creteFilePath(getCurrentPath(), path, file.substring(lastIndexOf + 1)), monitor);
+        } catch (JSchException e) {
+            e.printStackTrace();
+        } catch (SftpException e) {
+            e.printStackTrace();
+        } finally {
+            if (channel != null) {
+                channel.exit();
+                channel.disconnect();
+            }
+        }
+    }
+
+    public void uploadFile(String file, SftpProgressMonitor monitor) {
+        ChannelSftp channel = null;
+        try {
+            channel = (ChannelSftp) getChannel("sftp");
+            channel.setPty(true);
+            channel.connect();
+            int lastIndexOf = file.lastIndexOf(Functions.FILE_SEPARATOR);
+            System.out.println(file);
+            System.out.println(Functions.creteFilePath(getCurrentPath(), file.substring(lastIndexOf + 1)));
+            channel.put(file, Functions.creteFilePath(getCurrentPath(), file.substring(lastIndexOf + 1)), monitor);
+        } catch (JSchException e) {
+            e.printStackTrace();
+        } catch (SftpException e) {
+            e.printStackTrace();
+        } finally {
+            if (channel != null) {
+                channel.exit();
+                channel.disconnect();
+            }
+        }
+    }
+
+    @SuppressWarnings("unchecked")
+    public List<String> getNotUploadFiles() {
+        ChannelSftp channel = null;
+        List<String> notUploadFiles = null;
+
+        try {
+            channel = (ChannelSftp) getChannel("sftp");
+            channel.setPty(true);
+            channel.connect();
+            Vector<? extends LsEntry> ls = channel.ls("dependency");
+            notUploadFiles = new ArrayList<String>();
+            for (LsEntry e : ls) {
+                if (!ignoreFile.contains(e.getFilename())) {
+                    notUploadFiles.add(e.getFilename());
+                }
+            }
+        } catch (JSchException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        } catch (SftpException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+
+        return notUploadFiles;
+    }
+
+    public ShellReturn executeJar(String jarFileName, String[] args) throws JSchException {
+        ChannelExec channel = (ChannelExec) getChannel("exec");
+        channel.setPty(true);
+        StringBuffer command = new StringBuffer("java");
+
+        String cmdArgs = (args == null) ? "" : Arrays.toString(args).replaceAll("[\\[\\],]", "");
+
+        command.append(' ').append("-Xdebug -agentlib:jdwp=transport=dt_socket,address=1044,server=y,suspend=n")
+            .append(' ').append("-jar").append(' ').append(jarFileName).append(' ').append(cmdArgs);
+
+        InputStream inputStream = null;
+        InputStream errorStream = null;
+
+        try {
+            inputStream = channel.getInputStream();
+            errorStream = channel.getExtInputStream();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        channel.setCommand(command.toString());
+        channel.connect();
+        return new ShellReturn(channel, inputStream, errorStream);
+    }
+
+    public void disconnect() {
+        if (session != null) {
+            session.disconnect();
+        }
+    }
+
+    public static void main(String[] args) {
+        SecureShell ssh = SecureShell.getInstance();
+
+        try {
+            // ssh.setLogger(new MyLogger());
+            ssh.connect("192.168.208.3", "sagomacias", "97a3e5e1", 22);
+
+            // File dependencies = new
+            // File("/home/sagomacias/wdev/testing/target/dependency/");
+            //
+            // // if (dependencies.exists()) {
+            // // if (dependencies.isDirectory()) {
+            // // for (File f : dependencies.listFiles()) {
+            // // if (!f.isDirectory()) {
+            // // ssh.uploadFile(f.getAbsolutePath(), "dependency", new
+            // Monitor());
+            // // }
+            // // }
+            // // } else {
+            // // System.err.println("Is not a directory.");
+            // // }
+            // // } else {
+            // // System.err.println("Folder Not Found!");
+            // // }
+            // //
+            // // System.out.println("FIIIIIN");
+            //
+            // List<String> notUploadFiles = ssh.getNotUploadFiles();
+            //
+            // File[] files = dependencies.listFiles();
+            //
+            // List<File> filesList = new ArrayList<File>(Arrays.asList(files));
+            //
+            // for (File file : files) {
+            // if (notUploadFiles.contains(file.getName())) {
+            // filesList.remove(file);
+            // }
+            // }
+            //
+            // for (File f : filesList) {
+            // ssh.uploadFile(f.getAbsolutePath(), "dependency", new Monitor());
+            // }
+
+            ssh.uploadFile("C:\\\\Users\\\\senrigan\\\\Desktop\\\\server.jar","/home/sistemas", new Monitor());
+            //ssh.executeJar("server.jar", new String[] { "-platformid", "plataforma" });
+            
+        } catch (JSchException e) {
+            e.printStackTrace();
+        }
+
+        // ssh.disconnect();
+    }
+
+    static class ShellReturn {
+        private ChannelExec channel;
+        private InputStream inputStream;
+        private InputStream errorStream;
+
+        public ShellReturn(ChannelExec channel, InputStream inputStream, InputStream errorStream) {
+            super();
+            this.channel = channel;
+            this.inputStream = inputStream;
+            this.errorStream = errorStream;
+        }
+
+        public ChannelExec getChannel() {
+            return channel;
+        }
+
+        public void setChannel(ChannelExec channel) {
+            this.channel = channel;
+        }
+
+        public InputStream getInputStream() {
+            return inputStream;
+        }
+
+        public void setInputStream(InputStream inputStream) {
+            this.inputStream = inputStream;
+        }
+
+        public InputStream getErrorStream() {
+            return errorStream;
+        }
+
+        public void setErrorStream(InputStream errorStream) {
+            this.errorStream = errorStream;
+        }
+    }
+
+    static class Monitor implements SftpProgressMonitor {
+
+        private boolean run;
+        private String file;
+
+        public Monitor() {
+            run = true;
+        }
+
+        public void stop() {
+            run = false;
+        }
+
+        public void init(int op, String src, String dest, long max) {
+            file = src;
+            System.out.println("Uploading: " + src);
+        }
+
+        public boolean count(long count) {
+            return run;
+        }
+
+        public void end() {
+            System.out.println(file + " Done.");
+            System.out.println();
+        }
+
+    }
+}

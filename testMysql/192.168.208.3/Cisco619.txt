@@ -1,0 +1,968 @@
+<list>
+  <com.gdc.nms.model.Device>
+    <id>287</id>
+    <type>ROUTER</type>
+    <snmpVersion>V2</snmpVersion>
+    <protocolType>TELNET</protocolType>
+    <sysUpTime>1362151922772</sysUpTime>
+    <flags>717</flags>
+    <configurationFlags>8</configurationFlags>
+    <steelheadFlags>0</steelheadFlags>
+    <testTimeout>2000</testTimeout>
+    <intensiveTestDuration>300000</intensiveTestDuration>
+    <snmpTimeout>5000</snmpTimeout>
+    <snmpRetries>2</snmpRetries>
+    <ip>192.168.82.8</ip>
+    <hostname>GW01ALP-70003220</hostname>
+    <alias>GW01ALP-70003220</alias>
+    <description>Cisco IOS Software, 2801 Software (C2801-ADVENTERPRISEK9-M), Version 12.4(24)T6, RELEASE SOFTWARE (fc2)&#xd;
+Technical Support: http://www.cisco.com/techsupport&#xd;
+Copyright (c) 1986-2011 by Cisco Systems, Inc.&#xd;
+Compiled Tue 23-Aug-11 02:12 by prod_rel_team</description>
+    <contact></contact>
+    <location></location>
+    <snmpPublicCommunity>n0cf4m4r1ll4$RW</snmpPublicCommunity>
+    <snmpUser></snmpUser>
+    <authenticationProtocol> </authenticationProtocol>
+    <securityLevel>0</securityLevel>
+    <sysObjectID>1.3.6.1.4.1.9.1.619</sysObjectID>
+    <latencyMeasurementIp>172.16.200.1</latencyMeasurementIp>
+    <statsTableId>00095</statsTableId>
+    <telnetUser>sistemas</telnetUser>
+    <telnetPassword>s1st3m4sgdc</telnetPassword>
+    <privilegeModePassword></privilegeModePassword>
+    <maxGetSize>0</maxGetSize>
+    <lastUpdateTime>1371581479370</lastUpdateTime>
+    <lastConfigTime>0</lastConfigTime>
+    <projectId>7</projectId>
+    <interfaces/>
+    <links/>
+    <ipSlas/>
+    <deviceResources/>
+    <properties/>
+  </com.gdc.nms.model.Device>
+  <com.gdc.nms.model.Device>
+    <id>288</id>
+    <type>ROUTER</type>
+    <snmpVersion>V2</snmpVersion>
+    <protocolType>TELNET</protocolType>
+    <sysUpTime>1366494423703</sysUpTime>
+    <flags>717</flags>
+    <configurationFlags>8</configurationFlags>
+    <steelheadFlags>0</steelheadFlags>
+    <testTimeout>2000</testTimeout>
+    <intensiveTestDuration>300000</intensiveTestDuration>
+    <snmpTimeout>5000</snmpTimeout>
+    <snmpRetries>2</snmpRetries>
+    <ip>192.168.82.10</ip>
+    <hostname>GW01ALP-70003226</hostname>
+    <alias>GW01ALP-70003226</alias>
+    <description>Cisco IOS Software, 2801 Software (C2801-SPSERVICESK9-M), Version 12.4(20)T5, RELEASE SOFTWARE (fc2)&#xd;
+Technical Support: http://www.cisco.com/techsupport&#xd;
+Copyright (c) 1986-2010 by Cisco Systems, Inc.&#xd;
+Compiled Mon 08-Mar-10 06:43 by prod_rel_team</description>
+    <contact></contact>
+    <location></location>
+    <snmpPublicCommunity>n0cf4m4r1ll4$RW</snmpPublicCommunity>
+    <snmpUser></snmpUser>
+    <authenticationProtocol> </authenticationProtocol>
+    <securityLevel>0</securityLevel>
+    <sysObjectID>1.3.6.1.4.1.9.1.619</sysObjectID>
+    <latencyMeasurementIp>172.16.200.1</latencyMeasurementIp>
+    <statsTableId>00095</statsTableId>
+    <telnetUser>sistemas</telnetUser>
+    <telnetPassword>s1st3m4sgdc</telnetPassword>
+    <privilegeModePassword></privilegeModePassword>
+    <maxGetSize>0</maxGetSize>
+    <lastUpdateTime>1371578744032</lastUpdateTime>
+    <lastConfigTime>0</lastConfigTime>
+    <projectId>7</projectId>
+    <interfaces/>
+    <links/>
+    <ipSlas/>
+    <deviceResources/>
+    <properties/>
+  </com.gdc.nms.model.Device>
+  <com.gdc.nms.model.Device>
+    <id>289</id>
+    <type>ROUTER</type>
+    <snmpVersion>V2</snmpVersion>
+    <protocolType>TELNET</protocolType>
+    <sysUpTime>1368065842962</sysUpTime>
+    <flags>717</flags>
+    <configurationFlags>8</configurationFlags>
+    <steelheadFlags>0</steelheadFlags>
+    <testTimeout>2000</testTimeout>
+    <intensiveTestDuration>300000</intensiveTestDuration>
+    <snmpTimeout>5000</snmpTimeout>
+    <snmpRetries>2</snmpRetries>
+    <ip>192.168.82.11</ip>
+    <hostname>GW01ALP-70003227</hostname>
+    <alias>GW01ALP-70003227</alias>
+    <description>Cisco IOS Software, 2801 Software (C2801-SPSERVICESK9-M), Version 12.4(20)T5, RELEASE SOFTWARE (fc2)&#xd;
+Technical Support: http://www.cisco.com/techsupport&#xd;
+Copyright (c) 1986-2010 by Cisco Systems, Inc.&#xd;
+Compiled Mon 08-Mar-10 06:43 by prod_rel_team</description>
+    <contact></contact>
+    <location></location>
+    <snmpPublicCommunity>n0cf4m4r1ll4$RW</snmpPublicCommunity>
+    <snmpUser></snmpUser>
+    <authenticationProtocol> </authenticationProtocol>
+    <securityLevel>0</securityLevel>
+    <sysObjectID>1.3.6.1.4.1.9.1.619</sysObjectID>
+    <latencyMeasurementIp>172.16.200.1</latencyMeasurementIp>
+    <statsTableId>00096</statsTableId>
+    <telnetUser>sistemas</telnetUser>
+    <telnetPassword>s1st3m4sgdc</telnetPassword>
+    <privilegeModePassword></privilegeModePassword>
+    <maxGetSize>0</maxGetSize>
+    <lastUpdateTime>1371632744326</lastUpdateTime>
+    <lastConfigTime>0</lastConfigTime>
+    <projectId>7</projectId>
+    <interfaces/>
+    <links/>
+    <ipSlas/>
+    <deviceResources/>
+    <properties/>
+  </com.gdc.nms.model.Device>
+  <com.gdc.nms.model.Device>
+    <id>290</id>
+    <type>ROUTER</type>
+    <snmpVersion>V2</snmpVersion>
+    <protocolType>TELNET</protocolType>
+    <sysUpTime>1360130518700</sysUpTime>
+    <flags>717</flags>
+    <configurationFlags>8</configurationFlags>
+    <steelheadFlags>0</steelheadFlags>
+    <testTimeout>2000</testTimeout>
+    <intensiveTestDuration>300000</intensiveTestDuration>
+    <snmpTimeout>5000</snmpTimeout>
+    <snmpRetries>2</snmpRetries>
+    <ip>192.168.82.18</ip>
+    <hostname>GW01ALP-70050713</hostname>
+    <alias>GW01ALP-70050713</alias>
+    <description>Cisco IOS Software, 2801 Software (C2801-SPSERVICESK9-M), Version 12.4(20)T5, RELEASE SOFTWARE (fc2)&#xd;
+Technical Support: http://www.cisco.com/techsupport&#xd;
+Copyright (c) 1986-2010 by Cisco Systems, Inc.&#xd;
+Compiled Mon 08-Mar-10 06:43 by prod_rel_team</description>
+    <contact></contact>
+    <location></location>
+    <snmpPublicCommunity>n0cf4m4r1ll4$RW</snmpPublicCommunity>
+    <snmpUser></snmpUser>
+    <authenticationProtocol> </authenticationProtocol>
+    <securityLevel>0</securityLevel>
+    <sysObjectID>1.3.6.1.4.1.9.1.619</sysObjectID>
+    <latencyMeasurementIp>172.16.200.1</latencyMeasurementIp>
+    <statsTableId>00096</statsTableId>
+    <telnetUser>sistemas</telnetUser>
+    <telnetPassword>s1st3m4sgdc</telnetPassword>
+    <privilegeModePassword></privilegeModePassword>
+    <maxGetSize>0</maxGetSize>
+    <lastUpdateTime>1371654050997</lastUpdateTime>
+    <lastConfigTime>0</lastConfigTime>
+    <projectId>7</projectId>
+    <interfaces/>
+    <links/>
+    <ipSlas/>
+    <deviceResources/>
+    <properties/>
+  </com.gdc.nms.model.Device>
+  <com.gdc.nms.model.Device>
+    <id>291</id>
+    <type>ROUTER</type>
+    <snmpVersion>V2</snmpVersion>
+    <protocolType>TELNET</protocolType>
+    <sysUpTime>1362681689017</sysUpTime>
+    <flags>717</flags>
+    <configurationFlags>8</configurationFlags>
+    <steelheadFlags>0</steelheadFlags>
+    <testTimeout>2000</testTimeout>
+    <intensiveTestDuration>300000</intensiveTestDuration>
+    <snmpTimeout>5000</snmpTimeout>
+    <snmpRetries>2</snmpRetries>
+    <ip>192.168.82.30</ip>
+    <hostname>GW02ALP-70050713</hostname>
+    <alias>GW02ALP-70050713</alias>
+    <description>Cisco IOS Software, 2801 Software (C2801-SPSERVICESK9-M), Version 12.4(20)T5, RELEASE SOFTWARE (fc2)&#xd;
+Technical Support: http://www.cisco.com/techsupport&#xd;
+Copyright (c) 1986-2010 by Cisco Systems, Inc.&#xd;
+Compiled Mon 08-Mar-10 06:43 by prod_rel_team</description>
+    <contact></contact>
+    <location></location>
+    <snmpPublicCommunity>n0cf4m4r1ll4$RW</snmpPublicCommunity>
+    <snmpUser></snmpUser>
+    <authenticationProtocol> </authenticationProtocol>
+    <securityLevel>0</securityLevel>
+    <sysObjectID>1.3.6.1.4.1.9.1.619</sysObjectID>
+    <latencyMeasurementIp>172.16.200.1</latencyMeasurementIp>
+    <statsTableId>00096</statsTableId>
+    <telnetUser>sistemas</telnetUser>
+    <telnetPassword>s1st3m4sgdc</telnetPassword>
+    <privilegeModePassword></privilegeModePassword>
+    <maxGetSize>0</maxGetSize>
+    <lastUpdateTime>1371645043902</lastUpdateTime>
+    <lastConfigTime>0</lastConfigTime>
+    <projectId>7</projectId>
+    <interfaces/>
+    <links/>
+    <ipSlas/>
+    <deviceResources/>
+    <properties/>
+  </com.gdc.nms.model.Device>
+  <com.gdc.nms.model.Device>
+    <id>294</id>
+    <type>ROUTER</type>
+    <snmpVersion>V2</snmpVersion>
+    <protocolType>TELNET</protocolType>
+    <sysUpTime>1371431690486</sysUpTime>
+    <flags>717</flags>
+    <configurationFlags>8</configurationFlags>
+    <steelheadFlags>0</steelheadFlags>
+    <testTimeout>2000</testTimeout>
+    <intensiveTestDuration>300000</intensiveTestDuration>
+    <snmpTimeout>5000</snmpTimeout>
+    <snmpRetries>2</snmpRetries>
+    <ip>192.168.82.9</ip>
+    <hostname>GW01ALP-70003221</hostname>
+    <alias>GW01ALP-70003221</alias>
+    <description>Cisco IOS Software, 2801 Software (C2801-SPSERVICESK9-M), Version 12.4(20)T5, RELEASE SOFTWARE (fc2)&#xd;
+Technical Support: http://www.cisco.com/techsupport&#xd;
+Copyright (c) 1986-2010 by Cisco Systems, Inc.&#xd;
+Compiled Mon 08-Mar-10 06:43 by prod_rel_team</description>
+    <contact></contact>
+    <location></location>
+    <snmpPublicCommunity>n0cf4m4r1ll4$RW</snmpPublicCommunity>
+    <snmpUser></snmpUser>
+    <authenticationProtocol> </authenticationProtocol>
+    <securityLevel>0</securityLevel>
+    <sysObjectID>1.3.6.1.4.1.9.1.619</sysObjectID>
+    <latencyMeasurementIp>172.16.200.1</latencyMeasurementIp>
+    <statsTableId>00097</statsTableId>
+    <telnetUser>sistemas</telnetUser>
+    <telnetPassword>s1st3m4sgdc</telnetPassword>
+    <privilegeModePassword></privilegeModePassword>
+    <maxGetSize>0</maxGetSize>
+    <lastUpdateTime>1371606943379</lastUpdateTime>
+    <lastConfigTime>0</lastConfigTime>
+    <projectId>7</projectId>
+    <interfaces/>
+    <links/>
+    <ipSlas/>
+    <deviceResources/>
+    <properties/>
+  </com.gdc.nms.model.Device>
+  <com.gdc.nms.model.Device>
+    <id>295</id>
+    <type>ROUTER</type>
+    <snmpVersion>V2</snmpVersion>
+    <protocolType>TELNET</protocolType>
+    <sysUpTime>1370334084194</sysUpTime>
+    <flags>717</flags>
+    <configurationFlags>8</configurationFlags>
+    <steelheadFlags>0</steelheadFlags>
+    <testTimeout>2000</testTimeout>
+    <intensiveTestDuration>300000</intensiveTestDuration>
+    <snmpTimeout>5000</snmpTimeout>
+    <snmpRetries>2</snmpRetries>
+    <ip>192.168.82.15</ip>
+    <hostname>GW01ALP-70003316</hostname>
+    <alias>GW01ALP-70003316</alias>
+    <description>Cisco IOS Software, 2801 Software (C2801-SPSERVICESK9-M), Version 12.4(20)T5, RELEASE SOFTWARE (fc2)&#xd;
+Technical Support: http://www.cisco.com/techsupport&#xd;
+Copyright (c) 1986-2010 by Cisco Systems, Inc.&#xd;
+Compiled Mon 08-Mar-10 06:43 by prod_rel_team</description>
+    <contact></contact>
+    <location></location>
+    <snmpPublicCommunity>n0cf4m4r1ll4$RW</snmpPublicCommunity>
+    <snmpUser></snmpUser>
+    <authenticationProtocol> </authenticationProtocol>
+    <securityLevel>0</securityLevel>
+    <sysObjectID>1.3.6.1.4.1.9.1.619</sysObjectID>
+    <latencyMeasurementIp>172.16.200.1</latencyMeasurementIp>
+    <statsTableId>00098</statsTableId>
+    <telnetUser>sistemas</telnetUser>
+    <telnetPassword>s1st3m4sgdc</telnetPassword>
+    <privilegeModePassword></privilegeModePassword>
+    <maxGetSize>0</maxGetSize>
+    <lastUpdateTime>1371616539542</lastUpdateTime>
+    <lastConfigTime>0</lastConfigTime>
+    <projectId>7</projectId>
+    <interfaces/>
+    <links/>
+    <ipSlas/>
+    <deviceResources/>
+    <properties/>
+  </com.gdc.nms.model.Device>
+  <com.gdc.nms.model.Device>
+    <id>296</id>
+    <type>ROUTER</type>
+    <snmpVersion>V2</snmpVersion>
+    <protocolType>TELNET</protocolType>
+    <sysUpTime>1361919593538</sysUpTime>
+    <flags>717</flags>
+    <configurationFlags>8</configurationFlags>
+    <steelheadFlags>0</steelheadFlags>
+    <testTimeout>2000</testTimeout>
+    <intensiveTestDuration>300000</intensiveTestDuration>
+    <snmpTimeout>5000</snmpTimeout>
+    <snmpRetries>2</snmpRetries>
+    <ip>192.168.82.13</ip>
+    <hostname>GW01ALP-70003229</hostname>
+    <alias>GW01ALP-70003229</alias>
+    <description>Cisco IOS Software, 2801 Software (C2801-SPSERVICESK9-M), Version 12.4(20)T5, RELEASE SOFTWARE (fc2)&#xd;
+Technical Support: http://www.cisco.com/techsupport&#xd;
+Copyright (c) 1986-2010 by Cisco Systems, Inc.&#xd;
+Compiled Mon 08-Mar-10 06:43 by prod_rel_team</description>
+    <contact></contact>
+    <location></location>
+    <snmpPublicCommunity>n0cf4m4r1ll4$RW</snmpPublicCommunity>
+    <snmpUser></snmpUser>
+    <authenticationProtocol> </authenticationProtocol>
+    <securityLevel>0</securityLevel>
+    <sysObjectID>1.3.6.1.4.1.9.1.619</sysObjectID>
+    <latencyMeasurementIp>172.16.200.1</latencyMeasurementIp>
+    <statsTableId>00098</statsTableId>
+    <telnetUser>sistemas</telnetUser>
+    <telnetPassword>s1st3m4sgdc</telnetPassword>
+    <privilegeModePassword></privilegeModePassword>
+    <maxGetSize>0</maxGetSize>
+    <lastUpdateTime>1371605153627</lastUpdateTime>
+    <lastConfigTime>0</lastConfigTime>
+    <projectId>7</projectId>
+    <interfaces/>
+    <links/>
+    <ipSlas/>
+    <deviceResources/>
+    <properties/>
+  </com.gdc.nms.model.Device>
+  <com.gdc.nms.model.Device>
+    <id>297</id>
+    <type>ROUTER</type>
+    <snmpVersion>V2</snmpVersion>
+    <protocolType>TELNET</protocolType>
+    <sysUpTime>1363966919470</sysUpTime>
+    <flags>717</flags>
+    <configurationFlags>8</configurationFlags>
+    <steelheadFlags>0</steelheadFlags>
+    <testTimeout>2000</testTimeout>
+    <intensiveTestDuration>300000</intensiveTestDuration>
+    <snmpTimeout>5000</snmpTimeout>
+    <snmpRetries>2</snmpRetries>
+    <ip>192.168.82.6</ip>
+    <hostname>GW01ALP-70003215</hostname>
+    <alias>GW01ALP-70003215</alias>
+    <description>Cisco IOS Software, 2801 Software (C2801-SPSERVICESK9-M), Version 12.4(20)T5, RELEASE SOFTWARE (fc2)&#xd;
+Technical Support: http://www.cisco.com/techsupport&#xd;
+Copyright (c) 1986-2010 by Cisco Systems, Inc.&#xd;
+Compiled Mon 08-Mar-10 06:43 by prod_rel_team</description>
+    <contact></contact>
+    <location></location>
+    <snmpPublicCommunity>n0cf4m4r1ll4$RW</snmpPublicCommunity>
+    <snmpUser></snmpUser>
+    <authenticationProtocol> </authenticationProtocol>
+    <securityLevel>0</securityLevel>
+    <sysObjectID>1.3.6.1.4.1.9.1.619</sysObjectID>
+    <latencyMeasurementIp>172.16.200.1</latencyMeasurementIp>
+    <statsTableId>00098</statsTableId>
+    <telnetUser>sistemas</telnetUser>
+    <telnetPassword>s1st3m4sgdc</telnetPassword>
+    <privilegeModePassword></privilegeModePassword>
+    <maxGetSize>0</maxGetSize>
+    <lastUpdateTime>1371645046100</lastUpdateTime>
+    <lastConfigTime>0</lastConfigTime>
+    <projectId>7</projectId>
+    <interfaces/>
+    <links/>
+    <ipSlas/>
+    <deviceResources/>
+    <properties/>
+  </com.gdc.nms.model.Device>
+  <com.gdc.nms.model.Device>
+    <id>298</id>
+    <type>ROUTER</type>
+    <snmpVersion>V2</snmpVersion>
+    <protocolType>TELNET</protocolType>
+    <sysUpTime>1366732441740</sysUpTime>
+    <flags>717</flags>
+    <configurationFlags>9</configurationFlags>
+    <steelheadFlags>0</steelheadFlags>
+    <testTimeout>2000</testTimeout>
+    <intensiveTestDuration>120000</intensiveTestDuration>
+    <snmpTimeout>5000</snmpTimeout>
+    <snmpRetries>2</snmpRetries>
+    <ip>192.168.82.22</ip>
+    <hostname>GW02ALP-70003212</hostname>
+    <alias>GW02ALP-70003212</alias>
+    <description>Cisco IOS Software, 2801 Software (C2801-SPSERVICESK9-M), Version 12.4(20)T5, RELEASE SOFTWARE (fc2)&#xd;
+Technical Support: http://www.cisco.com/techsupport&#xd;
+Copyright (c) 1986-2010 by Cisco Systems, Inc.&#xd;
+Compiled Mon 08-Mar-10 06:43 by prod_rel_team</description>
+    <contact></contact>
+    <location></location>
+    <snmpPublicCommunity>n0cf4m4r1ll4$RW</snmpPublicCommunity>
+    <snmpUser></snmpUser>
+    <authenticationProtocol> </authenticationProtocol>
+    <securityLevel>0</securityLevel>
+    <sysObjectID>1.3.6.1.4.1.9.1.619</sysObjectID>
+    <latencyMeasurementIp>172.16.200.1</latencyMeasurementIp>
+    <statsTableId>00099</statsTableId>
+    <telnetUser>sistemas</telnetUser>
+    <telnetPassword>s1st3m4sgdc</telnetPassword>
+    <privilegeModePassword></privilegeModePassword>
+    <maxGetSize>0</maxGetSize>
+    <lastUpdateTime>1371605442760</lastUpdateTime>
+    <lastConfigTime>0</lastConfigTime>
+    <projectId>7</projectId>
+    <interfaces/>
+    <links/>
+    <ipSlas/>
+    <deviceResources/>
+    <properties/>
+  </com.gdc.nms.model.Device>
+  <com.gdc.nms.model.Device>
+    <id>299</id>
+    <type>ROUTER</type>
+    <snmpVersion>V2</snmpVersion>
+    <protocolType>TELNET</protocolType>
+    <sysUpTime>1366303400591</sysUpTime>
+    <flags>717</flags>
+    <configurationFlags>9</configurationFlags>
+    <steelheadFlags>0</steelheadFlags>
+    <testTimeout>2000</testTimeout>
+    <intensiveTestDuration>120000</intensiveTestDuration>
+    <snmpTimeout>5000</snmpTimeout>
+    <snmpRetries>2</snmpRetries>
+    <ip>192.168.82.4</ip>
+    <hostname>GW01ALP-70003212</hostname>
+    <alias>GW01ALP-70003212</alias>
+    <description>Cisco IOS Software, 2801 Software (C2801-SPSERVICESK9-M), Version 12.4(20)T5, RELEASE SOFTWARE (fc2)&#xd;
+Technical Support: http://www.cisco.com/techsupport&#xd;
+Copyright (c) 1986-2010 by Cisco Systems, Inc.&#xd;
+Compiled Mon 08-Mar-10 06:43 by prod_rel_team</description>
+    <contact></contact>
+    <location></location>
+    <snmpPublicCommunity>n0cf4m4r1ll4$RW</snmpPublicCommunity>
+    <snmpUser></snmpUser>
+    <authenticationProtocol> </authenticationProtocol>
+    <securityLevel>0</securityLevel>
+    <sysObjectID>1.3.6.1.4.1.9.1.619</sysObjectID>
+    <latencyMeasurementIp>172.16.200.1</latencyMeasurementIp>
+    <statsTableId>00099</statsTableId>
+    <telnetUser>sistemas</telnetUser>
+    <telnetPassword>s1st3m4sgdc</telnetPassword>
+    <privilegeModePassword></privilegeModePassword>
+    <maxGetSize>0</maxGetSize>
+    <lastUpdateTime>1371662142908</lastUpdateTime>
+    <lastConfigTime>0</lastConfigTime>
+    <projectId>7</projectId>
+    <interfaces/>
+    <links/>
+    <ipSlas/>
+    <deviceResources/>
+    <properties/>
+  </com.gdc.nms.model.Device>
+  <com.gdc.nms.model.Device>
+    <id>300</id>
+    <type>ROUTER</type>
+    <snmpVersion>V2</snmpVersion>
+    <protocolType>TELNET</protocolType>
+    <sysUpTime>1370273328918</sysUpTime>
+    <flags>717</flags>
+    <configurationFlags>8</configurationFlags>
+    <steelheadFlags>0</steelheadFlags>
+    <testTimeout>2000</testTimeout>
+    <intensiveTestDuration>300000</intensiveTestDuration>
+    <snmpTimeout>5000</snmpTimeout>
+    <snmpRetries>2</snmpRetries>
+    <ip>192.168.82.21</ip>
+    <hostname>GW02ALP-70003211</hostname>
+    <alias>GW02ALP-70003211</alias>
+    <description>Cisco IOS Software, 2801 Software (C2801-SPSERVICESK9-M), Version 12.4(20)T5, RELEASE SOFTWARE (fc2)&#xd;
+Technical Support: http://www.cisco.com/techsupport&#xd;
+Copyright (c) 1986-2010 by Cisco Systems, Inc.&#xd;
+Compiled Mon 08-Mar-10 06:43 by prod_rel_team</description>
+    <contact></contact>
+    <location></location>
+    <snmpPublicCommunity>n0cf4m4r1ll4$RW</snmpPublicCommunity>
+    <snmpUser></snmpUser>
+    <authenticationProtocol> </authenticationProtocol>
+    <securityLevel>0</securityLevel>
+    <sysObjectID>1.3.6.1.4.1.9.1.619</sysObjectID>
+    <latencyMeasurementIp>172.16.200.1</latencyMeasurementIp>
+    <statsTableId>00099</statsTableId>
+    <telnetUser>sistemas</telnetUser>
+    <telnetPassword>s1st3m4sgdc</telnetPassword>
+    <privilegeModePassword></privilegeModePassword>
+    <maxGetSize>0</maxGetSize>
+    <lastUpdateTime>1371652554344</lastUpdateTime>
+    <lastConfigTime>0</lastConfigTime>
+    <projectId>7</projectId>
+    <interfaces/>
+    <links/>
+    <ipSlas/>
+    <deviceResources/>
+    <properties/>
+  </com.gdc.nms.model.Device>
+  <com.gdc.nms.model.Device>
+    <id>301</id>
+    <type>ROUTER</type>
+    <snmpVersion>V2</snmpVersion>
+    <protocolType>TELNET</protocolType>
+    <sysUpTime>1368820106821</sysUpTime>
+    <flags>717</flags>
+    <configurationFlags>8</configurationFlags>
+    <steelheadFlags>0</steelheadFlags>
+    <testTimeout>2000</testTimeout>
+    <intensiveTestDuration>300000</intensiveTestDuration>
+    <snmpTimeout>5000</snmpTimeout>
+    <snmpRetries>2</snmpRetries>
+    <ip>192.168.82.3</ip>
+    <hostname>GW01ALP-70003211</hostname>
+    <alias>GW01ALP-70003211</alias>
+    <description>Cisco IOS Software, 2801 Software (C2801-SPSERVICESK9-M), Version 12.4(20)T5, RELEASE SOFTWARE (fc2)&#xd;
+Technical Support: http://www.cisco.com/techsupport&#xd;
+Copyright (c) 1986-2010 by Cisco Systems, Inc.&#xd;
+Compiled Mon 08-Mar-10 06:43 by prod_rel_team</description>
+    <contact></contact>
+    <location></location>
+    <snmpPublicCommunity>n0cf4m4r1ll4$RW</snmpPublicCommunity>
+    <snmpUser></snmpUser>
+    <authenticationProtocol> </authenticationProtocol>
+    <securityLevel>0</securityLevel>
+    <sysObjectID>1.3.6.1.4.1.9.1.619</sysObjectID>
+    <latencyMeasurementIp>172.16.200.1</latencyMeasurementIp>
+    <statsTableId>00100</statsTableId>
+    <telnetUser>sistemas</telnetUser>
+    <telnetPassword>s1st3m4sgdc</telnetPassword>
+    <privilegeModePassword></privilegeModePassword>
+    <maxGetSize>0</maxGetSize>
+    <lastUpdateTime>1371623147543</lastUpdateTime>
+    <lastConfigTime>0</lastConfigTime>
+    <projectId>7</projectId>
+    <interfaces/>
+    <links/>
+    <ipSlas/>
+    <deviceResources/>
+    <properties/>
+  </com.gdc.nms.model.Device>
+  <com.gdc.nms.model.Device>
+    <id>302</id>
+    <type>ROUTER</type>
+    <snmpVersion>V2</snmpVersion>
+    <protocolType>TELNET</protocolType>
+    <sysUpTime>1371505632160</sysUpTime>
+    <flags>717</flags>
+    <configurationFlags>8</configurationFlags>
+    <steelheadFlags>0</steelheadFlags>
+    <testTimeout>2000</testTimeout>
+    <intensiveTestDuration>300000</intensiveTestDuration>
+    <snmpTimeout>5000</snmpTimeout>
+    <snmpRetries>2</snmpRetries>
+    <ip>192.168.82.14</ip>
+    <hostname>GW01ALP-70003234</hostname>
+    <alias>GW01ALP-70003234</alias>
+    <description>Cisco IOS Software, 2801 Software (C2801-SPSERVICESK9-M), Version 12.4(20)T5, RELEASE SOFTWARE (fc2)&#xd;
+Technical Support: http://www.cisco.com/techsupport&#xd;
+Copyright (c) 1986-2010 by Cisco Systems, Inc.&#xd;
+Compiled Mon 08-Mar-10 06:43 by prod_rel_team</description>
+    <contact></contact>
+    <location></location>
+    <snmpPublicCommunity>n0cf4m4r1ll4$RW</snmpPublicCommunity>
+    <snmpUser></snmpUser>
+    <authenticationProtocol> </authenticationProtocol>
+    <securityLevel>0</securityLevel>
+    <sysObjectID>1.3.6.1.4.1.9.1.619</sysObjectID>
+    <latencyMeasurementIp>172.16.200.1</latencyMeasurementIp>
+    <statsTableId>00100</statsTableId>
+    <telnetUser>sistemas</telnetUser>
+    <telnetPassword>s1st3m4sgdc</telnetPassword>
+    <privilegeModePassword></privilegeModePassword>
+    <maxGetSize>0</maxGetSize>
+    <lastUpdateTime>1371579043712</lastUpdateTime>
+    <lastConfigTime>0</lastConfigTime>
+    <projectId>7</projectId>
+    <interfaces/>
+    <links/>
+    <ipSlas/>
+    <deviceResources/>
+    <properties/>
+  </com.gdc.nms.model.Device>
+  <com.gdc.nms.model.Device>
+    <id>303</id>
+    <type>ROUTER</type>
+    <snmpVersion>V2</snmpVersion>
+    <protocolType>TELNET</protocolType>
+    <sysUpTime>1364071823937</sysUpTime>
+    <flags>717</flags>
+    <configurationFlags>8</configurationFlags>
+    <steelheadFlags>0</steelheadFlags>
+    <testTimeout>2000</testTimeout>
+    <intensiveTestDuration>300000</intensiveTestDuration>
+    <snmpTimeout>5000</snmpTimeout>
+    <snmpRetries>2</snmpRetries>
+    <ip>192.168.82.12</ip>
+    <hostname>GW01ALP-70003228</hostname>
+    <alias>GW01ALP-70003228</alias>
+    <description>Cisco IOS Software, 2801 Software (C2801-SPSERVICESK9-M), Version 12.4(20)T5, RELEASE SOFTWARE (fc2)&#xd;
+Technical Support: http://www.cisco.com/techsupport&#xd;
+Copyright (c) 1986-2010 by Cisco Systems, Inc.&#xd;
+Compiled Mon 08-Mar-10 06:43 by prod_rel_team</description>
+    <contact></contact>
+    <location></location>
+    <snmpPublicCommunity>n0cf4m4r1ll4$RW</snmpPublicCommunity>
+    <snmpUser></snmpUser>
+    <authenticationProtocol> </authenticationProtocol>
+    <securityLevel>0</securityLevel>
+    <sysObjectID>1.3.6.1.4.1.9.1.619</sysObjectID>
+    <latencyMeasurementIp>172.16.200.1</latencyMeasurementIp>
+    <statsTableId>00100</statsTableId>
+    <telnetUser>sistemas</telnetUser>
+    <telnetPassword>s1st3m4sgdc</telnetPassword>
+    <privilegeModePassword></privilegeModePassword>
+    <maxGetSize>0</maxGetSize>
+    <lastUpdateTime>1371609342700</lastUpdateTime>
+    <lastConfigTime>0</lastConfigTime>
+    <projectId>7</projectId>
+    <interfaces/>
+    <links/>
+    <ipSlas/>
+    <deviceResources/>
+    <properties/>
+  </com.gdc.nms.model.Device>
+  <com.gdc.nms.model.Device>
+    <id>304</id>
+    <type>ROUTER</type>
+    <snmpVersion>V2</snmpVersion>
+    <protocolType>TELNET</protocolType>
+    <sysUpTime>1370536471511</sysUpTime>
+    <flags>717</flags>
+    <configurationFlags>8</configurationFlags>
+    <steelheadFlags>0</steelheadFlags>
+    <testTimeout>2000</testTimeout>
+    <intensiveTestDuration>300000</intensiveTestDuration>
+    <snmpTimeout>5000</snmpTimeout>
+    <snmpRetries>2</snmpRetries>
+    <ip>192.168.82.25</ip>
+    <hostname>GW02ALP-70003216</hostname>
+    <alias>GW02ALP-70003216</alias>
+    <description>Cisco IOS Software, 2801 Software (C2801-SPSERVICESK9-M), Version 12.4(22)T5, RELEASE SOFTWARE (fc3)&#xd;
+Technical Support: http://www.cisco.com/techsupport&#xd;
+Copyright (c) 1986-2010 by Cisco Systems, Inc.&#xd;
+Compiled Wed 28-Apr-10 08:48 by prod_rel_team</description>
+    <contact></contact>
+    <location></location>
+    <snmpPublicCommunity>n0cf4m4r1ll4$RW</snmpPublicCommunity>
+    <snmpUser></snmpUser>
+    <authenticationProtocol> </authenticationProtocol>
+    <securityLevel>0</securityLevel>
+    <sysObjectID>1.3.6.1.4.1.9.1.619</sysObjectID>
+    <latencyMeasurementIp>172.16.200.1</latencyMeasurementIp>
+    <statsTableId>00101</statsTableId>
+    <telnetUser>sistemas</telnetUser>
+    <telnetPassword>s1st3m4sgdc</telnetPassword>
+    <privilegeModePassword></privilegeModePassword>
+    <maxGetSize>0</maxGetSize>
+    <lastUpdateTime>1371582341550</lastUpdateTime>
+    <lastConfigTime>0</lastConfigTime>
+    <projectId>7</projectId>
+    <interfaces/>
+    <links/>
+    <ipSlas/>
+    <deviceResources/>
+    <properties/>
+  </com.gdc.nms.model.Device>
+  <com.gdc.nms.model.Device>
+    <id>305</id>
+    <type>ROUTER</type>
+    <snmpVersion>V2</snmpVersion>
+    <protocolType>TELNET</protocolType>
+    <sysUpTime>1366637428456</sysUpTime>
+    <flags>717</flags>
+    <configurationFlags>8</configurationFlags>
+    <steelheadFlags>0</steelheadFlags>
+    <testTimeout>2000</testTimeout>
+    <intensiveTestDuration>300000</intensiveTestDuration>
+    <snmpTimeout>5000</snmpTimeout>
+    <snmpRetries>2</snmpRetries>
+    <ip>192.168.82.7</ip>
+    <hostname>GW01ALP-70003216</hostname>
+    <alias>GW01ALP-70003216</alias>
+    <description>Cisco IOS Software, 2801 Software (C2801-SPSERVICESK9-M), Version 12.4(20)T5, RELEASE SOFTWARE (fc2)&#xd;
+Technical Support: http://www.cisco.com/techsupport&#xd;
+Copyright (c) 1986-2010 by Cisco Systems, Inc.&#xd;
+Compiled Mon 08-Mar-10 06:43 by prod_rel_team</description>
+    <contact></contact>
+    <location></location>
+    <snmpPublicCommunity>n0cf4m4r1ll4$RW</snmpPublicCommunity>
+    <snmpUser></snmpUser>
+    <authenticationProtocol> </authenticationProtocol>
+    <securityLevel>0</securityLevel>
+    <sysObjectID>1.3.6.1.4.1.9.1.619</sysObjectID>
+    <latencyMeasurementIp>172.16.200.1</latencyMeasurementIp>
+    <statsTableId>00101</statsTableId>
+    <telnetUser>sistemas</telnetUser>
+    <telnetPassword>s1st3m4sgdc</telnetPassword>
+    <privilegeModePassword></privilegeModePassword>
+    <maxGetSize>0</maxGetSize>
+    <lastUpdateTime>1371600942552</lastUpdateTime>
+    <lastConfigTime>0</lastConfigTime>
+    <projectId>7</projectId>
+    <interfaces/>
+    <links/>
+    <ipSlas/>
+    <deviceResources/>
+    <properties/>
+  </com.gdc.nms.model.Device>
+  <com.gdc.nms.model.Device>
+    <id>306</id>
+    <type>ROUTER</type>
+    <snmpVersion>V2</snmpVersion>
+    <protocolType>TELNET</protocolType>
+    <sysUpTime>1346960014261</sysUpTime>
+    <flags>717</flags>
+    <configurationFlags>9</configurationFlags>
+    <steelheadFlags>0</steelheadFlags>
+    <testTimeout>2000</testTimeout>
+    <intensiveTestDuration>120000</intensiveTestDuration>
+    <snmpTimeout>5000</snmpTimeout>
+    <snmpRetries>2</snmpRetries>
+    <ip>192.168.82.5</ip>
+    <hostname>GW01ALP-70003213</hostname>
+    <alias>GW01ALP-70003213</alias>
+    <description>Cisco IOS Software, 2801 Software (C2801-SPSERVICESK9-M), Version 12.4(20)T5, RELEASE SOFTWARE (fc2)&#xd;
+Technical Support: http://www.cisco.com/techsupport&#xd;
+Copyright (c) 1986-2010 by Cisco Systems, Inc.&#xd;
+Compiled Mon 08-Mar-10 06:43 by prod_rel_team</description>
+    <contact></contact>
+    <location></location>
+    <snmpPublicCommunity>n0cf4m4r1ll4$RW</snmpPublicCommunity>
+    <snmpUser></snmpUser>
+    <authenticationProtocol> </authenticationProtocol>
+    <securityLevel>0</securityLevel>
+    <sysObjectID>1.3.6.1.4.1.9.1.619</sysObjectID>
+    <latencyMeasurementIp>172.16.200.1</latencyMeasurementIp>
+    <statsTableId>00101</statsTableId>
+    <telnetUser>sistemas</telnetUser>
+    <telnetPassword>s1st3m4sgdc</telnetPassword>
+    <privilegeModePassword></privilegeModePassword>
+    <maxGetSize>0</maxGetSize>
+    <lastUpdateTime>1371611144893</lastUpdateTime>
+    <lastConfigTime>0</lastConfigTime>
+    <projectId>7</projectId>
+    <interfaces/>
+    <links/>
+    <ipSlas/>
+    <deviceResources/>
+    <properties/>
+  </com.gdc.nms.model.Device>
+  <com.gdc.nms.model.Device>
+    <id>307</id>
+    <type>ROUTER</type>
+    <snmpVersion>V2</snmpVersion>
+    <protocolType>TELNET</protocolType>
+    <sysUpTime>1358320722914</sysUpTime>
+    <flags>717</flags>
+    <configurationFlags>8</configurationFlags>
+    <steelheadFlags>0</steelheadFlags>
+    <testTimeout>2000</testTimeout>
+    <intensiveTestDuration>300000</intensiveTestDuration>
+    <snmpTimeout>5000</snmpTimeout>
+    <snmpRetries>2</snmpRetries>
+    <ip>192.168.82.17</ip>
+    <hostname>GW01ALP-70050704</hostname>
+    <alias>GW01ALP-70050704</alias>
+    <description>Cisco IOS Software, 2801 Software (C2801-ADVENTERPRISEK9-M), Version 12.4(24)T6, RELEASE SOFTWARE (fc2)&#xd;
+Technical Support: http://www.cisco.com/techsupport&#xd;
+Copyright (c) 1986-2011 by Cisco Systems, Inc.&#xd;
+Compiled Tue 23-Aug-11 02:12 by prod_rel_team</description>
+    <contact></contact>
+    <location></location>
+    <snmpPublicCommunity>n0cf4m4r1ll4$RW</snmpPublicCommunity>
+    <snmpUser></snmpUser>
+    <authenticationProtocol> </authenticationProtocol>
+    <securityLevel>0</securityLevel>
+    <sysObjectID>1.3.6.1.4.1.9.1.619</sysObjectID>
+    <latencyMeasurementIp>172.16.200.1</latencyMeasurementIp>
+    <statsTableId>00102</statsTableId>
+    <telnetUser>sistemas</telnetUser>
+    <telnetPassword>s1st3m4sgdc</telnetPassword>
+    <privilegeModePassword></privilegeModePassword>
+    <maxGetSize>0</maxGetSize>
+    <lastUpdateTime>1371586246024</lastUpdateTime>
+    <lastConfigTime>0</lastConfigTime>
+    <projectId>7</projectId>
+    <interfaces/>
+    <links/>
+    <ipSlas/>
+    <deviceResources/>
+    <properties/>
+  </com.gdc.nms.model.Device>
+  <com.gdc.nms.model.Device>
+    <id>308</id>
+    <type>ROUTER</type>
+    <snmpVersion>V2</snmpVersion>
+    <protocolType>TELNET</protocolType>
+    <sysUpTime>1360738582104</sysUpTime>
+    <flags>717</flags>
+    <configurationFlags>9</configurationFlags>
+    <steelheadFlags>0</steelheadFlags>
+    <testTimeout>2000</testTimeout>
+    <intensiveTestDuration>120000</intensiveTestDuration>
+    <snmpTimeout>5000</snmpTimeout>
+    <snmpRetries>2</snmpRetries>
+    <ip>192.168.82.45</ip>
+    <hostname>GW02ALP-70003326</hostname>
+    <alias>GW02ALP-70003326</alias>
+    <description>Cisco IOS Software, 2801 Software (C2801-SPSERVICESK9-M), Version 12.4(20)T5, RELEASE SOFTWARE (fc2)&#xd;
+Technical Support: http://www.cisco.com/techsupport&#xd;
+Copyright (c) 1986-2010 by Cisco Systems, Inc.&#xd;
+Compiled Mon 08-Mar-10 06:43 by prod_rel_team</description>
+    <contact></contact>
+    <location></location>
+    <snmpPublicCommunity>n0cf4m4r1ll4$RW</snmpPublicCommunity>
+    <snmpUser></snmpUser>
+    <authenticationProtocol> </authenticationProtocol>
+    <securityLevel>0</securityLevel>
+    <sysObjectID>1.3.6.1.4.1.9.1.619</sysObjectID>
+    <latencyMeasurementIp>172.16.200.1</latencyMeasurementIp>
+    <statsTableId>00102</statsTableId>
+    <telnetUser>sistemas</telnetUser>
+    <telnetPassword>s1st3m4sgdc</telnetPassword>
+    <privilegeModePassword></privilegeModePassword>
+    <maxGetSize>0</maxGetSize>
+    <lastUpdateTime>1371589585397</lastUpdateTime>
+    <lastConfigTime>0</lastConfigTime>
+    <projectId>7</projectId>
+    <interfaces/>
+    <links/>
+    <ipSlas/>
+    <deviceResources/>
+    <properties/>
+  </com.gdc.nms.model.Device>
+  <com.gdc.nms.model.Device>
+    <id>309</id>
+    <type>ROUTER</type>
+    <snmpVersion>V2</snmpVersion>
+    <protocolType>TELNET</protocolType>
+    <sysUpTime>1360738606021</sysUpTime>
+    <flags>717</flags>
+    <configurationFlags>9</configurationFlags>
+    <steelheadFlags>0</steelheadFlags>
+    <testTimeout>2000</testTimeout>
+    <intensiveTestDuration>120000</intensiveTestDuration>
+    <snmpTimeout>5000</snmpTimeout>
+    <snmpRetries>2</snmpRetries>
+    <ip>192.168.82.16</ip>
+    <hostname>GW01ALP-70003326</hostname>
+    <alias>GW01ALP-70003326</alias>
+    <description>Cisco IOS Software, 2801 Software (C2801-ADVENTERPRISEK9-M), Version 12.4(24)T6, RELEASE SOFTWARE (fc2)&#xd;
+Technical Support: http://www.cisco.com/techsupport&#xd;
+Copyright (c) 1986-2011 by Cisco Systems, Inc.&#xd;
+Compiled Tue 23-Aug-11 02:12 by prod_rel_team</description>
+    <contact></contact>
+    <location></location>
+    <snmpPublicCommunity>n0cf4m4r1ll4$RW</snmpPublicCommunity>
+    <snmpUser></snmpUser>
+    <authenticationProtocol> </authenticationProtocol>
+    <securityLevel>0</securityLevel>
+    <sysObjectID>1.3.6.1.4.1.9.1.619</sysObjectID>
+    <latencyMeasurementIp>172.16.200.1</latencyMeasurementIp>
+    <statsTableId>00102</statsTableId>
+    <telnetUser>sistemas</telnetUser>
+    <telnetPassword>s1st3m4sgdc</telnetPassword>
+    <privilegeModePassword></privilegeModePassword>
+    <maxGetSize>0</maxGetSize>
+    <lastUpdateTime>1371595842447</lastUpdateTime>
+    <lastConfigTime>0</lastConfigTime>
+    <projectId>7</projectId>
+    <interfaces/>
+    <links/>
+    <ipSlas/>
+    <deviceResources/>
+    <properties/>
+  </com.gdc.nms.model.Device>
+  <com.gdc.nms.model.Device>
+    <id>310</id>
+    <type>ROUTER</type>
+    <snmpVersion>V2</snmpVersion>
+    <protocolType>TELNET</protocolType>
+    <sysUpTime>1368128268855</sysUpTime>
+    <flags>717</flags>
+    <configurationFlags>8</configurationFlags>
+    <steelheadFlags>0</steelheadFlags>
+    <testTimeout>2000</testTimeout>
+    <intensiveTestDuration>300000</intensiveTestDuration>
+    <snmpTimeout>5000</snmpTimeout>
+    <snmpRetries>2</snmpRetries>
+    <ip>192.168.82.19</ip>
+    <hostname>GW01ALP-70140220</hostname>
+    <alias>GW01ALP-70140220</alias>
+    <description>Cisco IOS Software, 2801 Software (C2801-SPSERVICESK9-M), Version 12.4(20)T5, RELEASE SOFTWARE (fc2)&#xd;
+Technical Support: http://www.cisco.com/techsupport&#xd;
+Copyright (c) 1986-2010 by Cisco Systems, Inc.&#xd;
+Compiled Mon 08-Mar-10 06:43 by prod_rel_team</description>
+    <contact></contact>
+    <location></location>
+    <snmpPublicCommunity>n0cf4m4r1ll4$RW</snmpPublicCommunity>
+    <snmpUser></snmpUser>
+    <authenticationProtocol> </authenticationProtocol>
+    <securityLevel>0</securityLevel>
+    <sysObjectID>1.3.6.1.4.1.9.1.619</sysObjectID>
+    <latencyMeasurementIp>172.16.200.1</latencyMeasurementIp>
+    <statsTableId>00103</statsTableId>
+    <telnetUser>sistemas</telnetUser>
+    <telnetPassword>s1st3m4sgdc</telnetPassword>
+    <privilegeModePassword></privilegeModePassword>
+    <maxGetSize>0</maxGetSize>
+    <lastUpdateTime>1371655540641</lastUpdateTime>
+    <lastConfigTime>0</lastConfigTime>
+    <projectId>7</projectId>
+    <interfaces/>
+    <links/>
+    <ipSlas/>
+    <deviceResources/>
+    <properties/>
+  </com.gdc.nms.model.Device>
+  <com.gdc.nms.model.Device>
+    <id>311</id>
+    <type>ROUTER</type>
+    <snmpVersion>V2</snmpVersion>
+    <protocolType>TELNET</protocolType>
+    <sysUpTime>1340660676482</sysUpTime>
+    <flags>717</flags>
+    <configurationFlags>8</configurationFlags>
+    <steelheadFlags>0</steelheadFlags>
+    <testTimeout>2000</testTimeout>
+    <intensiveTestDuration>300000</intensiveTestDuration>
+    <snmpTimeout>5000</snmpTimeout>
+    <snmpRetries>2</snmpRetries>
+    <ip>192.168.82.20</ip>
+    <hostname>GW01ALP-71244857</hostname>
+    <alias>GW01ALP-71244857</alias>
+    <description>Cisco IOS Software, 2801 Software (C2801-SPSERVICESK9-M), Version 12.4(20)T5, RELEASE SOFTWARE (fc2)&#xd;
+Technical Support: http://www.cisco.com/techsupport&#xd;
+Copyright (c) 1986-2010 by Cisco Systems, Inc.&#xd;
+Compiled Mon 08-Mar-10 06:43 by prod_rel_team</description>
+    <contact></contact>
+    <location></location>
+    <snmpPublicCommunity>n0cf4m4r1ll4$RW</snmpPublicCommunity>
+    <snmpUser></snmpUser>
+    <authenticationProtocol> </authenticationProtocol>
+    <securityLevel>0</securityLevel>
+    <sysObjectID>1.3.6.1.4.1.9.1.619</sysObjectID>
+    <latencyMeasurementIp>172.16.200.1</latencyMeasurementIp>
+    <statsTableId>00103</statsTableId>
+    <telnetUser>sistemas</telnetUser>
+    <telnetPassword>s1st3m4sgdc</telnetPassword>
+    <privilegeModePassword></privilegeModePassword>
+    <maxGetSize>0</maxGetSize>
+    <lastUpdateTime>1371588946335</lastUpdateTime>
+    <lastConfigTime>0</lastConfigTime>
+    <projectId>7</projectId>
+    <interfaces/>
+    <links/>
+    <ipSlas/>
+    <deviceResources/>
+    <properties/>
+  </com.gdc.nms.model.Device>
+</list>

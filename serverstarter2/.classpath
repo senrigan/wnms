@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="classes" path="src"/>
+	<classpathentry kind="var" path="JRE_LIB" rootpath="JRE_SRCROOT" sourcepath="JRE_SRC"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/source/packages/model/dist/model.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/source/packages/common/dist/common.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/source/packages/server/dist/server.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/slf4j/slf4j-api-1.5.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/poi/poi-3.2-FINAL-20081019.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/jfreechart/jfreechart-1.0.13.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/eclipselink/eclipselink-2.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/beanshell/bsh-2.0b4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/commons/commons-fileupload-1.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/truelicense/truelicense-core-1.31-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/gson/gson-2.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/snmp4j/snmp4j.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/xstream/xstream-1.4.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/commons/commons-io-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/zk/zk.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/zk/zcommon.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/zk/zel.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/zk/zhtml.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/zk/zkbind.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/zk/zkplus.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/zk/zul.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/zk/zweb.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/zk/zkmax.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/zk/zkcharts.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/apache/http/httpclient-4.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/sshj/sshj-0.7.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/commons/commons-net-2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/jsch/jsch-0.1.51.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/jee/activation.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/jee/appserv-jstl.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/jee/appserv-rt.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/jee/appserv-tags.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/jee/appserv-ws.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/jee/javaee.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/jee/jsf-impl.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/jee/mail.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

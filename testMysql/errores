@@ -1,0 +1,2060 @@
+2015-04-21 15:34:33,309 INFO Log4j appears to be running in a Servlet environment, but there's no log4j-web module available. If you want better web container support, please add the log4j-web JAR to your web archive or server lib directory.
+2015-04-21 15:34:33,349 INFO Log4j appears to be running in a Servlet environment, but there's no log4j-web module available. If you want better web container support, please add the log4j-web JAR to your web archive or server lib directory.
+2015-04-21 15:34:33,374 ERROR Appenders contains an invalid element or attribute "List"
+usando data
+servers[Server [nameServer=server Colombia, sshCredential=hostname=arcom.nms.com.mx, username=root, password=4141ensz, port=22, jadeHosts=[192.168.204.20], mysqlCredential=MysqlCredential [dataBaseName=nms_col hostname=192.168.204.12, username=root, password=vitalnoc, port=3306]]]
+existe el rpoeject file
+modeALL
+names
+probando archivos[C:\Users\senrigan\wnms\Test\arcom.nms.com.mx\Devices\3Com.txt, C:\Users\senrigan\wnms\Test\arcom.nms.com.mx\Devices\Cisco.txt, C:\Users\senrigan\wnms\Test\arcom.nms.com.mx\Devices\Cisco619.txt, C:\Users\senrigan\wnms\Test\arcom.nms.com.mx\Devices\EmersonUPS(Unitronics).txt, C:\Users\senrigan\wnms\Test\arcom.nms.com.mx\Devices\GDCTelecontroller.txt, C:\Users\senrigan\wnms\Test\arcom.nms.com.mx\Devices\Genericandpingonlystats.txt, C:\Users\senrigan\wnms\Test\arcom.nms.com.mx\Devices\Huawei.txt, C:\Users\senrigan\wnms\Test\arcom.nms.com.mx\Devices\HuaweiAR1220 2220 2240.txt, C:\Users\senrigan\wnms\Test\arcom.nms.com.mx\Devices\HuaweiS5300.txt, C:\Users\senrigan\wnms\Test\arcom.nms.com.mx\Devices\ImageStream(Net-SNMP Linux).txt, C:\Users\senrigan\wnms\Test\arcom.nms.com.mx\Devices\ImageStream.txt, C:\Users\senrigan\wnms\Test\arcom.nms.com.mx\Devices\Juniper.txt, C:\Users\senrigan\wnms\Test\arcom.nms.com.mx\Devices\Pipeline.txt, C:\Users\senrigan\wnms\Test\arcom.nms.com.mx\Devices\RiverbedSteelhead.txt]
+nombre del archivo3Com.txt
+server3Com.txt
+server in3Com.txt
+C:\Users\senrigan\wnms\Test\arcom.nms.com.mx\Devices\3Com.txt
+paseandoC:\Users\senrigan\wnms\Test\arcom.nms.com.mx\Devices\3Com.txt
+devices num per driver1
+nombre del archivoCisco.txt
+serverCisco.txt
+server inCisco.txt
+C:\Users\senrigan\wnms\Test\arcom.nms.com.mx\Devices\Cisco.txt
+paseandoC:\Users\senrigan\wnms\Test\arcom.nms.com.mx\Devices\Cisco.txt
+devices num per driver7744
+nombre del archivoCisco619.txt
+serverCisco619.txt
+server inCisco619.txt
+C:\Users\senrigan\wnms\Test\arcom.nms.com.mx\Devices\Cisco619.txt
+paseandoC:\Users\senrigan\wnms\Test\arcom.nms.com.mx\Devices\Cisco619.txt
+devices num per driver418
+nombre del archivoEmersonUPS(Unitronics).txt
+serverEmersonUPS(Unitronics).txt
+server inEmersonUPS(Unitronics).txt
+C:\Users\senrigan\wnms\Test\arcom.nms.com.mx\Devices\EmersonUPS(Unitronics).txt
+paseandoC:\Users\senrigan\wnms\Test\arcom.nms.com.mx\Devices\EmersonUPS(Unitronics).txt
+devices num per driver29
+nombre del archivoGDCTelecontroller.txt
+serverGDCTelecontroller.txt
+server inGDCTelecontroller.txt
+C:\Users\senrigan\wnms\Test\arcom.nms.com.mx\Devices\GDCTelecontroller.txt
+paseandoC:\Users\senrigan\wnms\Test\arcom.nms.com.mx\Devices\GDCTelecontroller.txt
+devices num per driver4
+nombre del archivoGenericandpingonlystats.txt
+serverGenericandpingonlystats.txt
+server inGenericandpingonlystats.txt
+C:\Users\senrigan\wnms\Test\arcom.nms.com.mx\Devices\Genericandpingonlystats.txt
+paseandoC:\Users\senrigan\wnms\Test\arcom.nms.com.mx\Devices\Genericandpingonlystats.txt
+devices num per driver335
+nombre del archivoHuawei.txt
+serverHuawei.txt
+server inHuawei.txt
+C:\Users\senrigan\wnms\Test\arcom.nms.com.mx\Devices\Huawei.txt
+paseandoC:\Users\senrigan\wnms\Test\arcom.nms.com.mx\Devices\Huawei.txt
+devices num per driver131
+nombre del archivoHuaweiAR1220 2220 2240.txt
+serverHuaweiAR1220 2220 2240.txt
+server inHuaweiAR1220 2220 2240.txt
+C:\Users\senrigan\wnms\Test\arcom.nms.com.mx\Devices\HuaweiAR1220 2220 2240.txt
+paseandoC:\Users\senrigan\wnms\Test\arcom.nms.com.mx\Devices\HuaweiAR1220 2220 2240.txt
+devices num per driver33
+nombre del archivoHuaweiS5300.txt
+serverHuaweiS5300.txt
+server inHuaweiS5300.txt
+C:\Users\senrigan\wnms\Test\arcom.nms.com.mx\Devices\HuaweiS5300.txt
+paseandoC:\Users\senrigan\wnms\Test\arcom.nms.com.mx\Devices\HuaweiS5300.txt
+devices num per driver4
+nombre del archivoImageStream(Net-SNMP Linux).txt
+serverImageStream(Net-SNMP Linux).txt
+server inImageStream(Net-SNMP Linux).txt
+C:\Users\senrigan\wnms\Test\arcom.nms.com.mx\Devices\ImageStream(Net-SNMP Linux).txt
+paseandoC:\Users\senrigan\wnms\Test\arcom.nms.com.mx\Devices\ImageStream(Net-SNMP Linux).txt
+devices num per driver1
+nombre del archivoImageStream.txt
+serverImageStream.txt
+server inImageStream.txt
+C:\Users\senrigan\wnms\Test\arcom.nms.com.mx\Devices\ImageStream.txt
+paseandoC:\Users\senrigan\wnms\Test\arcom.nms.com.mx\Devices\ImageStream.txt
+devices num per driver204
+nombre del archivoJuniper.txt
+serverJuniper.txt
+server inJuniper.txt
+C:\Users\senrigan\wnms\Test\arcom.nms.com.mx\Devices\Juniper.txt
+paseandoC:\Users\senrigan\wnms\Test\arcom.nms.com.mx\Devices\Juniper.txt
+devices num per driver89
+nombre del archivoPipeline.txt
+serverPipeline.txt
+server inPipeline.txt
+C:\Users\senrigan\wnms\Test\arcom.nms.com.mx\Devices\Pipeline.txt
+paseandoC:\Users\senrigan\wnms\Test\arcom.nms.com.mx\Devices\Pipeline.txt
+devices num per driver26
+nombre del archivoRiverbedSteelhead.txt
+serverRiverbedSteelhead.txt
+server inRiverbedSteelhead.txt
+C:\Users\senrigan\wnms\Test\arcom.nms.com.mx\Devices\RiverbedSteelhead.txt
+paseandoC:\Users\senrigan\wnms\Test\arcom.nms.com.mx\Devices\RiverbedSteelhead.txt
+devices num per driver178
+in the tes**{Juniper.txt=[SillyDevice [device=192.168.204.200, driverName=Juniper.txt], SillyDevice [device=190.85.88.201, driverName=Juniper.txt], SillyDevice [device=190.85.21.41, driverName=Juniper.txt], SillyDevice [device=190.85.182.25, driverName=Juniper.txt], SillyDevice [device=181.48.60.1, driverName=Juniper.txt]], RiverbedSteelhead.txt=[SillyDevice [device=172.23.2.26, driverName=RiverbedSteelhead.txt], SillyDevice [device=172.23.2.34, driverName=RiverbedSteelhead.txt], SillyDevice [device=172.23.2.50, driverName=RiverbedSteelhead.txt], SillyDevice [device=172.23.2.70, driverName=RiverbedSteelhead.txt], SillyDevice [device=172.23.2.62, driverName=RiverbedSteelhead.txt]], Genericandpingonlystats.txt=[SillyDevice [device=172.23.4.7, driverName=Genericandpingonlystats.txt], SillyDevice [device=172.23.4.8, driverName=Genericandpingonlystats.txt], SillyDevice [device=10.160.52.153, driverName=Genericandpingonlystats.txt], SillyDevice [device=10.160.49.113, driverName=Genericandpingonlystats.txt], SillyDevice [device=10.162.94.49, driverName=Genericandpingonlystats.txt]], EmersonUPS(Unitronics).txt=[SillyDevice [device=172.22.1.212, driverName=EmersonUPS(Unitronics).txt], SillyDevice [device=172.22.1.4, driverName=EmersonUPS(Unitronics).txt], SillyDevice [device=172.22.1.36, driverName=EmersonUPS(Unitronics).txt], SillyDevice [device=172.22.1.52, driverName=EmersonUPS(Unitronics).txt], SillyDevice [device=172.22.1.68, driverName=EmersonUPS(Unitronics).txt]], HuaweiAR1220 2220 2240.txt=[SillyDevice [device=172.29.20.2, driverName=HuaweiAR1220 2220 2240.txt], SillyDevice [device=172.29.20.4, driverName=HuaweiAR1220 2220 2240.txt], SillyDevice [device=172.29.20.5, driverName=HuaweiAR1220 2220 2240.txt], SillyDevice [device=172.29.20.6, driverName=HuaweiAR1220 2220 2240.txt], SillyDevice [device=172.29.20.7, driverName=HuaweiAR1220 2220 2240.txt]], ImageStream(Net-SNMP Linux).txt=[SillyDevice [device=192.168.204.98, driverName=ImageStream(Net-SNMP Linux).txt]], GDCTelecontroller.txt=[SillyDevice [device=862170010783353, driverName=GDCTelecontroller.txt], SillyDevice [device=862170010985768, driverName=GDCTelecontroller.txt], SillyDevice [device=359231039570609, driverName=GDCTelecontroller.txt], SillyDevice [device=862170010741682, driverName=GDCTelecontroller.txt]], ImageStream.txt=[SillyDevice [device=10.160.183.33, driverName=ImageStream.txt], SillyDevice [device=10.160.51.193, driverName=ImageStream.txt], SillyDevice [device=10.160.51.233, driverName=ImageStream.txt], SillyDevice [device=192.168.108.51, driverName=ImageStream.txt], SillyDevice [device=192.168.108.53, driverName=ImageStream.txt]], Cisco.txt=[SillyDevice [device=10.3.1.1, driverName=Cisco.txt], SillyDevice [device=10.3.1.4, driverName=Cisco.txt], SillyDevice [device=10.3.1.7, driverName=Cisco.txt], SillyDevice [device=10.3.1.11, driverName=Cisco.txt], SillyDevice [device=10.3.1.14, driverName=Cisco.txt]], Cisco619.txt=[SillyDevice [device=172.28.28.80, driverName=Cisco619.txt], SillyDevice [device=172.28.28.91, driverName=Cisco619.txt], SillyDevice [device=172.28.28.12, driverName=Cisco619.txt], SillyDevice [device=172.28.28.72, driverName=Cisco619.txt], SillyDevice [device=172.28.28.115, driverName=Cisco619.txt]], Huawei.txt=[SillyDevice [device=192.168.255.104, driverName=Huawei.txt], SillyDevice [device=192.168.255.105, driverName=Huawei.txt], SillyDevice [device=172.19.52.38, driverName=Huawei.txt], SillyDevice [device=172.19.52.47, driverName=Huawei.txt], SillyDevice [device=172.19.52.99, driverName=Huawei.txt]], 3Com.txt=[SillyDevice [device=172.28.21.184, driverName=3Com.txt]], HuaweiS5300.txt=[SillyDevice [device=192.168.203.89, driverName=HuaweiS5300.txt], SillyDevice [device=192.168.227.5, driverName=HuaweiS5300.txt], SillyDevice [device=192.168.220.253, driverName=HuaweiS5300.txt], SillyDevice [device=192.168.220.252, driverName=HuaweiS5300.txt]], Pipeline.txt=[SillyDevice [device=4, driverName=Pipeline.txt], SillyDevice [device=1, driverName=Pipeline.txt], SillyDevice [device=2, driverName=Pipeline.txt], SillyDevice [device=3, driverName=Pipeline.txt], SillyDevice [device=5, driverName=Pipeline.txt]]}
+C:\Users\senrigan\wnms\Test\release\release\server\libraries
+21-abr-2015 15:34:56 jade.core.Runtime beginContainer
+INFO: ----------------------------------
+    This is JADE 4.3.3 - revision 6726 of 2014/12/09 09:33:02
+    downloaded in Open Source, under LGPL restrictions,
+    at http://jade.tilab.com/
+----------------------------------------
+21-abr-2015 15:34:57 jade.imtp.leap.LEAPIMTPManager initialize
+INFO: Listening for intra-platform commands on address:
+- jicp://10.10.199.181:1099
+
+21-abr-2015 15:34:58 jade.core.BaseService init
+INFO: Service jade.core.management.AgentManagement initialized
+21-abr-2015 15:34:58 jade.core.BaseService init
+INFO: Service jade.core.messaging.Messaging initialized
+21-abr-2015 15:34:58 jade.core.BaseService init
+INFO: Service jade.core.resource.ResourceManagement initialized
+21-abr-2015 15:34:58 jade.core.BaseService init
+INFO: Service jade.core.mobility.AgentMobility initialized
+21-abr-2015 15:34:58 jade.core.BaseService init
+INFO: Service jade.core.event.Notification initialized
+21-abr-2015 15:34:58 jade.mtp.http.HTTPServer <init>
+INFO: HTTP-MTP Using XML parser com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser
+21-abr-2015 15:34:58 jade.core.messaging.MessagingService boot
+INFO: MTP addresses:
+http://192.168.208.70:7778/acc
+21-abr-2015 15:34:58 jade.core.AgentContainerImpl joinPlatform
+INFO: --------------------------------------
+Agent container Main-Container@10.10.199.181 is ready.
+--------------------------------------------
+server started[com.gdc.nms.tester.connection.ServerObject@67cec874]
+probando dispositivos del driverJuniper.txt
+drive a rpobar Juniper.txt
+se esta cambiando el nombre del reciverarcom.nms.com.mx
+( agent-identifier :name Server@192.168.204.20-Platform  :addresses (sequence http://192.168.204.20:7778/acc ))
+se esta ejecutando before
+en el testcom.gdc.nms.tester.client.Client@75a9883d reciver( agent-identifier :name Server@192.168.204.20-Platform  :addresses (sequence http://192.168.204.20:7778/acc ))
+TestInformed [junit=org.junit.runner.JUnitCore@5675b3ee, resulTest=org.junit.runner.Result@4977fa9a, ignoreCaseCount=0, failuresCaseCount=2, TestedCaseCount=2, getRuntimeCount=100080, failuresTrace=[testResource(com.gdc.nms.test.TestDevice): null, TestInterface(com.gdc.nms.test.TestDevice): null]]
+drive a rpobar Juniper.txt
+se esta ejecutando before
+en el testcom.gdc.nms.tester.client.Client@75a9883d reciver( agent-identifier :name Server@192.168.204.20-Platform  :addresses (sequence http://192.168.204.20:7778/acc ))
+TestInformed [junit=org.junit.runner.JUnitCore@5675b3ee, resulTest=org.junit.runner.Result@3f72c47b, ignoreCaseCount=0, failuresCaseCount=2, TestedCaseCount=2, getRuntimeCount=100013, failuresTrace=[testResource(com.gdc.nms.test.TestDevice): null, TestInterface(com.gdc.nms.test.TestDevice): null]]
+drive a rpobar Juniper.txt
+se esta ejecutando before
+en el testcom.gdc.nms.tester.client.Client@75a9883d reciver( agent-identifier :name Server@192.168.204.20-Platform  :addresses (sequence http://192.168.204.20:7778/acc ))
+resourcers List15
+TestInformed [junit=org.junit.runner.JUnitCore@5675b3ee, resulTest=org.junit.runner.Result@da3b359, ignoreCaseCount=0, failuresCaseCount=0, TestedCaseCount=2, getRuntimeCount=40229, failuresTrace=[]]
+driver Name cambiadoJUNIPER
+tester driverJUNIPER
+probando el JUNIPER
+TestInformed [junit=org.junit.runner.JUnitCore@5675b3ee, resulTest=org.junit.runner.Result@da3b359, ignoreCaseCount=0, failuresCaseCount=0, TestedCaseCount=2, getRuntimeCount=40229, failuresTrace=[]]---
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_VIRTUAL_MEMORY
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoDEVICE_PROCESSOR
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_RAM
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+no hay ipslastrue
+tipo de interfaznull lsi null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull lo0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull tap null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull gre null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull ipip null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull pime null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull pimd null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull mtun null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull lo0.16384 null
+[DEVICEID, TIME, INTERFACEID, OPERATIVESTATUS, OUTUCASTPKTS, INMULTICASTPKTS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, LASTCHANGE, INOCTETS]
+tipo de interfaznull lo0.16385 null
+[DEVICEID, TIME, INTERFACEID, OPERATIVESTATUS, OUTUCASTPKTS, INMULTICASTPKTS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, LASTCHANGE, INOCTETS]
+tipo de interfaznull fe-0/0/4.0 null
+[DEVICEID, TIME, INTERFACEID, OPERATIVESTATUS, OUTUCASTPKTS, INMULTICASTPKTS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, LASTCHANGE, INOCTETS]
+tipo de interfaznull vlan.0 null
+[DEVICEID, TIME, INTERFACEID, OPERATIVESTATUS, OUTUCASTPKTS, INMULTICASTPKTS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, LASTCHANGE, INOCTETS]
+tipo de interfaznull fe-0/0/5 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull fe-0/0/1 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull fe-0/0/5.0 null
+[DEVICEID, TIME, INTERFACEID, OPERATIVESTATUS, OUTUCASTPKTS, INMULTICASTPKTS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, LASTCHANGE, INOCTETS]
+tipo de interfaznull fe-0/0/1.0 null
+[DEVICEID, TIME, INTERFACEID, OPERATIVESTATUS, OUTUCASTPKTS, INMULTICASTPKTS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, LASTCHANGE, INOCTETS]
+tipo de interfaznull fe-0/0/6 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull fe-0/0/2 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull ppd0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull fe-0/0/2.0 null
+[DEVICEID, TIME, INTERFACEID, OPERATIVESTATUS, OUTUCASTPKTS, INMULTICASTPKTS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, LASTCHANGE, INOCTETS]
+tipo de interfaznull ppe0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull fe-0/0/3 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull st0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull fe-0/0/3.0 null
+[DEVICEID, TIME, INTERFACEID, OPERATIVESTATUS, OUTUCASTPKTS, INMULTICASTPKTS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, LASTCHANGE, INOCTETS]
+tipo de interfaznull vlan null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull fe-0/0/4 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull sp-0/0/0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull sp-0/0/0.0 null
+[DEVICEID, TIME, INTERFACEID, OPERATIVESTATUS, OUTUCASTPKTS, INMULTICASTPKTS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, LASTCHANGE, INOCTETS]
+tipo de interfaznull irb null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull gr-0/0/0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull ip-0/0/0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull pp0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull fe-0/0/6.0 null
+[DEVICEID, TIME, INTERFACEID, OPERATIVESTATUS, OUTUCASTPKTS, INMULTICASTPKTS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, LASTCHANGE, INOCTETS]
+tipo de interfaznull fe-0/0/7 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull fe-0/0/7.79 null
+[DEVICEID, TIME, INTERFACEID, OPERATIVESTATUS, OUTUCASTPKTS, INMULTICASTPKTS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, LASTCHANGE, INOCTETS]
+tipo de interfaznull fe-0/0/7.32767 null
+[DEVICEID, TIME, INTERFACEID, OPERATIVESTATUS, OUTUCASTPKTS, INMULTICASTPKTS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, LASTCHANGE, INOCTETS]
+tipo de interfaznull sp-0/0/0.16383 null
+[DEVICEID, TIME, INTERFACEID, OPERATIVESTATUS, OUTUCASTPKTS, INMULTICASTPKTS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, LASTCHANGE, INOCTETS]
+tipo de interfaznull lt-0/0/0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull mt-0/0/0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull lo0.32768 null
+[DEVICEID, TIME, INTERFACEID, OPERATIVESTATUS, OUTUCASTPKTS, INMULTICASTPKTS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, LASTCHANGE, INOCTETS]
+tipo de interfaznull fe-0/0/0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+drive a rpobar JUNIPER
+se esta ejecutando before
+en el testcom.gdc.nms.tester.client.Client@75a9883d reciver( agent-identifier :name Server@192.168.204.20-Platform  :addresses (sequence http://192.168.204.20:7778/acc ))
+resourcers List15
+TestInformed [junit=org.junit.runner.JUnitCore@5675b3ee, resulTest=org.junit.runner.Result@d44752d, ignoreCaseCount=0, failuresCaseCount=0, TestedCaseCount=2, getRuntimeCount=3882, failuresTrace=[]]
+driver Name cambiadoJUNIPER
+tester driverJUNIPER
+probando el JUNIPER
+TestInformed [junit=org.junit.runner.JUnitCore@5675b3ee, resulTest=org.junit.runner.Result@d44752d, ignoreCaseCount=0, failuresCaseCount=0, TestedCaseCount=2, getRuntimeCount=3882, failuresTrace=[]]---
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_VIRTUAL_MEMORY
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoDEVICE_PROCESSOR
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_RAM
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+no hay ipslastrue
+tipo de interfaznull lsi null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull lo0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull tap null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull gre null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull ipip null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull pime null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull pimd null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull mtun null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull lo0.16384 null
+[DEVICEID, TIME, INTERFACEID, OPERATIVESTATUS, OUTUCASTPKTS, INMULTICASTPKTS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, LASTCHANGE, INOCTETS]
+tipo de interfaznull lo0.16385 null
+[DEVICEID, TIME, INTERFACEID, OPERATIVESTATUS, OUTUCASTPKTS, INMULTICASTPKTS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, LASTCHANGE, INOCTETS]
+tipo de interfaznull sp-0/0/0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull vlan.0 null
+[DEVICEID, TIME, INTERFACEID, OPERATIVESTATUS, OUTUCASTPKTS, INMULTICASTPKTS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, LASTCHANGE, INOCTETS]
+tipo de interfaznull fe-0/0/2 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull fe-0/0/0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull gr-0/0/0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull fe-0/0/0.0 null
+[DEVICEID, TIME, INTERFACEID, OPERATIVESTATUS, OUTUCASTPKTS, INMULTICASTPKTS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, LASTCHANGE, INOCTETS]
+tipo de interfaznull fe-0/0/3 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull fe-0/0/4 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull irb null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull fe-0/0/5 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull ppd0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull fe-0/0/6 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull ppe0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull fe-0/0/7 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull vlan null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull fe-0/0/1 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull fe-0/0/7.32767 null
+[DEVICEID, TIME, INTERFACEID, OPERATIVESTATUS, OUTUCASTPKTS, INMULTICASTPKTS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, LASTCHANGE, INOCTETS]
+tipo de interfaznull sp-0/0/0.0 null
+[DEVICEID, TIME, INTERFACEID, OPERATIVESTATUS, OUTUCASTPKTS, INMULTICASTPKTS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, LASTCHANGE, INOCTETS]
+tipo de interfaznull lo0.32768 null
+[DEVICEID, TIME, INTERFACEID, OPERATIVESTATUS, OUTUCASTPKTS, INMULTICASTPKTS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, LASTCHANGE, INOCTETS]
+tipo de interfaznull sp-0/0/0.16383 null
+[DEVICEID, TIME, INTERFACEID, OPERATIVESTATUS, OUTUCASTPKTS, INMULTICASTPKTS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, LASTCHANGE, INOCTETS]
+tipo de interfaznull pp0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull st0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull ip-0/0/0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull mt-0/0/0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull lt-0/0/0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull fe-0/0/7.989 null
+[DEVICEID, TIME, INTERFACEID, OPERATIVESTATUS, OUTUCASTPKTS, INMULTICASTPKTS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, LASTCHANGE, INOCTETS]
+drive a rpobar JUNIPER
+se esta ejecutando before
+en el testcom.gdc.nms.tester.client.Client@75a9883d reciver( agent-identifier :name Server@192.168.204.20-Platform  :addresses (sequence http://192.168.204.20:7778/acc ))
+resourcers List15
+TestInformed [junit=org.junit.runner.JUnitCore@5675b3ee, resulTest=org.junit.runner.Result@4f88f506, ignoreCaseCount=0, failuresCaseCount=0, TestedCaseCount=2, getRuntimeCount=4606, failuresTrace=[]]
+driver Name cambiadoJUNIPER
+tester driverJUNIPER
+probando el JUNIPER
+TestInformed [junit=org.junit.runner.JUnitCore@5675b3ee, resulTest=org.junit.runner.Result@4f88f506, ignoreCaseCount=0, failuresCaseCount=0, TestedCaseCount=2, getRuntimeCount=4606, failuresTrace=[]]---
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_VIRTUAL_MEMORY
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoDEVICE_PROCESSOR
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_RAM
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+no hay ipslastrue
+tipo de interfaznull lsi null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull lo0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull tap null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull gre null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull ipip null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull pime null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull pimd null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull mtun null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull lo0.16384 null
+[DEVICEID, TIME, INTERFACEID, OPERATIVESTATUS, OUTUCASTPKTS, INMULTICASTPKTS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, LASTCHANGE, INOCTETS]
+tipo de interfaznull lo0.16385 null
+[DEVICEID, TIME, INTERFACEID, OPERATIVESTATUS, OUTUCASTPKTS, INMULTICASTPKTS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, LASTCHANGE, INOCTETS]
+tipo de interfaznull fe-0/0/2.0 null
+[DEVICEID, TIME, INTERFACEID, OPERATIVESTATUS, OUTUCASTPKTS, INMULTICASTPKTS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, LASTCHANGE, INOCTETS]
+tipo de interfaznull vlan.0 null
+[DEVICEID, TIME, INTERFACEID, OPERATIVESTATUS, OUTUCASTPKTS, INMULTICASTPKTS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, LASTCHANGE, INOCTETS]
+tipo de interfaznull fe-0/0/7 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull fe-0/0/0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull fe-0/0/3 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull fe-0/0/0.0 null
+[DEVICEID, TIME, INTERFACEID, OPERATIVESTATUS, OUTUCASTPKTS, INMULTICASTPKTS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, LASTCHANGE, INOCTETS]
+tipo de interfaznull fe-0/0/3.0 null
+[DEVICEID, TIME, INTERFACEID, OPERATIVESTATUS, OUTUCASTPKTS, INMULTICASTPKTS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, LASTCHANGE, INOCTETS]
+tipo de interfaznull fe-0/0/1 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull st0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull fe-0/0/1.0 null
+[DEVICEID, TIME, INTERFACEID, OPERATIVESTATUS, OUTUCASTPKTS, INMULTICASTPKTS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, LASTCHANGE, INOCTETS]
+tipo de interfaznull ppd0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull fe-0/0/5 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull ppe0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull fe-0/0/2 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull vlan null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull fe-0/0/6 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull fe-0/0/4.0 null
+[DEVICEID, TIME, INTERFACEID, OPERATIVESTATUS, OUTUCASTPKTS, INMULTICASTPKTS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, LASTCHANGE, INOCTETS]
+tipo de interfaznull mt-0/0/0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull lo0.32768 null
+[DEVICEID, TIME, INTERFACEID, OPERATIVESTATUS, OUTUCASTPKTS, INMULTICASTPKTS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, LASTCHANGE, INOCTETS]
+tipo de interfaznull lt-0/0/0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull pp0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull fe-0/0/5.0 null
+[DEVICEID, TIME, INTERFACEID, OPERATIVESTATUS, OUTUCASTPKTS, INMULTICASTPKTS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, LASTCHANGE, INOCTETS]
+tipo de interfaznull irb null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull sp-0/0/0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull gr-0/0/0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull fe-0/0/4 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull ip-0/0/0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull fe-0/0/7.32767 null
+[DEVICEID, TIME, INTERFACEID, OPERATIVESTATUS, OUTUCASTPKTS, INMULTICASTPKTS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, LASTCHANGE, INOCTETS]
+tipo de interfaznull fe-0/0/7.884 null
+[DEVICEID, TIME, INTERFACEID, OPERATIVESTATUS, OUTUCASTPKTS, INMULTICASTPKTS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, LASTCHANGE, INOCTETS]
+tipo de interfaznull fe-0/0/6.0 null
+[DEVICEID, TIME, INTERFACEID, OPERATIVESTATUS, OUTUCASTPKTS, INMULTICASTPKTS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, LASTCHANGE, INOCTETS]
+tipo de interfaznull sp-0/0/0.16383 null
+[DEVICEID, TIME, INTERFACEID, OPERATIVESTATUS, OUTUCASTPKTS, INMULTICASTPKTS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, LASTCHANGE, INOCTETS]
+tipo de interfaznull sp-0/0/0.0 null
+[DEVICEID, TIME, INTERFACEID, OPERATIVESTATUS, OUTUCASTPKTS, INMULTICASTPKTS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, LASTCHANGE, INOCTETS]
+probando dispositivos del driverRiverbedSteelhead.txt
+drive a rpobar RiverbedSteelhead.txt
+se esta ejecutando before
+en el testcom.gdc.nms.tester.client.Client@75a9883d reciver( agent-identifier :name Server@192.168.204.20-Platform  :addresses (sequence http://192.168.204.20:7778/acc ))
+resourcers List15
+TestInformed [junit=org.junit.runner.JUnitCore@3e617584, resulTest=org.junit.runner.Result@706a4d1a, ignoreCaseCount=0, failuresCaseCount=0, TestedCaseCount=2, getRuntimeCount=912, failuresTrace=[]]
+driver Name cambiadoRIVERBEDSTEELHEAD
+tester driverRIVERBEDSTEELHEAD
+probando el RIVERBEDSTEELHEAD
+TestInformed [junit=org.junit.runner.JUnitCore@3e617584, resulTest=org.junit.runner.Result@706a4d1a, ignoreCaseCount=0, failuresCaseCount=0, TestedCaseCount=2, getRuntimeCount=912, failuresTrace=[]]---
+tipo de recursoDEVICE_PROCESSOR
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_RAM
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_VIRTUAL_MEMORY
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_VIRTUAL_MEMORY
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+no hay ipslastrue
+tipo de interfaznull prirbtpipe null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull aux null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull primary null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull rbtpipe0_0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull rbtpipe0_1 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull prilan null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull lo null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull priwan null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull lan0_0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull wan0_0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull inpath0_0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull lan0_1 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull wan0_1 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull inpath0_1 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+drive a rpobar RIVERBEDSTEELHEAD
+se esta ejecutando before
+en el testcom.gdc.nms.tester.client.Client@75a9883d reciver( agent-identifier :name Server@192.168.204.20-Platform  :addresses (sequence http://192.168.204.20:7778/acc ))
+resourcers List15
+TestInformed [junit=org.junit.runner.JUnitCore@3e617584, resulTest=org.junit.runner.Result@1c2d5534, ignoreCaseCount=0, failuresCaseCount=0, TestedCaseCount=2, getRuntimeCount=509, failuresTrace=[]]
+driver Name cambiadoRIVERBEDSTEELHEAD
+tester driverRIVERBEDSTEELHEAD
+probando el RIVERBEDSTEELHEAD
+TestInformed [junit=org.junit.runner.JUnitCore@3e617584, resulTest=org.junit.runner.Result@1c2d5534, ignoreCaseCount=0, failuresCaseCount=0, TestedCaseCount=2, getRuntimeCount=509, failuresTrace=[]]---
+tipo de recursoDEVICE_PROCESSOR
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_RAM
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_VIRTUAL_MEMORY
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_VIRTUAL_MEMORY
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+no hay ipslastrue
+tipo de interfaznull prirbtpipe null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull aux null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull primary null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull rbtpipe0_0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull rbtpipe0_1 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull prilan null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull lo null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull priwan null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull lan0_0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull wan0_0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull inpath0_0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull lan0_1 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull wan0_1 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull inpath0_1 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+drive a rpobar RIVERBEDSTEELHEAD
+se esta ejecutando before
+en el testcom.gdc.nms.tester.client.Client@75a9883d reciver( agent-identifier :name Server@192.168.204.20-Platform  :addresses (sequence http://192.168.204.20:7778/acc ))
+resourcers List15
+TestInformed [junit=org.junit.runner.JUnitCore@3e617584, resulTest=org.junit.runner.Result@7a6dd8e1, ignoreCaseCount=0, failuresCaseCount=0, TestedCaseCount=2, getRuntimeCount=2131, failuresTrace=[]]
+driver Name cambiadoRIVERBEDSTEELHEAD
+tester driverRIVERBEDSTEELHEAD
+probando el RIVERBEDSTEELHEAD
+TestInformed [junit=org.junit.runner.JUnitCore@3e617584, resulTest=org.junit.runner.Result@7a6dd8e1, ignoreCaseCount=0, failuresCaseCount=0, TestedCaseCount=2, getRuntimeCount=2131, failuresTrace=[]]---
+tipo de recursoDEVICE_PROCESSOR
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_RAM
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_VIRTUAL_MEMORY
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_VIRTUAL_MEMORY
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+no hay ipslastrue
+tipo de interfaznull prirbtpipe null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull aux null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull primary null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull rbtpipe0_0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull rbtpipe0_1 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull prilan null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull lo null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull priwan null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull lan0_0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull wan0_0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull inpath0_0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull lan0_1 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull wan0_1 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull inpath0_1 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+drive a rpobar RIVERBEDSTEELHEAD
+se esta ejecutando before
+en el testcom.gdc.nms.tester.client.Client@75a9883d reciver( agent-identifier :name Server@192.168.204.20-Platform  :addresses (sequence http://192.168.204.20:7778/acc ))
+resourcers List15
+TestInformed [junit=org.junit.runner.JUnitCore@3e617584, resulTest=org.junit.runner.Result@7f205d8d, ignoreCaseCount=0, failuresCaseCount=0, TestedCaseCount=2, getRuntimeCount=1239, failuresTrace=[]]
+driver Name cambiadoRIVERBEDSTEELHEAD
+tester driverRIVERBEDSTEELHEAD
+probando el RIVERBEDSTEELHEAD
+TestInformed [junit=org.junit.runner.JUnitCore@3e617584, resulTest=org.junit.runner.Result@7f205d8d, ignoreCaseCount=0, failuresCaseCount=0, TestedCaseCount=2, getRuntimeCount=1239, failuresTrace=[]]---
+tipo de recursoDEVICE_PROCESSOR
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_RAM
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_VIRTUAL_MEMORY
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_VIRTUAL_MEMORY
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+no hay ipslastrue
+tipo de interfaznull prirbtpipe null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull aux null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull primary null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull rbtpipe0_0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull rbtpipe0_1 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull prilan null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull lo null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull priwan null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull lan0_0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull wan0_0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull inpath0_0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull lan0_1 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull wan0_1 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull inpath0_1 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+drive a rpobar RIVERBEDSTEELHEAD
+se esta ejecutando before
+en el testcom.gdc.nms.tester.client.Client@75a9883d reciver( agent-identifier :name Server@192.168.204.20-Platform  :addresses (sequence http://192.168.204.20:7778/acc ))
+resourcers List15
+TestInformed [junit=org.junit.runner.JUnitCore@3e617584, resulTest=org.junit.runner.Result@31455cf4, ignoreCaseCount=0, failuresCaseCount=0, TestedCaseCount=2, getRuntimeCount=448, failuresTrace=[]]
+driver Name cambiadoRIVERBEDSTEELHEAD
+tester driverRIVERBEDSTEELHEAD
+probando el RIVERBEDSTEELHEAD
+TestInformed [junit=org.junit.runner.JUnitCore@3e617584, resulTest=org.junit.runner.Result@31455cf4, ignoreCaseCount=0, failuresCaseCount=0, TestedCaseCount=2, getRuntimeCount=448, failuresTrace=[]]---
+tipo de recursoDEVICE_PROCESSOR
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_RAM
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_VIRTUAL_MEMORY
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_VIRTUAL_MEMORY
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+no hay ipslastrue
+tipo de interfaznull prirbtpipe null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull aux null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull primary null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull rbtpipe0_0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull rbtpipe0_1 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull prilan null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull lo null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull priwan null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull lan0_0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull wan0_0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull inpath0_0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull lan0_1 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull wan0_1 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull inpath0_1 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+probando dispositivos del driverGenericandpingonlystats.txt
+drive a rpobar Genericandpingonlystats.txt
+se esta ejecutando before
+en el testcom.gdc.nms.tester.client.Client@75a9883d reciver( agent-identifier :name Server@192.168.204.20-Platform  :addresses (sequence http://192.168.204.20:7778/acc ))
+resourcers List18
+TestInformed [junit=org.junit.runner.JUnitCore@3a4c585f, resulTest=org.junit.runner.Result@6a3de2df, ignoreCaseCount=0, failuresCaseCount=0, TestedCaseCount=2, getRuntimeCount=2097, failuresTrace=[]]
+driver Name cambiadoGENERICANDPINGONLYSTATS
+tester driverGENERICANDPINGONLYSTATS
+probando el GENERICANDPINGONLYSTATS
+TestInformed [junit=org.junit.runner.JUnitCore@3a4c585f, resulTest=org.junit.runner.Result@6a3de2df, ignoreCaseCount=0, failuresCaseCount=0, TestedCaseCount=2, getRuntimeCount=2097, failuresTrace=[]]---
+tipo de recursoDEVICE_PROCESSOR
+ key: [DEVICEID, TIME, DEVICERESOURCEID]
+tipo de recursoDEVICE_PROCESSOR
+ key: [DEVICEID, TIME, DEVICERESOURCEID]
+tipo de recursoDEVICE_PROCESSOR
+ key: [DEVICEID, TIME, DEVICERESOURCEID]
+tipo de recursoDEVICE_PROCESSOR
+ key: [DEVICEID, TIME, DEVICERESOURCEID]
+tipo de recursoDEVICE_PROCESSOR
+ key: [DEVICEID, TIME, DEVICERESOURCEID]
+tipo de recursoDEVICE_PROCESSOR
+ key: [DEVICEID, TIME, DEVICERESOURCEID]
+tipo de recursoDEVICE_PROCESSOR
+ key: [DEVICEID, TIME, DEVICERESOURCEID]
+tipo de recursoDEVICE_PROCESSOR
+ key: [DEVICEID, TIME, DEVICERESOURCEID]
+tipo de recursoSTORAGE_RAM
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_VIRTUAL_MEMORY
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+no hay ipslastrue
+tipo de interfaznull lo null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull primary null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull aux null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull wan0_0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull lan0_0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull wan0_1 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull lan0_1 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull wan1_0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull lan1_0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull wan2_0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull lan2_0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull inpath0_0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull inpath0_1 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull inpath1_0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull inpath2_0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+drive a rpobar GENERICANDPINGONLYSTATS
+se esta ejecutando before
+en el testcom.gdc.nms.tester.client.Client@75a9883d reciver( agent-identifier :name Server@192.168.204.20-Platform  :addresses (sequence http://192.168.204.20:7778/acc ))
+resourcers List18
+TestInformed [junit=org.junit.runner.JUnitCore@3a4c585f, resulTest=org.junit.runner.Result@5dee69d3, ignoreCaseCount=0, failuresCaseCount=0, TestedCaseCount=2, getRuntimeCount=1302, failuresTrace=[]]
+driver Name cambiadoGENERICANDPINGONLYSTATS
+tester driverGENERICANDPINGONLYSTATS
+probando el GENERICANDPINGONLYSTATS
+TestInformed [junit=org.junit.runner.JUnitCore@3a4c585f, resulTest=org.junit.runner.Result@5dee69d3, ignoreCaseCount=0, failuresCaseCount=0, TestedCaseCount=2, getRuntimeCount=1302, failuresTrace=[]]---
+tipo de recursoDEVICE_PROCESSOR
+ key: [DEVICEID, TIME, DEVICERESOURCEID]
+tipo de recursoDEVICE_PROCESSOR
+ key: [DEVICEID, TIME, DEVICERESOURCEID]
+tipo de recursoDEVICE_PROCESSOR
+ key: [DEVICEID, TIME, DEVICERESOURCEID]
+tipo de recursoDEVICE_PROCESSOR
+ key: [DEVICEID, TIME, DEVICERESOURCEID]
+tipo de recursoDEVICE_PROCESSOR
+ key: [DEVICEID, TIME, DEVICERESOURCEID]
+tipo de recursoDEVICE_PROCESSOR
+ key: [DEVICEID, TIME, DEVICERESOURCEID]
+tipo de recursoDEVICE_PROCESSOR
+ key: [DEVICEID, TIME, DEVICERESOURCEID]
+tipo de recursoDEVICE_PROCESSOR
+ key: [DEVICEID, TIME, DEVICERESOURCEID]
+tipo de recursoSTORAGE_RAM
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_VIRTUAL_MEMORY
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+no hay ipslastrue
+tipo de interfaznull lo null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull primary null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull aux null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull wan0_0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull lan0_0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull wan0_1 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull lan0_1 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull wan1_0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull lan1_0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull wan2_0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull lan2_0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull inpath0_0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull inpath0_1 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull inpath1_0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull inpath2_0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+drive a rpobar GENERICANDPINGONLYSTATS
+se esta ejecutando before
+en el testcom.gdc.nms.tester.client.Client@75a9883d reciver( agent-identifier :name Server@192.168.204.20-Platform  :addresses (sequence http://192.168.204.20:7778/acc ))
+resourcers List7
+TestInformed [junit=org.junit.runner.JUnitCore@3a4c585f, resulTest=org.junit.runner.Result@7a66998f, ignoreCaseCount=0, failuresCaseCount=0, TestedCaseCount=2, getRuntimeCount=53650, failuresTrace=[]]
+driver Name cambiadoGENERICANDPINGONLYSTATS
+tester driverGENERICANDPINGONLYSTATS
+probando el GENERICANDPINGONLYSTATS
+TestInformed [junit=org.junit.runner.JUnitCore@3a4c585f, resulTest=org.junit.runner.Result@7a66998f, ignoreCaseCount=0, failuresCaseCount=0, TestedCaseCount=2, getRuntimeCount=53650, failuresTrace=[]]---
+com.gdc.nms.tester.common.exception.TimeoutException
+	at com.gdc.nms.tester.client.ClientAgent.sendTask(ClientAgent.java:119)
+	at com.gdc.nms.tester.client.ClientAgent.getDeviceIpSlas(ClientAgent.java:74)
+	at com.gdc.nms.tester.client.Client.getDeviceIpSlas(Client.java:212)
+	at com.gdc.nms.test.runner.ClientManager.getIpSlas(ClientManager.java:72)
+	at com.gdc.nms.test.especific.process.GenericDriverTest.haveIpSlasStadistic(GenericDriverTest.java:64)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:94)
+	at com.gdc.nms.test.runner.TestInformed.runTestClass(TestInformed.java:19)
+	at com.gdc.nms.test.RunTest.runTestByEspecific(RunTest.java:374)
+	at com.gdc.nms.test.RunTest.runAllTest(RunTest.java:278)
+	at com.gdc.nms.test.RunTest.main(RunTest.java:609)
+drive a rpobar GENERICANDPINGONLYSTATS
+se esta ejecutando before
+en el testcom.gdc.nms.tester.client.Client@75a9883d reciver( agent-identifier :name Server@192.168.204.20-Platform  :addresses (sequence http://192.168.204.20:7778/acc ))
+resourcers List7
+TestInformed [junit=org.junit.runner.JUnitCore@3a4c585f, resulTest=org.junit.runner.Result@b90ffa7, ignoreCaseCount=0, failuresCaseCount=0, TestedCaseCount=2, getRuntimeCount=79502, failuresTrace=[]]
+driver Name cambiadoGENERICANDPINGONLYSTATS
+tester driverGENERICANDPINGONLYSTATS
+probando el GENERICANDPINGONLYSTATS
+TestInformed [junit=org.junit.runner.JUnitCore@3a4c585f, resulTest=org.junit.runner.Result@b90ffa7, ignoreCaseCount=0, failuresCaseCount=0, TestedCaseCount=2, getRuntimeCount=79502, failuresTrace=[]]---
+com.gdc.nms.tester.common.exception.TimeoutException
+	at com.gdc.nms.tester.client.ClientAgent.sendTask(ClientAgent.java:119)
+	at com.gdc.nms.tester.client.ClientAgent.getDeviceIpSlas(ClientAgent.java:74)
+	at com.gdc.nms.tester.client.Client.getDeviceIpSlas(Client.java:212)
+	at com.gdc.nms.test.runner.ClientManager.getIpSlas(ClientManager.java:72)
+	at com.gdc.nms.test.especific.process.GenericDriverTest.haveIpSlasStadistic(GenericDriverTest.java:64)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:94)
+	at com.gdc.nms.test.runner.TestInformed.runTestClass(TestInformed.java:19)
+	at com.gdc.nms.test.RunTest.runTestByEspecific(RunTest.java:374)
+	at com.gdc.nms.test.RunTest.runAllTest(RunTest.java:278)
+	at com.gdc.nms.test.RunTest.main(RunTest.java:609)
+drive a rpobar GENERICANDPINGONLYSTATS
+se esta ejecutando before
+en el testcom.gdc.nms.tester.client.Client@75a9883d reciver( agent-identifier :name Server@192.168.204.20-Platform  :addresses (sequence http://192.168.204.20:7778/acc ))
+resourcers List7
+TestInformed [junit=org.junit.runner.JUnitCore@3a4c585f, resulTest=org.junit.runner.Result@180fb0b0, ignoreCaseCount=0, failuresCaseCount=1, TestedCaseCount=2, getRuntimeCount=67432, failuresTrace=[TestInterface(com.gdc.nms.test.TestDevice): Timeout]]
+probando dispositivos del driverEmersonUPS(Unitronics).txt
+drive a rpobar EmersonUPS(Unitronics).txt
+se esta ejecutando before
+en el testcom.gdc.nms.tester.client.Client@75a9883d reciver( agent-identifier :name Server@192.168.204.20-Platform  :addresses (sequence http://192.168.204.20:7778/acc ))
+resourcers List22
+TestInformed [junit=org.junit.runner.JUnitCore@1277f040, resulTest=org.junit.runner.Result@3e0339, ignoreCaseCount=0, failuresCaseCount=1, TestedCaseCount=2, getRuntimeCount=2772, failuresTrace=[TestInterface(com.gdc.nms.test.TestDevice): no existen interfaces]]
+drive a rpobar EmersonUPS(Unitronics).txt
+se esta ejecutando before
+en el testcom.gdc.nms.tester.client.Client@75a9883d reciver( agent-identifier :name Server@192.168.204.20-Platform  :addresses (sequence http://192.168.204.20:7778/acc ))
+resourcers List22
+TestInformed [junit=org.junit.runner.JUnitCore@1277f040, resulTest=org.junit.runner.Result@28176ee6, ignoreCaseCount=0, failuresCaseCount=1, TestedCaseCount=2, getRuntimeCount=2493, failuresTrace=[TestInterface(com.gdc.nms.test.TestDevice): no existen interfaces]]
+drive a rpobar EmersonUPS(Unitronics).txt
+se esta ejecutando before
+en el testcom.gdc.nms.tester.client.Client@75a9883d reciver( agent-identifier :name Server@192.168.204.20-Platform  :addresses (sequence http://192.168.204.20:7778/acc ))
+resourcers List22
+TestInformed [junit=org.junit.runner.JUnitCore@1277f040, resulTest=org.junit.runner.Result@7991ba7, ignoreCaseCount=0, failuresCaseCount=1, TestedCaseCount=2, getRuntimeCount=2796, failuresTrace=[TestInterface(com.gdc.nms.test.TestDevice): no existen interfaces]]
+drive a rpobar EmersonUPS(Unitronics).txt
+se esta ejecutando before
+en el testcom.gdc.nms.tester.client.Client@75a9883d reciver( agent-identifier :name Server@192.168.204.20-Platform  :addresses (sequence http://192.168.204.20:7778/acc ))
+resourcers List22
+TestInformed [junit=org.junit.runner.JUnitCore@1277f040, resulTest=org.junit.runner.Result@c92015d, ignoreCaseCount=0, failuresCaseCount=1, TestedCaseCount=2, getRuntimeCount=2794, failuresTrace=[TestInterface(com.gdc.nms.test.TestDevice): no existen interfaces]]
+drive a rpobar EmersonUPS(Unitronics).txt
+se esta ejecutando before
+en el testcom.gdc.nms.tester.client.Client@75a9883d reciver( agent-identifier :name Server@192.168.204.20-Platform  :addresses (sequence http://192.168.204.20:7778/acc ))
+resourcers List22
+TestInformed [junit=org.junit.runner.JUnitCore@1277f040, resulTest=org.junit.runner.Result@3643b5bb, ignoreCaseCount=0, failuresCaseCount=1, TestedCaseCount=2, getRuntimeCount=1983, failuresTrace=[TestInterface(com.gdc.nms.test.TestDevice): no existen interfaces]]
+probando dispositivos del driverHuaweiAR1220 2220 2240.txt
+drive a rpobar HuaweiAR1220 2220 2240.txt
+se esta ejecutando before
+en el testcom.gdc.nms.tester.client.Client@75a9883d reciver( agent-identifier :name Server@192.168.204.20-Platform  :addresses (sequence http://192.168.204.20:7778/acc ))
+resourcers List3
+TestInformed [junit=org.junit.runner.JUnitCore@466481eb, resulTest=org.junit.runner.Result@708d8f67, ignoreCaseCount=0, failuresCaseCount=0, TestedCaseCount=2, getRuntimeCount=2688, failuresTrace=[]]
+driver Name cambiadoHUAWEIAR1220_2220_2240
+tester driverHUAWEIAR1220_2220_2240
+probando el HUAWEIAR1220_2220_2240
+TestInformed [junit=org.junit.runner.JUnitCore@466481eb, resulTest=org.junit.runner.Result@708d8f67, ignoreCaseCount=0, failuresCaseCount=0, TestedCaseCount=2, getRuntimeCount=2688, failuresTrace=[]]---
+tipo de recursoDEVICE_PROCESSOR
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_RAM
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoBGP_SESSION
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+no hay ipslastrue
+tipo de interfaznull InLoopBack0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull NULL0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull GigabitEthernet0/0/0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull GigabitEthernet0/0/1 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull GigabitEthernet0/0/2 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Cellular0/0/0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Cellular0/0/1 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull GigabitEthernet0/0/0.131 null
+[DEVICEID, TIME, INTERFACEID, OPERATIVESTATUS, OUTUCASTPKTS, INMULTICASTPKTS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, LASTCHANGE, INOCTETS]
+tipo de interfaznull Tunnel0/0/0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull LoopBack0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull LoopBack28 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull GigabitEthernet0/0/0.3039 null
+[DEVICEID, TIME, INTERFACEID, OPERATIVESTATUS, OUTUCASTPKTS, INMULTICASTPKTS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, LASTCHANGE, INOCTETS]
+drive a rpobar HUAWEIAR1220_2220_2240
+se esta ejecutando before
+en el testcom.gdc.nms.tester.client.Client@75a9883d reciver( agent-identifier :name Server@192.168.204.20-Platform  :addresses (sequence http://192.168.204.20:7778/acc ))
+resourcers List3
+TestInformed [junit=org.junit.runner.JUnitCore@466481eb, resulTest=org.junit.runner.Result@7ca53564, ignoreCaseCount=0, failuresCaseCount=0, TestedCaseCount=2, getRuntimeCount=1786, failuresTrace=[]]
+driver Name cambiadoHUAWEIAR1220_2220_2240
+tester driverHUAWEIAR1220_2220_2240
+probando el HUAWEIAR1220_2220_2240
+TestInformed [junit=org.junit.runner.JUnitCore@466481eb, resulTest=org.junit.runner.Result@7ca53564, ignoreCaseCount=0, failuresCaseCount=0, TestedCaseCount=2, getRuntimeCount=1786, failuresTrace=[]]---
+tipo de recursoDEVICE_PROCESSOR
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_RAM
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoBGP_SESSION
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+no hay ipslastrue
+tipo de interfaznull InLoopBack0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull NULL0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull GigabitEthernet0/0/0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull GigabitEthernet0/0/1 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull GigabitEthernet0/0/2 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Cellular0/0/0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Cellular0/0/1 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull GigabitEthernet0/0/0.287 null
+[DEVICEID, TIME, INTERFACEID, OPERATIVESTATUS, OUTUCASTPKTS, INMULTICASTPKTS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, LASTCHANGE, INOCTETS]
+tipo de interfaznull Tunnel0/0/1 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull GigabitEthernet0/0/0.3036 null
+[DEVICEID, TIME, INTERFACEID, OPERATIVESTATUS, OUTUCASTPKTS, INMULTICASTPKTS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, LASTCHANGE, INOCTETS]
+tipo de interfaznull LoopBack28 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+drive a rpobar HUAWEIAR1220_2220_2240
+se esta ejecutando before
+en el testcom.gdc.nms.tester.client.Client@75a9883d reciver( agent-identifier :name Server@192.168.204.20-Platform  :addresses (sequence http://192.168.204.20:7778/acc ))
+resourcers List4
+TestInformed [junit=org.junit.runner.JUnitCore@466481eb, resulTest=org.junit.runner.Result@34768dc8, ignoreCaseCount=0, failuresCaseCount=0, TestedCaseCount=2, getRuntimeCount=1939, failuresTrace=[]]
+driver Name cambiadoHUAWEIAR1220_2220_2240
+tester driverHUAWEIAR1220_2220_2240
+probando el HUAWEIAR1220_2220_2240
+TestInformed [junit=org.junit.runner.JUnitCore@466481eb, resulTest=org.junit.runner.Result@34768dc8, ignoreCaseCount=0, failuresCaseCount=0, TestedCaseCount=2, getRuntimeCount=1939, failuresTrace=[]]---
+tipo de recursoDEVICE_PROCESSOR
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_RAM
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoBGP_SESSION
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoBGP_SESSION
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+no hay ipslastrue
+tipo de interfaznull InLoopBack0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull NULL0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull GigabitEthernet0/0/0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull GigabitEthernet0/0/1 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull GigabitEthernet0/0/2 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Cellular0/0/0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Cellular0/0/1 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Tunnel0/0/1 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull GigabitEthernet0/0/0.1121 null
+[DEVICEID, TIME, INTERFACEID, OPERATIVESTATUS, OUTUCASTPKTS, INMULTICASTPKTS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, LASTCHANGE, INOCTETS]
+tipo de interfaznull GigabitEthernet0/0/0.3018 null
+[DEVICEID, TIME, INTERFACEID, OPERATIVESTATUS, OUTUCASTPKTS, INMULTICASTPKTS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, LASTCHANGE, INOCTETS]
+tipo de interfaznull LoopBack28 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+drive a rpobar HUAWEIAR1220_2220_2240
+se esta ejecutando before
+en el testcom.gdc.nms.tester.client.Client@75a9883d reciver( agent-identifier :name Server@192.168.204.20-Platform  :addresses (sequence http://192.168.204.20:7778/acc ))
+resourcers List4
+TestInformed [junit=org.junit.runner.JUnitCore@466481eb, resulTest=org.junit.runner.Result@3085a863, ignoreCaseCount=0, failuresCaseCount=0, TestedCaseCount=2, getRuntimeCount=3574, failuresTrace=[]]
+driver Name cambiadoHUAWEIAR1220_2220_2240
+tester driverHUAWEIAR1220_2220_2240
+probando el HUAWEIAR1220_2220_2240
+TestInformed [junit=org.junit.runner.JUnitCore@466481eb, resulTest=org.junit.runner.Result@3085a863, ignoreCaseCount=0, failuresCaseCount=0, TestedCaseCount=2, getRuntimeCount=3574, failuresTrace=[]]---
+tipo de recursoDEVICE_PROCESSOR
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_RAM
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoBGP_SESSION
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoBGP_SESSION
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+no hay ipslastrue
+tipo de interfaznull InLoopBack0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull NULL0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull GigabitEthernet0/0/0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull GigabitEthernet0/0/1 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull GigabitEthernet0/0/2 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Cellular0/0/0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Cellular0/0/1 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull GigabitEthernet0/0/0.137 null
+[DEVICEID, TIME, INTERFACEID, OPERATIVESTATUS, OUTUCASTPKTS, INMULTICASTPKTS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, LASTCHANGE, INOCTETS]
+tipo de interfaznull Tunnel0/0/1 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull GigabitEthernet0/0/0.3002 null
+[DEVICEID, TIME, INTERFACEID, OPERATIVESTATUS, OUTUCASTPKTS, INMULTICASTPKTS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, LASTCHANGE, INOCTETS]
+tipo de interfaznull LoopBack28 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+drive a rpobar HUAWEIAR1220_2220_2240
+se esta ejecutando before
+en el testcom.gdc.nms.tester.client.Client@75a9883d reciver( agent-identifier :name Server@192.168.204.20-Platform  :addresses (sequence http://192.168.204.20:7778/acc ))
+resourcers List4
+TestInformed [junit=org.junit.runner.JUnitCore@466481eb, resulTest=org.junit.runner.Result@12133926, ignoreCaseCount=0, failuresCaseCount=0, TestedCaseCount=2, getRuntimeCount=1790, failuresTrace=[]]
+driver Name cambiadoHUAWEIAR1220_2220_2240
+tester driverHUAWEIAR1220_2220_2240
+probando el HUAWEIAR1220_2220_2240
+TestInformed [junit=org.junit.runner.JUnitCore@466481eb, resulTest=org.junit.runner.Result@12133926, ignoreCaseCount=0, failuresCaseCount=0, TestedCaseCount=2, getRuntimeCount=1790, failuresTrace=[]]---
+tipo de recursoDEVICE_PROCESSOR
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_RAM
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoBGP_SESSION
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoBGP_SESSION
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+no hay ipslastrue
+tipo de interfaznull InLoopBack0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull NULL0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull GigabitEthernet0/0/0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull GigabitEthernet0/0/1 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull GigabitEthernet0/0/2 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Cellular0/0/0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Cellular0/0/1 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull GigabitEthernet0/0/0.139 null
+[DEVICEID, TIME, INTERFACEID, OPERATIVESTATUS, OUTUCASTPKTS, INMULTICASTPKTS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, LASTCHANGE, INOCTETS]
+tipo de interfaznull Tunnel0/0/1 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull GigabitEthernet0/0/0.3006 null
+[DEVICEID, TIME, INTERFACEID, OPERATIVESTATUS, OUTUCASTPKTS, INMULTICASTPKTS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, LASTCHANGE, INOCTETS]
+tipo de interfaznull LoopBack28 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+probando dispositivos del driverImageStream(Net-SNMP Linux).txt
+drive a rpobar ImageStream(Net-SNMP Linux).txt
+se esta ejecutando before
+en el testcom.gdc.nms.tester.client.Client@75a9883d reciver( agent-identifier :name Server@192.168.204.20-Platform  :addresses (sequence http://192.168.204.20:7778/acc ))
+resourcers List7
+TestInformed [junit=org.junit.runner.JUnitCore@7f7c3056, resulTest=org.junit.runner.Result@32499f7d, ignoreCaseCount=0, failuresCaseCount=0, TestedCaseCount=2, getRuntimeCount=4840, failuresTrace=[]]
+driver Name cambiadoIMAGESTREAM_NET_SNMP_LINUX
+tester driverIMAGESTREAM_NET_SNMP_LINUX
+probando el IMAGESTREAM_NET_SNMP_LINUX
+TestInformed [junit=org.junit.runner.JUnitCore@7f7c3056, resulTest=org.junit.runner.Result@32499f7d, ignoreCaseCount=0, failuresCaseCount=0, TestedCaseCount=2, getRuntimeCount=4840, failuresTrace=[]]---
+tipo de recursoDEVICE_PROCESSOR
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_RAM
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_VIRTUAL_MEMORY
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_VIRTUAL_MEMORY
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_FIXED_DISK
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+no hay ipslastrue
+tipo de interfaznull lo null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull tunl0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull sit0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull ip6tnl0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull eth0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull eth1 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull eth2 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull eth3 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull eth4 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull eth5 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Serial0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull dummy0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull dummy1 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull dummy2 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Tunnel1 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Tunnel3 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Tunnel2 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Tunnel5 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Tunnel4 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Tunnel7 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Tunnel6 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Tunnel12 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Tunnel8 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Tunnel9 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull gre0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Tunnel11 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Tunnel10 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Tunnel14 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Tunnel13 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Tunnel16 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Tunnel15 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Tunnel19 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Tunnel20 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Tunnel17 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Tunnel18 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Tunnel23 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Tunnel24 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Tunnel21 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Tunnel22 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Tunnel28 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Tunnel29 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Tunnel25 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Tunnel27 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Tunnel33 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Tunnel34 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Tunnel31 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Tunnel32 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Tunnel39 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Tunnel37 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Tunnel36 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Tunnel35 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Tunnel43 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Tunnel42 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Tunnel41 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Tunnel40 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Tunnel47 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Tunnel46 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Tunnel45 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Tunnel44 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull dummy3 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Tunnel50 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Tunnel49 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Tunnel48 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+probando dispositivos del driverGDCTelecontroller.txt
+drive a rpobar GDCTelecontroller.txt
+se esta ejecutando before
+en el testcom.gdc.nms.tester.client.Client@75a9883d reciver( agent-identifier :name Server@192.168.204.20-Platform  :addresses (sequence http://192.168.204.20:7778/acc ))
+TestInformed [junit=org.junit.runner.JUnitCore@4af08d0f, resulTest=org.junit.runner.Result@76bcfa38, ignoreCaseCount=0, failuresCaseCount=2, TestedCaseCount=2, getRuntimeCount=100007, failuresTrace=[testResource(com.gdc.nms.test.TestDevice): null, TestInterface(com.gdc.nms.test.TestDevice): null]]
+drive a rpobar GDCTelecontroller.txt
+se esta ejecutando before
+en el testcom.gdc.nms.tester.client.Client@75a9883d reciver( agent-identifier :name Server@192.168.204.20-Platform  :addresses (sequence http://192.168.204.20:7778/acc ))
+TestInformed [junit=org.junit.runner.JUnitCore@4af08d0f, resulTest=org.junit.runner.Result@1b1f1f12, ignoreCaseCount=0, failuresCaseCount=2, TestedCaseCount=2, getRuntimeCount=100052, failuresTrace=[testResource(com.gdc.nms.test.TestDevice): null, TestInterface(com.gdc.nms.test.TestDevice): null]]
+drive a rpobar GDCTelecontroller.txt
+se esta ejecutando before
+en el testcom.gdc.nms.tester.client.Client@75a9883d reciver( agent-identifier :name Server@192.168.204.20-Platform  :addresses (sequence http://192.168.204.20:7778/acc ))
+TestInformed [junit=org.junit.runner.JUnitCore@4af08d0f, resulTest=org.junit.runner.Result@3ba5016, ignoreCaseCount=0, failuresCaseCount=2, TestedCaseCount=2, getRuntimeCount=100060, failuresTrace=[testResource(com.gdc.nms.test.TestDevice): null, TestInterface(com.gdc.nms.test.TestDevice): null]]
+drive a rpobar GDCTelecontroller.txt
+se esta ejecutando before
+en el testcom.gdc.nms.tester.client.Client@75a9883d reciver( agent-identifier :name Server@192.168.204.20-Platform  :addresses (sequence http://192.168.204.20:7778/acc ))
+TestInformed [junit=org.junit.runner.JUnitCore@4af08d0f, resulTest=org.junit.runner.Result@60396ed8, ignoreCaseCount=0, failuresCaseCount=2, TestedCaseCount=2, getRuntimeCount=100006, failuresTrace=[testResource(com.gdc.nms.test.TestDevice): null, TestInterface(com.gdc.nms.test.TestDevice): null]]
+probando dispositivos del driverImageStream.txt
+drive a rpobar ImageStream.txt
+se esta ejecutando before
+en el testcom.gdc.nms.tester.client.Client@75a9883d reciver( agent-identifier :name Server@192.168.204.20-Platform  :addresses (sequence http://192.168.204.20:7778/acc ))
+TestInformed [junit=org.junit.runner.JUnitCore@1652d654, resulTest=org.junit.runner.Result@1875303f, ignoreCaseCount=0, failuresCaseCount=2, TestedCaseCount=2, getRuntimeCount=100004, failuresTrace=[testResource(com.gdc.nms.test.TestDevice): null, TestInterface(com.gdc.nms.test.TestDevice): null]]
+drive a rpobar ImageStream.txt
+se esta ejecutando before
+en el testcom.gdc.nms.tester.client.Client@75a9883d reciver( agent-identifier :name Server@192.168.204.20-Platform  :addresses (sequence http://192.168.204.20:7778/acc ))
+TestInformed [junit=org.junit.runner.JUnitCore@1652d654, resulTest=org.junit.runner.Result@4eb0a518, ignoreCaseCount=0, failuresCaseCount=2, TestedCaseCount=2, getRuntimeCount=100008, failuresTrace=[testResource(com.gdc.nms.test.TestDevice): null, TestInterface(com.gdc.nms.test.TestDevice): null]]
+drive a rpobar ImageStream.txt
+se esta ejecutando before
+en el testcom.gdc.nms.tester.client.Client@75a9883d reciver( agent-identifier :name Server@192.168.204.20-Platform  :addresses (sequence http://192.168.204.20:7778/acc ))
+TestInformed [junit=org.junit.runner.JUnitCore@1652d654, resulTest=org.junit.runner.Result@99846fd, ignoreCaseCount=0, failuresCaseCount=2, TestedCaseCount=2, getRuntimeCount=100005, failuresTrace=[testResource(com.gdc.nms.test.TestDevice): null, TestInterface(com.gdc.nms.test.TestDevice): null]]
+drive a rpobar ImageStream.txt
+se esta ejecutando before
+en el testcom.gdc.nms.tester.client.Client@75a9883d reciver( agent-identifier :name Server@192.168.204.20-Platform  :addresses (sequence http://192.168.204.20:7778/acc ))
+TestInformed [junit=org.junit.runner.JUnitCore@1652d654, resulTest=org.junit.runner.Result@826b12d, ignoreCaseCount=0, failuresCaseCount=2, TestedCaseCount=2, getRuntimeCount=100021, failuresTrace=[testResource(com.gdc.nms.test.TestDevice): null, TestInterface(com.gdc.nms.test.TestDevice): null]]
+drive a rpobar ImageStream.txt
+se esta ejecutando before
+en el testcom.gdc.nms.tester.client.Client@75a9883d reciver( agent-identifier :name Server@192.168.204.20-Platform  :addresses (sequence http://192.168.204.20:7778/acc ))
+TestInformed [junit=org.junit.runner.JUnitCore@1652d654, resulTest=org.junit.runner.Result@3efe0ce9, ignoreCaseCount=0, failuresCaseCount=2, TestedCaseCount=2, getRuntimeCount=100005, failuresTrace=[testResource(com.gdc.nms.test.TestDevice): null, TestInterface(com.gdc.nms.test.TestDevice): null]]
+probando dispositivos del driverCisco.txt
+drive a rpobar Cisco.txt
+se esta ejecutando before
+en el testcom.gdc.nms.tester.client.Client@75a9883d reciver( agent-identifier :name Server@192.168.204.20-Platform  :addresses (sequence http://192.168.204.20:7778/acc ))
+TestInformed [junit=org.junit.runner.JUnitCore@3432a325, resulTest=org.junit.runner.Result@6874ece8, ignoreCaseCount=0, failuresCaseCount=2, TestedCaseCount=2, getRuntimeCount=100020, failuresTrace=[testResource(com.gdc.nms.test.TestDevice): null, TestInterface(com.gdc.nms.test.TestDevice): null]]
+drive a rpobar Cisco.txt
+se esta ejecutando before
+en el testcom.gdc.nms.tester.client.Client@75a9883d reciver( agent-identifier :name Server@192.168.204.20-Platform  :addresses (sequence http://192.168.204.20:7778/acc ))
+TestInformed [junit=org.junit.runner.JUnitCore@3432a325, resulTest=org.junit.runner.Result@3c7038b9, ignoreCaseCount=0, failuresCaseCount=2, TestedCaseCount=2, getRuntimeCount=100007, failuresTrace=[testResource(com.gdc.nms.test.TestDevice): null, TestInterface(com.gdc.nms.test.TestDevice): null]]
+drive a rpobar Cisco.txt
+se esta ejecutando before
+en el testcom.gdc.nms.tester.client.Client@75a9883d reciver( agent-identifier :name Server@192.168.204.20-Platform  :addresses (sequence http://192.168.204.20:7778/acc ))
+TestInformed [junit=org.junit.runner.JUnitCore@3432a325, resulTest=org.junit.runner.Result@79f71773, ignoreCaseCount=0, failuresCaseCount=2, TestedCaseCount=2, getRuntimeCount=100017, failuresTrace=[testResource(com.gdc.nms.test.TestDevice): null, TestInterface(com.gdc.nms.test.TestDevice): null]]
+drive a rpobar Cisco.txt
+se esta ejecutando before
+en el testcom.gdc.nms.tester.client.Client@75a9883d reciver( agent-identifier :name Server@192.168.204.20-Platform  :addresses (sequence http://192.168.204.20:7778/acc ))
+TestInformed [junit=org.junit.runner.JUnitCore@3432a325, resulTest=org.junit.runner.Result@a431693, ignoreCaseCount=0, failuresCaseCount=2, TestedCaseCount=2, getRuntimeCount=100007, failuresTrace=[testResource(com.gdc.nms.test.TestDevice): null, TestInterface(com.gdc.nms.test.TestDevice): null]]
+drive a rpobar Cisco.txt
+se esta ejecutando before
+en el testcom.gdc.nms.tester.client.Client@75a9883d reciver( agent-identifier :name Server@192.168.204.20-Platform  :addresses (sequence http://192.168.204.20:7778/acc ))
+TestInformed [junit=org.junit.runner.JUnitCore@3432a325, resulTest=org.junit.runner.Result@239bf795, ignoreCaseCount=0, failuresCaseCount=2, TestedCaseCount=2, getRuntimeCount=100005, failuresTrace=[testResource(com.gdc.nms.test.TestDevice): null, TestInterface(com.gdc.nms.test.TestDevice): null]]
+probando dispositivos del driverCisco619.txt
+drive a rpobar Cisco619.txt
+se esta ejecutando before
+en el testcom.gdc.nms.tester.client.Client@75a9883d reciver( agent-identifier :name Server@192.168.204.20-Platform  :addresses (sequence http://192.168.204.20:7778/acc ))
+TestInformed [junit=org.junit.runner.JUnitCore@2a6e10d8, resulTest=org.junit.runner.Result@2013eaab, ignoreCaseCount=0, failuresCaseCount=2, TestedCaseCount=2, getRuntimeCount=100034, failuresTrace=[testResource(com.gdc.nms.test.TestDevice): null, TestInterface(com.gdc.nms.test.TestDevice): null]]
+drive a rpobar Cisco619.txt
+se esta ejecutando before
+en el testcom.gdc.nms.tester.client.Client@75a9883d reciver( agent-identifier :name Server@192.168.204.20-Platform  :addresses (sequence http://192.168.204.20:7778/acc ))
+TestInformed [junit=org.junit.runner.JUnitCore@2a6e10d8, resulTest=org.junit.runner.Result@69ddad02, ignoreCaseCount=0, failuresCaseCount=2, TestedCaseCount=2, getRuntimeCount=100007, failuresTrace=[testResource(com.gdc.nms.test.TestDevice): null, TestInterface(com.gdc.nms.test.TestDevice): null]]
+drive a rpobar Cisco619.txt
+se esta ejecutando before
+en el testcom.gdc.nms.tester.client.Client@75a9883d reciver( agent-identifier :name Server@192.168.204.20-Platform  :addresses (sequence http://192.168.204.20:7778/acc ))
+TestInformed [junit=org.junit.runner.JUnitCore@2a6e10d8, resulTest=org.junit.runner.Result@231bf785, ignoreCaseCount=0, failuresCaseCount=2, TestedCaseCount=2, getRuntimeCount=100035, failuresTrace=[testResource(com.gdc.nms.test.TestDevice): null, TestInterface(com.gdc.nms.test.TestDevice): null]]
+drive a rpobar Cisco619.txt
+se esta ejecutando before
+en el testcom.gdc.nms.tester.client.Client@75a9883d reciver( agent-identifier :name Server@192.168.204.20-Platform  :addresses (sequence http://192.168.204.20:7778/acc ))
+TestInformed [junit=org.junit.runner.JUnitCore@2a6e10d8, resulTest=org.junit.runner.Result@77a6686, ignoreCaseCount=0, failuresCaseCount=1, TestedCaseCount=2, getRuntimeCount=69223, failuresTrace=[testResource(com.gdc.nms.test.TestDevice): null]]
+drive a rpobar Cisco619.txt
+se esta ejecutando before
+en el testcom.gdc.nms.tester.client.Client@75a9883d reciver( agent-identifier :name Server@192.168.204.20-Platform  :addresses (sequence http://192.168.204.20:7778/acc ))
+resourcers List7
+TestInformed [junit=org.junit.runner.JUnitCore@2a6e10d8, resulTest=org.junit.runner.Result@566d0085, ignoreCaseCount=0, failuresCaseCount=0, TestedCaseCount=2, getRuntimeCount=1486, failuresTrace=[]]
+driver Name cambiadoCISCO619
+tester driverCISCO619
+probando el Cisco 619
+tiene estor recursos ***DEVICE_PROCESSOR
+object typejava.lang.Long
+4
+valor usado 4
+tiene estor recursos ***STORAGE_RAM
+object typejava.lang.Long
+65698100
+valor usado 65698100
+keys[DEVICEID, TIME, DEVICERESOURCEID, USED]
+values[DEVICEID=463, TIME=1429651092519, DEVICERESOURCEID=0, USED=65698100]
+tiene estor recursos ***STORAGE_RAM
+object typejava.lang.Long
+6304736
+valor usado 6304736
+keys[DEVICEID, TIME, DEVICERESOURCEID, USED]
+values[DEVICEID=463, TIME=1429651092845, DEVICERESOURCEID=0, USED=6304736]
+tiene estor recursos ***BGP_SESSION
+object typejava.lang.Integer
+6
+valor usado 6
+tiene estor recursos ***BGP_SESSION
+object typejava.lang.Integer
+6
+valor usado 6
+tiene estor recursos ***FAN_SENSOR
+java.lang.NullPointerException
+	at com.gdc.nms.test.especific.Cisco619Test.ramMemoryStatus(Cisco619Test.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:94)
+	at com.gdc.nms.test.runner.TestInformed.runTestClass(TestInformed.java:19)
+	at com.gdc.nms.test.RunTest.runTestByEspecific(RunTest.java:328)
+	at com.gdc.nms.test.RunTest.runAllTest(RunTest.java:278)
+	at com.gdc.nms.test.RunTest.main(RunTest.java:609)
+TestInformed [junit=org.junit.runner.JUnitCore@2a6e10d8, resulTest=org.junit.runner.Result@2e2e1b6c, ignoreCaseCount=0, failuresCaseCount=1, TestedCaseCount=2, getRuntimeCount=2435, failuresTrace=[deviceProcesor(com.gdc.nms.test.especific.Cisco619Test): the procesor is overload]]
+probando dispositivos del driverHuawei.txt
+drive a rpobar Huawei.txt
+se esta ejecutando before
+en el testcom.gdc.nms.tester.client.Client@75a9883d reciver( agent-identifier :name Server@192.168.204.20-Platform  :addresses (sequence http://192.168.204.20:7778/acc ))
+resourcers List4
+TestInformed [junit=org.junit.runner.JUnitCore@65f102c1, resulTest=org.junit.runner.Result@31ec0130, ignoreCaseCount=0, failuresCaseCount=0, TestedCaseCount=2, getRuntimeCount=4142, failuresTrace=[]]
+driver Name cambiadoHUAWEI
+tester driverHUAWEI
+probando el HUAWEI
+TestInformed [junit=org.junit.runner.JUnitCore@65f102c1, resulTest=org.junit.runner.Result@31ec0130, ignoreCaseCount=0, failuresCaseCount=0, TestedCaseCount=2, getRuntimeCount=4142, failuresTrace=[]]---
+tipo de recursoDEVICE_PROCESSOR
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_RAM
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoBGP_SESSION
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoBGP_SESSION
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+no hay ipslastrue
+tipo de interfaznull Aux0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Cellular0/0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/1 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/2 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/3 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/4 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull NULL0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Vlan-interface1 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull LoopBack28 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/0.2187 null
+[DEVICEID, TIME, INTERFACEID, OPERATIVESTATUS, OUTUCASTPKTS, INMULTICASTPKTS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, LASTCHANGE, INOCTETS]
+tipo de interfaznull Ethernet0/1.1900 null
+[DEVICEID, TIME, INTERFACEID, OPERATIVESTATUS, OUTUCASTPKTS, INMULTICASTPKTS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, LASTCHANGE, INOCTETS]
+tipo de interfaznull LoopBack228 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+drive a rpobar HUAWEI
+se esta ejecutando before
+en el testcom.gdc.nms.tester.client.Client@75a9883d reciver( agent-identifier :name Server@192.168.204.20-Platform  :addresses (sequence http://192.168.204.20:7778/acc ))
+resourcers List4
+TestInformed [junit=org.junit.runner.JUnitCore@65f102c1, resulTest=org.junit.runner.Result@21a722ef, ignoreCaseCount=0, failuresCaseCount=0, TestedCaseCount=2, getRuntimeCount=4891, failuresTrace=[]]
+driver Name cambiadoHUAWEI
+tester driverHUAWEI
+probando el HUAWEI
+TestInformed [junit=org.junit.runner.JUnitCore@65f102c1, resulTest=org.junit.runner.Result@21a722ef, ignoreCaseCount=0, failuresCaseCount=0, TestedCaseCount=2, getRuntimeCount=4891, failuresTrace=[]]---
+tipo de recursoDEVICE_PROCESSOR
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_RAM
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoBGP_SESSION
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoBGP_SESSION
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+no hay ipslastrue
+tipo de interfaznull Aux0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Cellular0/0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/1 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/2 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/3 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/4 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull NULL0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Vlan-interface1 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull LoopBack28 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/0.2187 null
+[DEVICEID, TIME, INTERFACEID, OPERATIVESTATUS, OUTUCASTPKTS, INMULTICASTPKTS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, LASTCHANGE, INOCTETS]
+tipo de interfaznull Ethernet0/1.1900 null
+[DEVICEID, TIME, INTERFACEID, OPERATIVESTATUS, OUTUCASTPKTS, INMULTICASTPKTS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, LASTCHANGE, INOCTETS]
+tipo de interfaznull LoopBack228 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+drive a rpobar HUAWEI
+se esta ejecutando before
+en el testcom.gdc.nms.tester.client.Client@75a9883d reciver( agent-identifier :name Server@192.168.204.20-Platform  :addresses (sequence http://192.168.204.20:7778/acc ))
+resourcers List1
+TestInformed [junit=org.junit.runner.JUnitCore@65f102c1, resulTest=org.junit.runner.Result@1e893918, ignoreCaseCount=0, failuresCaseCount=0, TestedCaseCount=2, getRuntimeCount=5915, failuresTrace=[]]
+driver Name cambiadoHUAWEI
+tester driverHUAWEI
+probando el HUAWEI
+TestInformed [junit=org.junit.runner.JUnitCore@65f102c1, resulTest=org.junit.runner.Result@1e893918, ignoreCaseCount=0, failuresCaseCount=0, TestedCaseCount=2, getRuntimeCount=5915, failuresTrace=[]]---
+no hay ipslastrue
+tipo de interfaznull Aux0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet1/4 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet2/0.22 null
+[DEVICEID, TIME, INTERFACEID, OPERATIVESTATUS, OUTUCASTPKTS, INMULTICASTPKTS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, LASTCHANGE, INOCTETS]
+tipo de interfaznull InLoopBack0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet1/3 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet1/0.300 null
+[DEVICEID, TIME, INTERFACEID, OPERATIVESTATUS, OUTUCASTPKTS, INMULTICASTPKTS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, LASTCHANGE, INOCTETS]
+tipo de interfaznull Ethernet1/0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet3/0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull NULL0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet1/1 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull LoopBack28 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet2/0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet2/0.236 null
+[DEVICEID, TIME, INTERFACEID, OPERATIVESTATUS, OUTUCASTPKTS, INMULTICASTPKTS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, LASTCHANGE, INOCTETS]
+tipo de interfaznull Ethernet1/2 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+drive a rpobar HUAWEI
+se esta ejecutando before
+en el testcom.gdc.nms.tester.client.Client@75a9883d reciver( agent-identifier :name Server@192.168.204.20-Platform  :addresses (sequence http://192.168.204.20:7778/acc ))
+resourcers List2
+TestInformed [junit=org.junit.runner.JUnitCore@65f102c1, resulTest=org.junit.runner.Result@36c51089, ignoreCaseCount=0, failuresCaseCount=0, TestedCaseCount=2, getRuntimeCount=3386, failuresTrace=[]]
+driver Name cambiadoHUAWEI
+tester driverHUAWEI
+probando el HUAWEI
+TestInformed [junit=org.junit.runner.JUnitCore@65f102c1, resulTest=org.junit.runner.Result@36c51089, ignoreCaseCount=0, failuresCaseCount=0, TestedCaseCount=2, getRuntimeCount=3386, failuresTrace=[]]---
+tipo de recursoDEVICE_PROCESSOR
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+tipo de recursoSTORAGE_RAM
+ key: [DEVICEID, TIME, DEVICERESOURCEID, USED]
+no hay ipslastrue
+tipo de interfaznull Aux0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Cellular0/0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/1 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/2 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/3 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/4 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull NULL0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/0.1241 null
+[DEVICEID, TIME, INTERFACEID, OPERATIVESTATUS, OUTUCASTPKTS, INMULTICASTPKTS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, LASTCHANGE, INOCTETS]
+tipo de interfaznull Ethernet0/0.2004 null
+[DEVICEID, TIME, INTERFACEID, OPERATIVESTATUS, OUTUCASTPKTS, INMULTICASTPKTS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, LASTCHANGE, INOCTETS]
+tipo de interfaznull LoopBack28 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/0.2045 null
+[DEVICEID, TIME, INTERFACEID, OPERATIVESTATUS, OUTUCASTPKTS, INMULTICASTPKTS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, LASTCHANGE, INOCTETS]
+tipo de interfaznull Vlan-interface300 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Vlan-interface107 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Vlan-interface315 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+drive a rpobar HUAWEI
+se esta ejecutando before
+en el testcom.gdc.nms.tester.client.Client@75a9883d reciver( agent-identifier :name Server@192.168.204.20-Platform  :addresses (sequence http://192.168.204.20:7778/acc ))
+resourcers List1
+TestInformed [junit=org.junit.runner.JUnitCore@65f102c1, resulTest=org.junit.runner.Result@48586403, ignoreCaseCount=0, failuresCaseCount=0, TestedCaseCount=2, getRuntimeCount=6639, failuresTrace=[]]
+driver Name cambiadoHUAWEI
+tester driverHUAWEI
+probando el HUAWEI
+TestInformed [junit=org.junit.runner.JUnitCore@65f102c1, resulTest=org.junit.runner.Result@48586403, ignoreCaseCount=0, failuresCaseCount=0, TestedCaseCount=2, getRuntimeCount=6639, failuresTrace=[]]---
+no hay ipslastrue
+tipo de interfaznull Ethernet2/0.1230 null
+[DEVICEID, TIME, INTERFACEID, OPERATIVESTATUS, OUTUCASTPKTS, INMULTICASTPKTS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, LASTCHANGE, INOCTETS]
+tipo de interfaznull Ethernet2/0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet1/2 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull NULL0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet1/0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet3/0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull InLoopBack0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet1/4 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull LoopBack28 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet1/3 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet1/1 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+probando dispositivos del driver3Com.txt
+drive a rpobar 3Com.txt
+se esta ejecutando before
+en el testcom.gdc.nms.tester.client.Client@75a9883d reciver( agent-identifier :name Server@192.168.204.20-Platform  :addresses (sequence http://192.168.204.20:7778/acc ))
+resourcers List1
+TestInformed [junit=org.junit.runner.JUnitCore@6774a144, resulTest=org.junit.runner.Result@1a07ac6c, ignoreCaseCount=0, failuresCaseCount=0, TestedCaseCount=2, getRuntimeCount=1559, failuresTrace=[]]
+el driver tiene numero3Com.txt
+driver sin numero_3Com.txt
+driver Name cambiado_3COM
+tester driver_3COM
+probando el _3COM
+TestInformed [junit=org.junit.runner.JUnitCore@6774a144, resulTest=org.junit.runner.Result@1a07ac6c, ignoreCaseCount=0, failuresCaseCount=0, TestedCaseCount=2, getRuntimeCount=1559, failuresTrace=[]]---
+no hay ipslastrue
+tipo de interfaznull Ethernet0/15 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/24 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/6 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/23 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/16 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/5 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull InLoopBack0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/8 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/13 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/22 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/7 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Aux0/0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/21 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/14 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/19 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Fiber0/26 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/1 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/10 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Vlan-interface100 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Fiber0/25 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/20 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/9 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/2 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/3 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/12 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/17 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Copper0/26 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/11 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/4 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Copper0/25 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/18 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+probando dispositivos del driverHuaweiS5300.txt
+drive a rpobar HuaweiS5300.txt
+se esta ejecutando before
+en el testcom.gdc.nms.tester.client.Client@75a9883d reciver( agent-identifier :name Server@192.168.204.20-Platform  :addresses (sequence http://192.168.204.20:7778/acc ))
+TestInformed [junit=org.junit.runner.JUnitCore@9fa8988, resulTest=org.junit.runner.Result@1f5b44d6, ignoreCaseCount=0, failuresCaseCount=2, TestedCaseCount=2, getRuntimeCount=100004, failuresTrace=[testResource(com.gdc.nms.test.TestDevice): null, TestInterface(com.gdc.nms.test.TestDevice): null]]
+drive a rpobar HuaweiS5300.txt
+se esta ejecutando before
+en el testcom.gdc.nms.tester.client.Client@75a9883d reciver( agent-identifier :name Server@192.168.204.20-Platform  :addresses (sequence http://192.168.204.20:7778/acc ))
+TestInformed [junit=org.junit.runner.JUnitCore@9fa8988, resulTest=org.junit.runner.Result@488d12e4, ignoreCaseCount=0, failuresCaseCount=2, TestedCaseCount=2, getRuntimeCount=100004, failuresTrace=[testResource(com.gdc.nms.test.TestDevice): null, TestInterface(com.gdc.nms.test.TestDevice): null]]
+drive a rpobar HuaweiS5300.txt
+se esta ejecutando before
+en el testcom.gdc.nms.tester.client.Client@75a9883d reciver( agent-identifier :name Server@192.168.204.20-Platform  :addresses (sequence http://192.168.204.20:7778/acc ))
+resourcers List1
+TestInformed [junit=org.junit.runner.JUnitCore@9fa8988, resulTest=org.junit.runner.Result@19fa157c, ignoreCaseCount=0, failuresCaseCount=0, TestedCaseCount=2, getRuntimeCount=49615, failuresTrace=[]]
+driver Name cambiadoHUAWEIS5300
+tester driverHUAWEIS5300
+probando el HUAWEIS5300
+TestInformed [junit=org.junit.runner.JUnitCore@9fa8988, resulTest=org.junit.runner.Result@19fa157c, ignoreCaseCount=0, failuresCaseCount=0, TestedCaseCount=2, getRuntimeCount=49615, failuresTrace=[]]---
+no hay ipslastrue
+tipo de interfaznull Ethernet0/0/16 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull GigabitEthernet0/0/1 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/0/7 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/0/24 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull InLoopBack0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/0/17 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/0/6 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/0/9 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/0/14 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/0/23 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull NULL0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/0/8 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/0/1 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/0/22 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/0/15 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/0/20 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/0/2 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/0/11 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Vlanif220 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/0/21 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/0/10 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/0/3 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/0/4 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/0/13 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/0/18 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/0/12 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull GigabitEthernet0/0/2 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/0/5 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/0/19 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+drive a rpobar HUAWEIS5300
+se esta ejecutando before
+en el testcom.gdc.nms.tester.client.Client@75a9883d reciver( agent-identifier :name Server@192.168.204.20-Platform  :addresses (sequence http://192.168.204.20:7778/acc ))
+resourcers List1
+TestInformed [junit=org.junit.runner.JUnitCore@9fa8988, resulTest=org.junit.runner.Result@146ccf3e, ignoreCaseCount=0, failuresCaseCount=0, TestedCaseCount=2, getRuntimeCount=3694, failuresTrace=[]]
+driver Name cambiadoHUAWEIS5300
+tester driverHUAWEIS5300
+probando el HUAWEIS5300
+TestInformed [junit=org.junit.runner.JUnitCore@9fa8988, resulTest=org.junit.runner.Result@146ccf3e, ignoreCaseCount=0, failuresCaseCount=0, TestedCaseCount=2, getRuntimeCount=3694, failuresTrace=[]]---
+no hay ipslastrue
+tipo de interfaznull Ethernet0/0/16 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull GigabitEthernet0/0/1 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/0/7 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/0/24 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull InLoopBack0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/0/17 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/0/6 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/0/9 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/0/14 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/0/23 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull NULL0 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/0/8 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/0/1 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/0/22 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/0/15 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/0/20 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/0/2 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/0/11 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Vlanif220 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/0/21 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/0/10 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/0/3 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/0/4 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/0/13 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/0/18 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/0/12 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull GigabitEthernet0/0/2 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/0/5 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+tipo de interfaznull Ethernet0/0/19 null
+[TIME, OPERATIVESTATUS, OUTUCASTPKTS, LASTCHANGE, OUTERRORS, DEVICEID, INTERFACEID, INMULTICASTPKTS, INDISCARDS, INERRORS, OUTOCTETS, INUCASTPKTS, OUTMULTICASTPKTS, OUTDISCARDS, INOCTETS]
+probando dispositivos del driverPipeline.txt
+drive a rpobar Pipeline.txt
+se esta ejecutando before
+en el testcom.gdc.nms.tester.client.Client@75a9883d reciver( agent-identifier :name Server@192.168.204.20-Platform  :addresses (sequence http://192.168.204.20:7778/acc ))
+TestInformed [junit=org.junit.runner.JUnitCore@31eb494e, resulTest=org.junit.runner.Result@4e19b97c, ignoreCaseCount=0, failuresCaseCount=2, TestedCaseCount=2, getRuntimeCount=100005, failuresTrace=[testResource(com.gdc.nms.test.TestDevice): null, TestInterface(com.gdc.nms.test.TestDevice): null]]
+drive a rpobar Pipeline.txt
+se esta ejecutando before
+en el testcom.gdc.nms.tester.client.Client@75a9883d reciver( agent-identifier :name Server@192.168.204.20-Platform  :addresses (sequence http://192.168.204.20:7778/acc ))
+TestInformed [junit=org.junit.runner.JUnitCore@31eb494e, resulTest=org.junit.runner.Result@70036428, ignoreCaseCount=0, failuresCaseCount=2, TestedCaseCount=2, getRuntimeCount=100039, failuresTrace=[testResource(com.gdc.nms.test.TestDevice): null, TestInterface(com.gdc.nms.test.TestDevice): null]]
+drive a rpobar Pipeline.txt
+se esta ejecutando before
+en el testcom.gdc.nms.tester.client.Client@75a9883d reciver( agent-identifier :name Server@192.168.204.20-Platform  :addresses (sequence http://192.168.204.20:7778/acc ))
+TestInformed [junit=org.junit.runner.JUnitCore@31eb494e, resulTest=org.junit.runner.Result@68e86f41, ignoreCaseCount=0, failuresCaseCount=2, TestedCaseCount=2, getRuntimeCount=100031, failuresTrace=[testResource(com.gdc.nms.test.TestDevice): null, TestInterface(com.gdc.nms.test.TestDevice): null]]
+drive a rpobar Pipeline.txt
+se esta ejecutando before
+en el testcom.gdc.nms.tester.client.Client@75a9883d reciver( agent-identifier :name Server@192.168.204.20-Platform  :addresses (sequence http://192.168.204.20:7778/acc ))
+TestInformed [junit=org.junit.runner.JUnitCore@31eb494e, resulTest=org.junit.runner.Result@74e22632, ignoreCaseCount=0, failuresCaseCount=2, TestedCaseCount=2, getRuntimeCount=100011, failuresTrace=[testResource(com.gdc.nms.test.TestDevice): null, TestInterface(com.gdc.nms.test.TestDevice): null]]
+drive a rpobar Pipeline.txt
+se esta ejecutando before
+en el testcom.gdc.nms.tester.client.Client@75a9883d reciver( agent-identifier :name Server@192.168.204.20-Platform  :addresses (sequence http://192.168.204.20:7778/acc ))
+TestInformed [junit=org.junit.runner.JUnitCore@31eb494e, resulTest=org.junit.runner.Result@70f87478, ignoreCaseCount=0, failuresCaseCount=2, TestedCaseCount=2, getRuntimeCount=100005, failuresTrace=[testResource(com.gdc.nms.test.TestDevice): null, TestInterface(com.gdc.nms.test.TestDevice): null]]
+se esta deteniendo el cliente
+21-abr-2015 16:33:10 jade.core.messaging.MessageManager shutdown
+INFO: MessageManager shutting down ...

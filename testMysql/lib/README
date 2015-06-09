@@ -1,0 +1,7 @@
+nms
+	all third-party libraries already used for nms project
+
+testing
+	all third-party libraries used for testing project, and will be uploaded
+	to server.
+	IMPORTANT: common.jar, server.jar, model.jar must be here

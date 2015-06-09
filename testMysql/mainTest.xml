@@ -1,0 +1,41 @@
+<project default="all">
+  <property name="tst-dir" location="src/test" />
+  <property name="TALK" value="true" />
+
+  
+	<property environment="enviromentt" />
+	  <property file="/build/build.properties" />
+	<path id="classpath.test">
+    <pathelement location="C:\Users\senrigan\Documents\librerias\hamcrest-core-1.3.jar" />
+	<pathelement location="${junit.jar.path}" />
+
+   <!--	
+    <pathelement location="C:\Users\senrigan\Documents\librerias\junit-4.12.jar" />
+   	<pathelement location="${tst-dir}" />
+   --> 
+    
+  </path>
+  <target name="compile-test">
+    <javac srcdir="${tst-dir}"
+           verbose="${TALK}"
+           >
+      <classpath refid="classpath.test"/>
+    </javac>
+  </target>
+  
+  <target name="clean-compile-test">
+    <delete verbose="${TALK}">
+      <fileset dir="${tst-dir}" includes="**/*.class" />
+    </delete>
+  </target>
+  
+  <target name="test" depends="compile-test">
+    <junit>
+      <classpath refid="classpath.test" />
+      <formatter type="brief" usefile="false" />
+      <test name="SampleAddTest" />
+    </junit>
+  </target>
+  <target name="all" depends="test" />
+  <target name="clean" depends="clean-compile-test" />
+</project>

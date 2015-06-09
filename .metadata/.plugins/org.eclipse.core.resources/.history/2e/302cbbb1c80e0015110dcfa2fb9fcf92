@@ -1,0 +1,191 @@
+/**
+ * 
+ */
+package com.gdc.nms.common;
+
+import java.io.Serializable;
+import java.net.InetAddress;
+import java.net.UnknownHostException;
+import java.util.Arrays;
+import java.util.Stack;
+
+/**
+ * Useful constants and methods related to an IP.
+ * 
+ * @author Jonatan Rico (jrico) - jonatan.rico@gdc-cala.com.mx
+ */
+public class Ip {
+
+    public static final int TIMEOUT_INCREMENT = 500;
+
+    /**
+     * Returns the octets from an IP as an array of <code>byte</code>.
+     * 
+     * @param ip
+     *            the IP.
+     * @return the octets as an array of <code>byte</code>.
+     */
+    public static byte[] getOctets(String ip) {
+        String[] parts = ip.split("\\.");
+        byte[] octets = new byte[parts.length];
+        int index = 0;
+        for (String part : parts) {
+            octets[index++] = (byte) Integer.parseInt(part);
+        }
+        return octets;
+    }
+
+    /**
+     * Tests if an IP address is reachable.<br />
+     * Calls 'n' times the {@link InetAddress#isReachable(int)} method with the
+     * value specified by <code>timeout</code>.
+     * 
+     * @param ip
+     *            the IP to test.
+     * @param timeout
+     *            the time, in milliseconds, before the call aborts.
+     * @return true if the ip is reachable, false otherwise.
+     * @throws UnknownHostException
+     *             if the IP is illegal.
+     */
+    public static boolean isReachable(String ip, int timeout) throws UnknownHostException {
+        return getPingRtt(ip, timeout) >= 0;
+    }
+
+    /**
+     * Returns the Round Trip Time in milliseconds of a ping operation.
+     * 
+     * @param ip
+     *            the IP to ping.
+     * @param timeout
+     *            the time, in milliseconds, before the call aborts.
+     * @return the RTT in milliseconds or <tt>-1</tt> if the IP is unreachable.
+     */
+    public static int getPingRtt(String ip, int timeout) {
+        int pingRtt = -1;
+
+        try {
+            if (LibNms.isLoaded()) {
+                pingRtt = LibNms.pingRtt(ip, timeout);
+            } else {
+                InetAddress inetAddress = InetAddress.getByAddress(Ip.getOctets(ip));
+
+                try {
+                    long begin = System.currentTimeMillis();
+
+                    if (inetAddress.isReachable(timeout)) {
+                        pingRtt = (int) (System.currentTimeMillis() - begin);
+                    }
+                } catch (Exception e) {
+                    // do nothing
+                }
+            }
+        } catch (UnknownHostException e) {
+            // do nothing
+        }
+
+        return pingRtt;
+    }
+
+    public static boolean ping(String ip, int duration, int interval) {
+        boolean reachable = false;
+        System.out.println(Arrays.toString("se esta ejecuntado el ping "+Thread.currentThread().getStackTrace()));
+        for (int t = interval, d = interval; !reachable && d < duration; t += TIMEOUT_INCREMENT, d += t) {
+            reachable = getPingRtt(ip, t) >= 0;
+        }
+
+        return reachable;
+    }
+
+    /**
+     * Converts an IP from hex to decimal. <br/>
+     * Example: "0F:96:0A:0A" -> "15.150.10.10"
+     * 
+     * @param hex
+     *            the IP in hex.
+     * @return the IP in decimal.
+     */
+    public static String fromHexToDecimal(String hex) {
+        String[] split = hex.split(":");
+        StringBuilder builder = new StringBuilder();
+
+        for (int i = 0; i < split.length; i++) {
+            builder.append(i > 0 ? "." : "").append(Integer.parseInt(split[i], 16));
+        }
+
+        return builder.toString();
+    }
+
+    /**
+     * @author Jonatan Rico - jonatan.rico@gdc-cala.com.mx
+     */
+    @SuppressWarnings("serial")
+    public static class PingResult implements Serializable {
+
+        private int sent;
+
+        private int received;
+
+        private int minTime;
+
+        private int maxTime;
+
+        private int avgTime;
+
+        /**
+         * @param sent
+         * @param received
+         * @param minTime
+         * @param maxTime
+         * @param avgTime
+         */
+        public PingResult(int sent, int received, int minTime, int maxTime, int avgTime) {
+            this.sent = sent;
+            this.received = received;
+            this.minTime = minTime;
+            this.maxTime = maxTime;
+            this.avgTime = avgTime;
+        }
+
+        /**
+         * @return the sent
+         */
+        public int getSent() {
+            return sent;
+        }
+
+        /**
+         * @return the received
+         */
+        public int getReceived() {
+            return received;
+        }
+
+        /**
+         * @return the minTime
+         */
+        public int getMinTime() {
+            return minTime;
+        }
+
+        /**
+         * @return the maxTime
+         */
+        public int getMaxTime() {
+            return maxTime;
+        }
+
+        /**
+         * @return the avgTime
+         */
+        public int getAvgTime() {
+            return avgTime;
+        }
+    }
+
+    /*
+     * Private constructor to avoid instances.
+     */
+    private Ip() {
+    }
+}

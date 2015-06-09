@@ -1,0 +1,42 @@
+<list>
+  <ServerItem>
+    <nameServer>server 1</nameServer>
+    <sshCredential>
+      <hostname>5</hostname>
+      <username>6</username>
+      <password>7</password>
+      <port>8</port>
+    </sshCredential>
+    <jadeHosts>
+      <string>192.168.1.254</string>
+    </jadeHosts>
+    <mysqlCredential>
+      <hostname>1</hostname>
+      <username>2</username>
+      <password>3</password>
+      <port>4</port>
+      <dataBaseName>mundo</dataBaseName>
+    </mysqlCredential>
+    <deleteAfterClose>true</deleteAfterClose>
+    <glassFishPath>home/</glassFishPath>
+  </ServerItem>
+  <ServerItem>
+    <nameServer>server 2</nameServer>
+    <sshCredential>
+      <hostname>9</hostname>
+      <username>10</username>
+      <password>11</password>
+      <port>12</port>
+    </sshCredential>
+    <jadeHosts reference="../../ServerItem/jadeHosts"/>
+    <mysqlCredential>
+      <hostname>5</hostname>
+      <username>6</username>
+      <password>7</password>
+      <port>5</port>
+      <dataBaseName>mund</dataBaseName>
+    </mysqlCredential>
+    <deleteAfterClose>true</deleteAfterClose>
+    <glassFishPath>home/</glassFishPath>
+  </ServerItem>
+</list>

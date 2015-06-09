@@ -1,0 +1,1289 @@
+<list>
+  <com.gdc.nms.model.Device>
+    <id>11053</id>
+    <type>ROUTER</type>
+    <snmpVersion>V2</snmpVersion>
+    <protocolType>TELNET</protocolType>
+    <sysUpTime>1427252303904</sysUpTime>
+    <flags>719</flags>
+    <configurationFlags>284164096</configurationFlags>
+    <steelheadFlags>0</steelheadFlags>
+    <testTimeout>2000</testTimeout>
+    <intensiveTestDuration>120000</intensiveTestDuration>
+    <snmpTimeout>5000</snmpTimeout>
+    <snmpRetries>2</snmpRetries>
+    <ip>172.29.20.2</ip>
+    <hostname>ASOC_ORN0026</hostname>
+    <alias>ORN0026</alias>
+    <description>Huawei AR2240 Huawei Versatile Routing Platform Software  VRP (R) software,Version 5.120 (AR2240 V200R003C01SPC300) Copyright (C) 2011-2013 Huawei Technologies Co., Ltd</description>
+    <contact>R&amp;D Shenzhen, Huawei Technologies Co., Ltd.</contact>
+    <location>Shenzhen China</location>
+    <snmpPublicCommunity>tmx01rumbo01RO</snmpPublicCommunity>
+    <snmpUser></snmpUser>
+    <authenticationProtocol> </authenticationProtocol>
+    <securityLevel>0</securityLevel>
+    <sysObjectID>1.3.6.1.4.1.2011.2.224.6</sysObjectID>
+    <latencyMeasurementIp></latencyMeasurementIp>
+    <statsTableId>05392</statsTableId>
+    <telnetUser>gestion</telnetUser>
+    <telnetPassword>manager147</telnetPassword>
+    <privilegeModePassword></privilegeModePassword>
+    <maxGetSize>0</maxGetSize>
+    <lastUpdateTime>1428941777273</lastUpdateTime>
+    <lastConfigTime>1428916250161</lastConfigTime>
+    <projectId>66</projectId>
+    <interfaces/>
+    <links/>
+    <ipSlas/>
+    <deviceResources/>
+    <properties/>
+  </com.gdc.nms.model.Device>
+  <com.gdc.nms.model.Device>
+    <id>11054</id>
+    <type>ROUTER</type>
+    <snmpVersion>V2</snmpVersion>
+    <protocolType>TELNET</protocolType>
+    <sysUpTime>1427642967890</sysUpTime>
+    <flags>719</flags>
+    <configurationFlags>284164096</configurationFlags>
+    <steelheadFlags>0</steelheadFlags>
+    <testTimeout>2000</testTimeout>
+    <intensiveTestDuration>120000</intensiveTestDuration>
+    <snmpTimeout>5000</snmpTimeout>
+    <snmpRetries>2</snmpRetries>
+    <ip>172.29.20.3</ip>
+    <hostname>ASOC_ORN0027</hostname>
+    <alias>ORN00027</alias>
+    <description>Huawei AR2240 Huawei Versatile Routing Platform Software  VRP (R) software,Version 5.120 (AR2240 V200R003C01SPC300) Copyright (C) 2011-2013 Huawei Technologies Co., Ltd</description>
+    <contact>R&amp;D Shenzhen, Huawei Technologies Co., Ltd.</contact>
+    <location>Shenzhen China</location>
+    <snmpPublicCommunity>tmx01rumbo01RO</snmpPublicCommunity>
+    <snmpUser></snmpUser>
+    <authenticationProtocol> </authenticationProtocol>
+    <securityLevel>0</securityLevel>
+    <sysObjectID>1.3.6.1.4.1.2011.2.224.6</sysObjectID>
+    <latencyMeasurementIp></latencyMeasurementIp>
+    <statsTableId>05394</statsTableId>
+    <telnetUser>gestion</telnetUser>
+    <telnetPassword>manager147</telnetPassword>
+    <privilegeModePassword></privilegeModePassword>
+    <maxGetSize>0</maxGetSize>
+    <lastUpdateTime>1428929481573</lastUpdateTime>
+    <lastConfigTime>1428915840037</lastConfigTime>
+    <projectId>66</projectId>
+    <interfaces/>
+    <links/>
+    <ipSlas/>
+    <deviceResources/>
+    <properties/>
+  </com.gdc.nms.model.Device>
+  <com.gdc.nms.model.Device>
+    <id>11055</id>
+    <type>ROUTER</type>
+    <snmpVersion>V2</snmpVersion>
+    <protocolType>TELNET</protocolType>
+    <sysUpTime>1424370370130</sysUpTime>
+    <flags>719</flags>
+    <configurationFlags>284164096</configurationFlags>
+    <steelheadFlags>0</steelheadFlags>
+    <testTimeout>2000</testTimeout>
+    <intensiveTestDuration>120000</intensiveTestDuration>
+    <snmpTimeout>5000</snmpTimeout>
+    <snmpRetries>2</snmpRetries>
+    <ip>172.29.20.4</ip>
+    <hostname>ASOC_ORN0024</hostname>
+    <alias>ORN0024</alias>
+    <description>Huawei AR2240 Huawei Versatile Routing Platform Software  VRP (R) software,Version 5.120 (AR2240 V200R003C01SPC300) Copyright (C) 2011-2013 Huawei Technologies Co., Ltd</description>
+    <contact>R&amp;D Shenzhen, Huawei Technologies Co., Ltd.</contact>
+    <location>Shenzhen China</location>
+    <snmpPublicCommunity>tmx01rumbo01RO</snmpPublicCommunity>
+    <snmpUser></snmpUser>
+    <authenticationProtocol> </authenticationProtocol>
+    <securityLevel>0</securityLevel>
+    <sysObjectID>1.3.6.1.4.1.2011.2.224.6</sysObjectID>
+    <latencyMeasurementIp></latencyMeasurementIp>
+    <statsTableId>05395</statsTableId>
+    <telnetUser>gestion</telnetUser>
+    <telnetPassword>manager147</telnetPassword>
+    <privilegeModePassword></privilegeModePassword>
+    <maxGetSize>0</maxGetSize>
+    <lastUpdateTime>1428899769595</lastUpdateTime>
+    <lastConfigTime>1428915902230</lastConfigTime>
+    <projectId>66</projectId>
+    <interfaces/>
+    <links/>
+    <ipSlas/>
+    <deviceResources/>
+    <properties/>
+  </com.gdc.nms.model.Device>
+  <com.gdc.nms.model.Device>
+    <id>11057</id>
+    <type>ROUTER</type>
+    <snmpVersion>V2</snmpVersion>
+    <protocolType>TELNET</protocolType>
+    <sysUpTime>1419192336622</sysUpTime>
+    <flags>719</flags>
+    <configurationFlags>284164096</configurationFlags>
+    <steelheadFlags>0</steelheadFlags>
+    <testTimeout>2000</testTimeout>
+    <intensiveTestDuration>120000</intensiveTestDuration>
+    <snmpTimeout>5000</snmpTimeout>
+    <snmpRetries>2</snmpRetries>
+    <ip>172.29.20.5</ip>
+    <hostname>ASOC_ORN0029</hostname>
+    <alias>ORN0029</alias>
+    <description>Huawei AR2220 Huawei Versatile Routing Platform Software  VRP (R) software,Version 5.120 (AR2220 V200R003C01SPC300) Copyright (C) 2011-2013 Huawei Technologies Co., Ltd</description>
+    <contact>R&amp;D Shenzhen, Huawei Technologies Co., Ltd.</contact>
+    <location>Shenzhen China</location>
+    <snmpPublicCommunity>tmx01rumbo01RO</snmpPublicCommunity>
+    <snmpUser></snmpUser>
+    <authenticationProtocol> </authenticationProtocol>
+    <securityLevel>0</securityLevel>
+    <sysObjectID>1.3.6.1.4.1.2011.2.224.5</sysObjectID>
+    <latencyMeasurementIp></latencyMeasurementIp>
+    <statsTableId>05396</statsTableId>
+    <telnetUser>gestion</telnetUser>
+    <telnetPassword>manager147</telnetPassword>
+    <privilegeModePassword></privilegeModePassword>
+    <maxGetSize>0</maxGetSize>
+    <lastUpdateTime>1428942382319</lastUpdateTime>
+    <lastConfigTime>1428916165293</lastConfigTime>
+    <projectId>66</projectId>
+    <interfaces/>
+    <links/>
+    <ipSlas/>
+    <deviceResources/>
+    <properties/>
+  </com.gdc.nms.model.Device>
+  <com.gdc.nms.model.Device>
+    <id>11058</id>
+    <type>ROUTER</type>
+    <snmpVersion>V2</snmpVersion>
+    <protocolType>TELNET</protocolType>
+    <sysUpTime>1428618183690</sysUpTime>
+    <flags>719</flags>
+    <configurationFlags>284164100</configurationFlags>
+    <steelheadFlags>0</steelheadFlags>
+    <testTimeout>2000</testTimeout>
+    <intensiveTestDuration>120000</intensiveTestDuration>
+    <snmpTimeout>5000</snmpTimeout>
+    <snmpRetries>2</snmpRetries>
+    <ip>172.29.20.6</ip>
+    <hostname>ASOC_ORN0004</hostname>
+    <alias>ORN0004</alias>
+    <description>Huawei AR2240 Huawei Versatile Routing Platform Software  VRP (R) software,Version 5.120 (AR2240 V200R003C01SPC300) Copyright (C) 2011-2013 Huawei Technologies Co., Ltd</description>
+    <contact>R&amp;D Shenzhen, Huawei Technologies Co., Ltd.</contact>
+    <location>Shenzhen China</location>
+    <snmpPublicCommunity>tmx01rumbo01RO</snmpPublicCommunity>
+    <snmpUser></snmpUser>
+    <authenticationProtocol> </authenticationProtocol>
+    <securityLevel>0</securityLevel>
+    <sysObjectID>1.3.6.1.4.1.2011.2.224.6</sysObjectID>
+    <latencyMeasurementIp></latencyMeasurementIp>
+    <statsTableId>05396</statsTableId>
+    <telnetUser>gestion</telnetUser>
+    <telnetPassword>manager147</telnetPassword>
+    <privilegeModePassword></privilegeModePassword>
+    <maxGetSize>0</maxGetSize>
+    <lastUpdateTime>1428883271552</lastUpdateTime>
+    <lastConfigTime>1428916617653</lastConfigTime>
+    <projectId>66</projectId>
+    <interfaces/>
+    <links/>
+    <ipSlas/>
+    <deviceResources/>
+    <properties/>
+  </com.gdc.nms.model.Device>
+  <com.gdc.nms.model.Device>
+    <id>11059</id>
+    <type>ROUTER</type>
+    <snmpVersion>V2</snmpVersion>
+    <protocolType>TELNET</protocolType>
+    <sysUpTime>1416083789622</sysUpTime>
+    <flags>719</flags>
+    <configurationFlags>284164100</configurationFlags>
+    <steelheadFlags>0</steelheadFlags>
+    <testTimeout>2000</testTimeout>
+    <intensiveTestDuration>120000</intensiveTestDuration>
+    <snmpTimeout>5000</snmpTimeout>
+    <snmpRetries>2</snmpRetries>
+    <ip>172.29.20.7</ip>
+    <hostname>ASOC_ORN0007</hostname>
+    <alias>ORN0007</alias>
+    <description>Huawei AR2240 Huawei Versatile Routing Platform Software  VRP (R) software,Version 5.120 (AR2240 V200R003C01SPC300) Copyright (C) 2011-2013 Huawei Technologies Co., Ltd</description>
+    <contact>R&amp;D Shenzhen, Huawei Technologies Co., Ltd.</contact>
+    <location>Shenzhen China</location>
+    <snmpPublicCommunity>tmx01rumbo01RO</snmpPublicCommunity>
+    <snmpUser></snmpUser>
+    <authenticationProtocol> </authenticationProtocol>
+    <securityLevel>0</securityLevel>
+    <sysObjectID>1.3.6.1.4.1.2011.2.224.6</sysObjectID>
+    <latencyMeasurementIp></latencyMeasurementIp>
+    <statsTableId>05397</statsTableId>
+    <telnetUser>gestion</telnetUser>
+    <telnetPassword>manager147</telnetPassword>
+    <privilegeModePassword></privilegeModePassword>
+    <maxGetSize>0</maxGetSize>
+    <lastUpdateTime>1428873887868</lastUpdateTime>
+    <lastConfigTime>1428915818840</lastConfigTime>
+    <projectId>66</projectId>
+    <interfaces/>
+    <links/>
+    <ipSlas/>
+    <deviceResources/>
+    <properties/>
+  </com.gdc.nms.model.Device>
+  <com.gdc.nms.model.Device>
+    <id>11060</id>
+    <type>ROUTER</type>
+    <snmpVersion>V2</snmpVersion>
+    <protocolType>TELNET</protocolType>
+    <sysUpTime>1419058860471</sysUpTime>
+    <flags>719</flags>
+    <configurationFlags>284164100</configurationFlags>
+    <steelheadFlags>0</steelheadFlags>
+    <testTimeout>2000</testTimeout>
+    <intensiveTestDuration>120000</intensiveTestDuration>
+    <snmpTimeout>5000</snmpTimeout>
+    <snmpRetries>2</snmpRetries>
+    <ip>172.29.20.8</ip>
+    <hostname>ASOC_ORN0010</hostname>
+    <alias>ORN0010</alias>
+    <description>Huawei AR2240 Huawei Versatile Routing Platform Software  VRP (R) software,Version 5.120 (AR2240 V200R003C01SPC300) Copyright (C) 2011-2013 Huawei Technologies Co., Ltd</description>
+    <contact>R&amp;D Shenzhen, Huawei Technologies Co., Ltd.</contact>
+    <location>Shenzhen China</location>
+    <snmpPublicCommunity>tmx01rumbo01RO</snmpPublicCommunity>
+    <snmpUser></snmpUser>
+    <authenticationProtocol> </authenticationProtocol>
+    <securityLevel>0</securityLevel>
+    <sysObjectID>1.3.6.1.4.1.2011.2.224.6</sysObjectID>
+    <latencyMeasurementIp></latencyMeasurementIp>
+    <statsTableId>05397</statsTableId>
+    <telnetUser>gestion</telnetUser>
+    <telnetPassword>manager147</telnetPassword>
+    <privilegeModePassword></privilegeModePassword>
+    <maxGetSize>0</maxGetSize>
+    <lastUpdateTime>1428904272753</lastUpdateTime>
+    <lastConfigTime>1428915773775</lastConfigTime>
+    <projectId>66</projectId>
+    <interfaces/>
+    <links/>
+    <ipSlas/>
+    <deviceResources/>
+    <properties/>
+  </com.gdc.nms.model.Device>
+  <com.gdc.nms.model.Device>
+    <id>11061</id>
+    <type>ROUTER</type>
+    <snmpVersion>V2</snmpVersion>
+    <protocolType>TELNET</protocolType>
+    <sysUpTime>1418315303624</sysUpTime>
+    <flags>719</flags>
+    <configurationFlags>284164100</configurationFlags>
+    <steelheadFlags>0</steelheadFlags>
+    <testTimeout>2000</testTimeout>
+    <intensiveTestDuration>120000</intensiveTestDuration>
+    <snmpTimeout>5000</snmpTimeout>
+    <snmpRetries>2</snmpRetries>
+    <ip>172.29.20.9</ip>
+    <hostname>ASOC_ORN0014</hostname>
+    <alias>ORN0014</alias>
+    <description>Huawei AR2240 Huawei Versatile Routing Platform Software  VRP (R) software,Version 5.120 (AR2240 V200R003C01SPC300) Copyright (C) 2011-2013 Huawei Technologies Co., Ltd</description>
+    <contact>R&amp;D Shenzhen, Huawei Technologies Co., Ltd.</contact>
+    <location>Shenzhen China</location>
+    <snmpPublicCommunity>tmx01rumbo01RO</snmpPublicCommunity>
+    <snmpUser></snmpUser>
+    <authenticationProtocol> </authenticationProtocol>
+    <securityLevel>0</securityLevel>
+    <sysObjectID>1.3.6.1.4.1.2011.2.224.6</sysObjectID>
+    <latencyMeasurementIp></latencyMeasurementIp>
+    <statsTableId>05398</statsTableId>
+    <telnetUser>gestion</telnetUser>
+    <telnetPassword>manager147</telnetPassword>
+    <privilegeModePassword></privilegeModePassword>
+    <maxGetSize>0</maxGetSize>
+    <lastUpdateTime>1428933078496</lastUpdateTime>
+    <lastConfigTime>1428916643754</lastConfigTime>
+    <projectId>66</projectId>
+    <interfaces/>
+    <links/>
+    <ipSlas/>
+    <deviceResources/>
+    <properties/>
+  </com.gdc.nms.model.Device>
+  <com.gdc.nms.model.Device>
+    <id>11062</id>
+    <type>ROUTER</type>
+    <snmpVersion>V2</snmpVersion>
+    <protocolType>TELNET</protocolType>
+    <sysUpTime>1428710598360</sysUpTime>
+    <flags>719</flags>
+    <configurationFlags>284164100</configurationFlags>
+    <steelheadFlags>0</steelheadFlags>
+    <testTimeout>2000</testTimeout>
+    <intensiveTestDuration>120000</intensiveTestDuration>
+    <snmpTimeout>5000</snmpTimeout>
+    <snmpRetries>2</snmpRetries>
+    <ip>172.29.20.10</ip>
+    <hostname>ASOC_ORN0015</hostname>
+    <alias>ORN0015</alias>
+    <description>Huawei AR2240 Huawei Versatile Routing Platform Software  VRP (R) software,Version 5.120 (AR2240 V200R003C01SPC300) Copyright (C) 2011-2013 Huawei Technologies Co., Ltd</description>
+    <contact>R&amp;D Shenzhen, Huawei Technologies Co., Ltd.</contact>
+    <location>Shenzhen China</location>
+    <snmpPublicCommunity>tmx01rumbo01RO</snmpPublicCommunity>
+    <snmpUser></snmpUser>
+    <authenticationProtocol> </authenticationProtocol>
+    <securityLevel>0</securityLevel>
+    <sysObjectID>1.3.6.1.4.1.2011.2.224.6</sysObjectID>
+    <latencyMeasurementIp></latencyMeasurementIp>
+    <statsTableId>05398</statsTableId>
+    <telnetUser>gestion</telnetUser>
+    <telnetPassword>manager147</telnetPassword>
+    <privilegeModePassword></privilegeModePassword>
+    <maxGetSize>0</maxGetSize>
+    <lastUpdateTime>1428899168047</lastUpdateTime>
+    <lastConfigTime>1428916462563</lastConfigTime>
+    <projectId>66</projectId>
+    <interfaces/>
+    <links/>
+    <ipSlas/>
+    <deviceResources/>
+    <properties/>
+  </com.gdc.nms.model.Device>
+  <com.gdc.nms.model.Device>
+    <id>11063</id>
+    <type>ROUTER</type>
+    <snmpVersion>V2</snmpVersion>
+    <protocolType>TELNET</protocolType>
+    <sysUpTime>1428789995743</sysUpTime>
+    <flags>719</flags>
+    <configurationFlags>284164100</configurationFlags>
+    <steelheadFlags>0</steelheadFlags>
+    <testTimeout>2000</testTimeout>
+    <intensiveTestDuration>120000</intensiveTestDuration>
+    <snmpTimeout>5000</snmpTimeout>
+    <snmpRetries>2</snmpRetries>
+    <ip>172.29.20.11</ip>
+    <hostname>ASOC_ORN0034</hostname>
+    <alias>ORN0034</alias>
+    <description>Huawei AR2240 Huawei Versatile Routing Platform Software  VRP (R) software,Version 5.120 (AR2240 V200R003C01SPC300) Copyright (C) 2011-2013 Huawei Technologies Co., Ltd</description>
+    <contact>R&amp;D Shenzhen, Huawei Technologies Co., Ltd.</contact>
+    <location>Shenzhen China</location>
+    <snmpPublicCommunity>tmx01rumbo01RO</snmpPublicCommunity>
+    <snmpUser></snmpUser>
+    <authenticationProtocol> </authenticationProtocol>
+    <securityLevel>0</securityLevel>
+    <sysObjectID>1.3.6.1.4.1.2011.2.224.6</sysObjectID>
+    <latencyMeasurementIp></latencyMeasurementIp>
+    <statsTableId>05399</statsTableId>
+    <telnetUser>gestion</telnetUser>
+    <telnetPassword>manager147</telnetPassword>
+    <privilegeModePassword></privilegeModePassword>
+    <maxGetSize>0</maxGetSize>
+    <lastUpdateTime>1428916265857</lastUpdateTime>
+    <lastConfigTime>1428916312773</lastConfigTime>
+    <projectId>66</projectId>
+    <interfaces/>
+    <links/>
+    <ipSlas/>
+    <deviceResources/>
+    <properties/>
+  </com.gdc.nms.model.Device>
+  <com.gdc.nms.model.Device>
+    <id>11064</id>
+    <type>ROUTER</type>
+    <snmpVersion>V2</snmpVersion>
+    <protocolType>TELNET</protocolType>
+    <sysUpTime>1425673083086</sysUpTime>
+    <flags>719</flags>
+    <configurationFlags>284164096</configurationFlags>
+    <steelheadFlags>0</steelheadFlags>
+    <testTimeout>2000</testTimeout>
+    <intensiveTestDuration>120000</intensiveTestDuration>
+    <snmpTimeout>5000</snmpTimeout>
+    <snmpRetries>2</snmpRetries>
+    <ip>172.29.20.12</ip>
+    <hostname>ASOC_ORN0011</hostname>
+    <alias>ORN0011</alias>
+    <description>Huawei AR2240 Huawei Versatile Routing Platform Software  VRP (R) software,Version 5.120 (AR2240 V200R003C01SPC300) Copyright (C) 2011-2013 Huawei Technologies Co., Ltd</description>
+    <contact>R&amp;D Shenzhen, Huawei Technologies Co., Ltd.</contact>
+    <location>Shenzhen China</location>
+    <snmpPublicCommunity>tmx01rumbo01RO</snmpPublicCommunity>
+    <snmpUser></snmpUser>
+    <authenticationProtocol> </authenticationProtocol>
+    <securityLevel>0</securityLevel>
+    <sysObjectID>1.3.6.1.4.1.2011.2.224.6</sysObjectID>
+    <latencyMeasurementIp></latencyMeasurementIp>
+    <statsTableId>05399</statsTableId>
+    <telnetUser>gestion</telnetUser>
+    <telnetPassword>manager147</telnetPassword>
+    <privilegeModePassword>sys</privilegeModePassword>
+    <maxGetSize>0</maxGetSize>
+    <lastUpdateTime>1428888368865</lastUpdateTime>
+    <lastConfigTime>1428916299365</lastConfigTime>
+    <projectId>66</projectId>
+    <interfaces/>
+    <links/>
+    <ipSlas/>
+    <deviceResources/>
+    <properties/>
+  </com.gdc.nms.model.Device>
+  <com.gdc.nms.model.Device>
+    <id>11065</id>
+    <type>ROUTER</type>
+    <snmpVersion>V2</snmpVersion>
+    <protocolType>TELNET</protocolType>
+    <sysUpTime>1425823628897</sysUpTime>
+    <flags>719</flags>
+    <configurationFlags>284164100</configurationFlags>
+    <steelheadFlags>0</steelheadFlags>
+    <testTimeout>2000</testTimeout>
+    <intensiveTestDuration>120000</intensiveTestDuration>
+    <snmpTimeout>5000</snmpTimeout>
+    <snmpRetries>2</snmpRetries>
+    <ip>172.29.20.13</ip>
+    <hostname>ASOC_ORN0028</hostname>
+    <alias>ORN0028</alias>
+    <description>Huawei AR2240 Huawei Versatile Routing Platform Software  VRP (R) software,Version 5.120 (AR2240 V200R003C01SPC300) Copyright (C) 2011-2013 Huawei Technologies Co., Ltd</description>
+    <contact>R&amp;D Shenzhen, Huawei Technologies Co., Ltd.</contact>
+    <location>Shenzhen China</location>
+    <snmpPublicCommunity>tmx01rumbo01RO</snmpPublicCommunity>
+    <snmpUser></snmpUser>
+    <authenticationProtocol> </authenticationProtocol>
+    <securityLevel>0</securityLevel>
+    <sysObjectID>1.3.6.1.4.1.2011.2.224.6</sysObjectID>
+    <latencyMeasurementIp></latencyMeasurementIp>
+    <statsTableId>05400</statsTableId>
+    <telnetUser>gestion</telnetUser>
+    <telnetPassword>manager147</telnetPassword>
+    <privilegeModePassword></privilegeModePassword>
+    <maxGetSize>0</maxGetSize>
+    <lastUpdateTime>1428943576488</lastUpdateTime>
+    <lastConfigTime>1428916410646</lastConfigTime>
+    <projectId>66</projectId>
+    <interfaces/>
+    <links/>
+    <ipSlas/>
+    <deviceResources/>
+    <properties/>
+  </com.gdc.nms.model.Device>
+  <com.gdc.nms.model.Device>
+    <id>11066</id>
+    <type>ROUTER</type>
+    <snmpVersion>V2</snmpVersion>
+    <protocolType>TELNET</protocolType>
+    <sysUpTime>1406732551544</sysUpTime>
+    <flags>719</flags>
+    <configurationFlags>284164100</configurationFlags>
+    <steelheadFlags>0</steelheadFlags>
+    <testTimeout>2000</testTimeout>
+    <intensiveTestDuration>120000</intensiveTestDuration>
+    <snmpTimeout>5000</snmpTimeout>
+    <snmpRetries>2</snmpRetries>
+    <ip>172.29.20.14</ip>
+    <hostname>ASOC_ORN0009</hostname>
+    <alias>ORN0009</alias>
+    <description>Huawei AR2240 Huawei Versatile Routing Platform Software  VRP (R) software,Version 5.120 (AR2240 V200R003C01SPC300) Copyright (C) 2011-2013 Huawei Technologies Co., Ltd</description>
+    <contact>R&amp;D Shenzhen, Huawei Technologies Co., Ltd.</contact>
+    <location>Shenzhen China</location>
+    <snmpPublicCommunity>tmx01rumbo01RO</snmpPublicCommunity>
+    <snmpUser></snmpUser>
+    <authenticationProtocol> </authenticationProtocol>
+    <securityLevel>0</securityLevel>
+    <sysObjectID>1.3.6.1.4.1.2011.2.224.6</sysObjectID>
+    <latencyMeasurementIp></latencyMeasurementIp>
+    <statsTableId>05400</statsTableId>
+    <telnetUser>gestion</telnetUser>
+    <telnetPassword>manager147</telnetPassword>
+    <privilegeModePassword></privilegeModePassword>
+    <maxGetSize>0</maxGetSize>
+    <lastUpdateTime>1428867965240</lastUpdateTime>
+    <lastConfigTime>1428915781254</lastConfigTime>
+    <projectId>66</projectId>
+    <interfaces/>
+    <links/>
+    <ipSlas/>
+    <deviceResources/>
+    <properties/>
+  </com.gdc.nms.model.Device>
+  <com.gdc.nms.model.Device>
+    <id>11068</id>
+    <type>ROUTER</type>
+    <snmpVersion>V2</snmpVersion>
+    <protocolType>TELNET</protocolType>
+    <sysUpTime>1410174362199</sysUpTime>
+    <flags>719</flags>
+    <configurationFlags>284164100</configurationFlags>
+    <steelheadFlags>0</steelheadFlags>
+    <testTimeout>2000</testTimeout>
+    <intensiveTestDuration>120000</intensiveTestDuration>
+    <snmpTimeout>5000</snmpTimeout>
+    <snmpRetries>2</snmpRetries>
+    <ip>172.29.20.16</ip>
+    <hostname>ASOC_ORN0035</hostname>
+    <alias>ORN0035</alias>
+    <description>Huawei AR2240 Huawei Versatile Routing Platform Software  VRP (R) software,Version 5.120 (AR2240 V200R003C01SPC300) Copyright (C) 2011-2013 Huawei Technologies Co., Ltd</description>
+    <contact>R&amp;D Shenzhen, Huawei Technologies Co., Ltd.</contact>
+    <location>Shenzhen China</location>
+    <snmpPublicCommunity>tmx01rumbo01RO</snmpPublicCommunity>
+    <snmpUser></snmpUser>
+    <authenticationProtocol> </authenticationProtocol>
+    <securityLevel>0</securityLevel>
+    <sysObjectID>1.3.6.1.4.1.2011.2.224.6</sysObjectID>
+    <latencyMeasurementIp></latencyMeasurementIp>
+    <statsTableId>05401</statsTableId>
+    <telnetUser>gestion</telnetUser>
+    <telnetPassword>manager147</telnetPassword>
+    <privilegeModePassword></privilegeModePassword>
+    <maxGetSize>0</maxGetSize>
+    <lastUpdateTime>1428920467516</lastUpdateTime>
+    <lastConfigTime>1428915854313</lastConfigTime>
+    <projectId>66</projectId>
+    <interfaces/>
+    <links/>
+    <ipSlas/>
+    <deviceResources/>
+    <properties/>
+  </com.gdc.nms.model.Device>
+  <com.gdc.nms.model.Device>
+    <id>11069</id>
+    <type>ROUTER</type>
+    <snmpVersion>V2</snmpVersion>
+    <protocolType>TELNET</protocolType>
+    <sysUpTime>1419691553833</sysUpTime>
+    <flags>719</flags>
+    <configurationFlags>284164100</configurationFlags>
+    <steelheadFlags>0</steelheadFlags>
+    <testTimeout>2000</testTimeout>
+    <intensiveTestDuration>120000</intensiveTestDuration>
+    <snmpTimeout>5000</snmpTimeout>
+    <snmpRetries>2</snmpRetries>
+    <ip>172.29.20.17</ip>
+    <hostname>ASOC_ORN0030</hostname>
+    <alias>ORN0030</alias>
+    <description>Huawei AR2240 Huawei Versatile Routing Platform Software  VRP (R) software,Version 5.120 (AR2240 V200R003C01SPC300) Copyright (C) 2011-2013 Huawei Technologies Co., Ltd</description>
+    <contact>R&amp;D Shenzhen, Huawei Technologies Co., Ltd.</contact>
+    <location>Shenzhen China</location>
+    <snmpPublicCommunity>tmx01rumbo01RO</snmpPublicCommunity>
+    <snmpUser></snmpUser>
+    <authenticationProtocol> </authenticationProtocol>
+    <securityLevel>0</securityLevel>
+    <sysObjectID>1.3.6.1.4.1.2011.2.224.6</sysObjectID>
+    <latencyMeasurementIp></latencyMeasurementIp>
+    <statsTableId>05402</statsTableId>
+    <telnetUser>gestion</telnetUser>
+    <telnetPassword>manager147</telnetPassword>
+    <privilegeModePassword></privilegeModePassword>
+    <maxGetSize>0</maxGetSize>
+    <lastUpdateTime>1428941177697</lastUpdateTime>
+    <lastConfigTime>1428916010288</lastConfigTime>
+    <projectId>66</projectId>
+    <interfaces/>
+    <links/>
+    <ipSlas/>
+    <deviceResources/>
+    <properties/>
+  </com.gdc.nms.model.Device>
+  <com.gdc.nms.model.Device>
+    <id>11070</id>
+    <type>ROUTER</type>
+    <snmpVersion>V2</snmpVersion>
+    <protocolType>TELNET</protocolType>
+    <sysUpTime>1420720789024</sysUpTime>
+    <flags>719</flags>
+    <configurationFlags>284164100</configurationFlags>
+    <steelheadFlags>0</steelheadFlags>
+    <testTimeout>2000</testTimeout>
+    <intensiveTestDuration>120000</intensiveTestDuration>
+    <snmpTimeout>5000</snmpTimeout>
+    <snmpRetries>2</snmpRetries>
+    <ip>172.29.20.18</ip>
+    <hostname>ASOC_ORN0006</hostname>
+    <alias>ORN0006</alias>
+    <description>Huawei AR2240 Huawei Versatile Routing Platform Software  VRP (R) software,Version 5.120 (AR2240 V200R003C01SPC300) Copyright (C) 2011-2013 Huawei Technologies Co., Ltd</description>
+    <contact>R&amp;D Shenzhen, Huawei Technologies Co., Ltd.</contact>
+    <location>Shenzhen China</location>
+    <snmpPublicCommunity>tmx01rumbo01RO</snmpPublicCommunity>
+    <snmpUser></snmpUser>
+    <authenticationProtocol> </authenticationProtocol>
+    <securityLevel>0</securityLevel>
+    <sysObjectID>1.3.6.1.4.1.2011.2.224.6</sysObjectID>
+    <latencyMeasurementIp></latencyMeasurementIp>
+    <statsTableId>05402</statsTableId>
+    <telnetUser>gestion</telnetUser>
+    <telnetPassword>manager147</telnetPassword>
+    <privilegeModePassword></privilegeModePassword>
+    <maxGetSize>0</maxGetSize>
+    <lastUpdateTime>1428869470843</lastUpdateTime>
+    <lastConfigTime>1428916126155</lastConfigTime>
+    <projectId>66</projectId>
+    <interfaces/>
+    <links/>
+    <ipSlas/>
+    <deviceResources/>
+    <properties/>
+  </com.gdc.nms.model.Device>
+  <com.gdc.nms.model.Device>
+    <id>11071</id>
+    <type>ROUTER</type>
+    <snmpVersion>V2</snmpVersion>
+    <protocolType>TELNET</protocolType>
+    <sysUpTime>1386180408525</sysUpTime>
+    <flags>719</flags>
+    <configurationFlags>284164096</configurationFlags>
+    <steelheadFlags>0</steelheadFlags>
+    <testTimeout>2000</testTimeout>
+    <intensiveTestDuration>120000</intensiveTestDuration>
+    <snmpTimeout>5000</snmpTimeout>
+    <snmpRetries>2</snmpRetries>
+    <ip>172.29.20.19</ip>
+    <hostname>ASOC_ORN0003</hostname>
+    <alias>ORN0003</alias>
+    <description>Huawei AR2240 Huawei Versatile Routing Platform Software  VRP (R) software,Version 5.120 (AR2240 V200R003C01SPC300) Copyright (C) 2011-2013 Huawei Technologies Co., Ltd</description>
+    <contact>R&amp;D Shenzhen, Huawei Technologies Co., Ltd.</contact>
+    <location>Shenzhen China</location>
+    <snmpPublicCommunity>tmx01rumbo01RO</snmpPublicCommunity>
+    <snmpUser></snmpUser>
+    <authenticationProtocol> </authenticationProtocol>
+    <securityLevel>0</securityLevel>
+    <sysObjectID>1.3.6.1.4.1.2011.2.224.6</sysObjectID>
+    <latencyMeasurementIp></latencyMeasurementIp>
+    <statsTableId>05403</statsTableId>
+    <telnetUser>gestion</telnetUser>
+    <telnetPassword>manager147</telnetPassword>
+    <privilegeModePassword>sys</privilegeModePassword>
+    <maxGetSize>0</maxGetSize>
+    <lastUpdateTime>1428926474921</lastUpdateTime>
+    <lastConfigTime>1428916221738</lastConfigTime>
+    <projectId>66</projectId>
+    <interfaces/>
+    <links/>
+    <ipSlas/>
+    <deviceResources/>
+    <properties/>
+  </com.gdc.nms.model.Device>
+  <com.gdc.nms.model.Device>
+    <id>11077</id>
+    <type>ROUTER</type>
+    <snmpVersion>V2</snmpVersion>
+    <protocolType>TELNET</protocolType>
+    <sysUpTime>1393080327650</sysUpTime>
+    <flags>719</flags>
+    <configurationFlags>284164100</configurationFlags>
+    <steelheadFlags>0</steelheadFlags>
+    <testTimeout>2000</testTimeout>
+    <intensiveTestDuration>120000</intensiveTestDuration>
+    <snmpTimeout>5000</snmpTimeout>
+    <snmpRetries>2</snmpRetries>
+    <ip>172.29.20.24</ip>
+    <hostname>ASOC_ORN0012</hostname>
+    <alias>ORN0012</alias>
+    <description>Huawei AR2240 Huawei Versatile Routing Platform Software  VRP (R) software,Version 5.120 (AR2240 V200R003C01SPC300) Copyright (C) 2011-2013 Huawei Technologies Co., Ltd</description>
+    <contact>R&amp;D Shenzhen, Huawei Technologies Co., Ltd.</contact>
+    <location>Shenzhen China</location>
+    <snmpPublicCommunity>tmx01rumbo01RO</snmpPublicCommunity>
+    <snmpUser></snmpUser>
+    <authenticationProtocol> </authenticationProtocol>
+    <securityLevel>0</securityLevel>
+    <sysObjectID>1.3.6.1.4.1.2011.2.224.6</sysObjectID>
+    <latencyMeasurementIp></latencyMeasurementIp>
+    <statsTableId>05406</statsTableId>
+    <telnetUser>gestion</telnetUser>
+    <telnetPassword>manager147</telnetPassword>
+    <privilegeModePassword></privilegeModePassword>
+    <maxGetSize>0</maxGetSize>
+    <lastUpdateTime>1428888070567</lastUpdateTime>
+    <lastConfigTime>1428916149951</lastConfigTime>
+    <projectId>66</projectId>
+    <interfaces/>
+    <links/>
+    <ipSlas/>
+    <deviceResources/>
+    <properties/>
+  </com.gdc.nms.model.Device>
+  <com.gdc.nms.model.Device>
+    <id>11078</id>
+    <type>ROUTER</type>
+    <snmpVersion>V2</snmpVersion>
+    <protocolType>TELNET</protocolType>
+    <sysUpTime>1419800252712</sysUpTime>
+    <flags>719</flags>
+    <configurationFlags>284164100</configurationFlags>
+    <steelheadFlags>0</steelheadFlags>
+    <testTimeout>2000</testTimeout>
+    <intensiveTestDuration>120000</intensiveTestDuration>
+    <snmpTimeout>5000</snmpTimeout>
+    <snmpRetries>2</snmpRetries>
+    <ip>172.29.20.25</ip>
+    <hostname>ASOC_ORN0036</hostname>
+    <alias>ORN0036</alias>
+    <description>Huawei AR2240 Huawei Versatile Routing Platform Software  VRP (R) software,Version 5.120 (AR2240 V200R003C01SPC300) Copyright (C) 2011-2013 Huawei Technologies Co., Ltd</description>
+    <contact>R&amp;D Shenzhen, Huawei Technologies Co., Ltd.</contact>
+    <location>Shenzhen China</location>
+    <snmpPublicCommunity>tmx01rumbo01RO</snmpPublicCommunity>
+    <snmpUser></snmpUser>
+    <authenticationProtocol> </authenticationProtocol>
+    <securityLevel>0</securityLevel>
+    <sysObjectID>1.3.6.1.4.1.2011.2.224.6</sysObjectID>
+    <latencyMeasurementIp></latencyMeasurementIp>
+    <statsTableId>05406</statsTableId>
+    <telnetUser>gestion</telnetUser>
+    <telnetPassword>manager147</telnetPassword>
+    <privilegeModePassword></privilegeModePassword>
+    <maxGetSize>0</maxGetSize>
+    <lastUpdateTime>1428917167914</lastUpdateTime>
+    <lastConfigTime>1428916695172</lastConfigTime>
+    <projectId>66</projectId>
+    <interfaces/>
+    <links/>
+    <ipSlas/>
+    <deviceResources/>
+    <properties/>
+  </com.gdc.nms.model.Device>
+  <com.gdc.nms.model.Device>
+    <id>11223</id>
+    <type>ROUTER</type>
+    <snmpVersion>V2</snmpVersion>
+    <protocolType>TELNET</protocolType>
+    <sysUpTime>1428443876078</sysUpTime>
+    <flags>719</flags>
+    <configurationFlags>284164096</configurationFlags>
+    <steelheadFlags>0</steelheadFlags>
+    <testTimeout>2000</testTimeout>
+    <intensiveTestDuration>120000</intensiveTestDuration>
+    <snmpTimeout>5000</snmpTimeout>
+    <snmpRetries>2</snmpRetries>
+    <ip>172.29.20.26</ip>
+    <hostname>RUMBO_INTERCONEXION</hostname>
+    <alias>RUMBO_INTERCONEXION_CDC - ORN0039 - ORN9999</alias>
+    <description>Huawei AR2240 Huawei Versatile Routing Platform Software  VRP (R) software,Version 5.130 (AR2240 V200R005C00SPC100) Copyright (C) 2011-2013 Huawei Technologies Co., Ltd</description>
+    <contact>R&amp;D Shenzhen, Huawei Technologies Co., Ltd.</contact>
+    <location>Shenzhen China</location>
+    <snmpPublicCommunity>tmx01rumbo01RO</snmpPublicCommunity>
+    <snmpUser></snmpUser>
+    <authenticationProtocol> </authenticationProtocol>
+    <securityLevel>0</securityLevel>
+    <sysObjectID>1.3.6.1.4.1.2011.2.224.6</sysObjectID>
+    <latencyMeasurementIp></latencyMeasurementIp>
+    <statsTableId>05476</statsTableId>
+    <telnetUser>gestion</telnetUser>
+    <telnetPassword>manager147</telnetPassword>
+    <privilegeModePassword></privilegeModePassword>
+    <maxGetSize>0</maxGetSize>
+    <lastUpdateTime>1428885683554</lastUpdateTime>
+    <lastConfigTime>1428916539027</lastConfigTime>
+    <projectId>66</projectId>
+    <interfaces/>
+    <links/>
+    <ipSlas/>
+    <deviceResources/>
+    <properties/>
+  </com.gdc.nms.model.Device>
+  <com.gdc.nms.model.Device>
+    <id>11347</id>
+    <type>ROUTER</type>
+    <snmpVersion>V2</snmpVersion>
+    <protocolType>TELNET</protocolType>
+    <sysUpTime>1400341378897</sysUpTime>
+    <flags>719</flags>
+    <configurationFlags>284164096</configurationFlags>
+    <steelheadFlags>0</steelheadFlags>
+    <testTimeout>2000</testTimeout>
+    <intensiveTestDuration>120000</intensiveTestDuration>
+    <snmpTimeout>5000</snmpTimeout>
+    <snmpRetries>2</snmpRetries>
+    <ip>172.29.20.27</ip>
+    <hostname>ASOC_ORN0016</hostname>
+    <alias>ORN0016_Universidad_Piloto </alias>
+    <description>Huawei AR2240 Huawei Versatile Routing Platform Software  VRP (R) software,Version 5.120 (AR2240 V200R003C01SPC300) Copyright (C) 2011-2013 Huawei Technologies Co., Ltd</description>
+    <contact>R&amp;D Shenzhen, Huawei Technologies Co., Ltd.</contact>
+    <location>Shenzhen China</location>
+    <snmpPublicCommunity>tmx01rumbo01RO</snmpPublicCommunity>
+    <snmpUser></snmpUser>
+    <authenticationProtocol> </authenticationProtocol>
+    <securityLevel>0</securityLevel>
+    <sysObjectID>1.3.6.1.4.1.2011.2.224.6</sysObjectID>
+    <latencyMeasurementIp></latencyMeasurementIp>
+    <statsTableId>05536</statsTableId>
+    <telnetUser>gestion</telnetUser>
+    <telnetPassword>manager147</telnetPassword>
+    <privilegeModePassword></privilegeModePassword>
+    <maxGetSize>0</maxGetSize>
+    <lastUpdateTime>1428900670579</lastUpdateTime>
+    <lastConfigTime>1428916240045</lastConfigTime>
+    <projectId>66</projectId>
+    <interfaces/>
+    <links/>
+    <ipSlas/>
+    <deviceResources/>
+    <properties/>
+  </com.gdc.nms.model.Device>
+  <com.gdc.nms.model.Device>
+    <id>11349</id>
+    <type>ROUTER</type>
+    <snmpVersion>V2</snmpVersion>
+    <protocolType>TELNET</protocolType>
+    <sysUpTime>1407433815956</sysUpTime>
+    <flags>719</flags>
+    <configurationFlags>284164096</configurationFlags>
+    <steelheadFlags>0</steelheadFlags>
+    <testTimeout>2000</testTimeout>
+    <intensiveTestDuration>120000</intensiveTestDuration>
+    <snmpTimeout>5000</snmpTimeout>
+    <snmpRetries>2</snmpRetries>
+    <ip>172.29.20.28</ip>
+    <hostname>ASOC_ORN0048</hostname>
+    <alias>ORN0048_Fundacion_del_Area_Andina </alias>
+    <description>Huawei AR2240 Huawei Versatile Routing Platform Software  VRP (R) software,Version 5.120 (AR2240 V200R003C01SPC300) Copyright (C) 2011-2013 Huawei Technologies Co., Ltd</description>
+    <contact>R&amp;D Shenzhen, Huawei Technologies Co., Ltd.</contact>
+    <location>Shenzhen China</location>
+    <snmpPublicCommunity>tmx01rumbo01RO</snmpPublicCommunity>
+    <snmpUser></snmpUser>
+    <authenticationProtocol> </authenticationProtocol>
+    <securityLevel>0</securityLevel>
+    <sysObjectID>1.3.6.1.4.1.2011.2.224.6</sysObjectID>
+    <latencyMeasurementIp></latencyMeasurementIp>
+    <statsTableId>05537</statsTableId>
+    <telnetUser>gestion</telnetUser>
+    <telnetPassword>manager147</telnetPassword>
+    <privilegeModePassword></privilegeModePassword>
+    <maxGetSize>0</maxGetSize>
+    <lastUpdateTime>1428901879353</lastUpdateTime>
+    <lastConfigTime>1428915878050</lastConfigTime>
+    <projectId>66</projectId>
+    <interfaces/>
+    <links/>
+    <ipSlas/>
+    <deviceResources/>
+    <properties/>
+  </com.gdc.nms.model.Device>
+  <com.gdc.nms.model.Device>
+    <id>11350</id>
+    <type>ROUTER</type>
+    <snmpVersion>V2</snmpVersion>
+    <protocolType>TELNET</protocolType>
+    <sysUpTime>1413832216579</sysUpTime>
+    <flags>719</flags>
+    <configurationFlags>284164097</configurationFlags>
+    <steelheadFlags>0</steelheadFlags>
+    <testTimeout>2000</testTimeout>
+    <intensiveTestDuration>120000</intensiveTestDuration>
+    <snmpTimeout>5000</snmpTimeout>
+    <snmpRetries>2</snmpRetries>
+    <ip>172.29.20.29</ip>
+    <hostname>ASOC_ORN0031</hostname>
+    <alias>ORN0031</alias>
+    <description>Huawei AR2240 Huawei Versatile Routing Platform Software  VRP (R) software,Version 5.120 (AR2240 V200R003C01SPC300) Copyright (C) 2011-2013 Huawei Technologies Co., Ltd</description>
+    <contact>R&amp;D Shenzhen, Huawei Technologies Co., Ltd.</contact>
+    <location>Shenzhen China</location>
+    <snmpPublicCommunity>tmx01rumbo01RO</snmpPublicCommunity>
+    <snmpUser></snmpUser>
+    <authenticationProtocol> </authenticationProtocol>
+    <securityLevel>0</securityLevel>
+    <sysObjectID>1.3.6.1.4.1.2011.2.224.6</sysObjectID>
+    <latencyMeasurementIp></latencyMeasurementIp>
+    <statsTableId>05537</statsTableId>
+    <telnetUser>gestion</telnetUser>
+    <telnetPassword>manager147</telnetPassword>
+    <privilegeModePassword></privilegeModePassword>
+    <maxGetSize>0</maxGetSize>
+    <lastUpdateTime>1428907569513</lastUpdateTime>
+    <lastConfigTime>1428915714105</lastConfigTime>
+    <projectId>66</projectId>
+    <interfaces/>
+    <links/>
+    <ipSlas/>
+    <deviceResources/>
+    <properties/>
+  </com.gdc.nms.model.Device>
+  <com.gdc.nms.model.Device>
+    <id>11432</id>
+    <type>ROUTER</type>
+    <snmpVersion>V2</snmpVersion>
+    <protocolType>TELNET</protocolType>
+    <sysUpTime>1428172027971</sysUpTime>
+    <flags>719</flags>
+    <configurationFlags>284164096</configurationFlags>
+    <steelheadFlags>0</steelheadFlags>
+    <testTimeout>2000</testTimeout>
+    <intensiveTestDuration>120000</intensiveTestDuration>
+    <snmpTimeout>5000</snmpTimeout>
+    <snmpRetries>2</snmpRetries>
+    <ip>172.29.20.30</ip>
+    <hostname>ASOC_ORN0002</hostname>
+    <alias>ORN0002</alias>
+    <description>Huawei AR2240 Huawei Versatile Routing Platform Software  VRP (R) software,Version 5.120 (AR2240 V200R003C01SPC300) Copyright (C) 2011-2013 Huawei Technologies Co., Ltd</description>
+    <contact>R&amp;D Shenzhen, Huawei Technologies Co., Ltd.</contact>
+    <location>Shenzhen China</location>
+    <snmpPublicCommunity>tmx01rumbo01RO</snmpPublicCommunity>
+    <snmpUser></snmpUser>
+    <authenticationProtocol> </authenticationProtocol>
+    <securityLevel>0</securityLevel>
+    <sysObjectID>1.3.6.1.4.1.2011.2.224.6</sysObjectID>
+    <latencyMeasurementIp></latencyMeasurementIp>
+    <statsTableId>05565</statsTableId>
+    <telnetUser>gestion</telnetUser>
+    <telnetPassword>manager147</telnetPassword>
+    <privilegeModePassword></privilegeModePassword>
+    <maxGetSize>0</maxGetSize>
+    <lastUpdateTime>1428889272867</lastUpdateTime>
+    <lastConfigTime>1428916142522</lastConfigTime>
+    <projectId>66</projectId>
+    <interfaces/>
+    <links/>
+    <ipSlas/>
+    <deviceResources/>
+    <properties/>
+  </com.gdc.nms.model.Device>
+  <com.gdc.nms.model.Device>
+    <id>11646</id>
+    <type>ROUTER</type>
+    <snmpVersion>V2</snmpVersion>
+    <protocolType>TELNET</protocolType>
+    <sysUpTime>1427140548925</sysUpTime>
+    <flags>719</flags>
+    <configurationFlags>284164097</configurationFlags>
+    <steelheadFlags>0</steelheadFlags>
+    <testTimeout>2000</testTimeout>
+    <intensiveTestDuration>120000</intensiveTestDuration>
+    <snmpTimeout>5000</snmpTimeout>
+    <snmpRetries>2</snmpRetries>
+    <ip>172.29.20.15</ip>
+    <hostname>ASOC_ORN0042</hostname>
+    <alias>ORN0042</alias>
+    <description>Huawei AR2240 Huawei Versatile Routing Platform Software  VRP (R) software,Version 5.120 (AR2240 V200R003C01SPC300) Copyright (C) 2011-2013 Huawei Technologies Co., Ltd</description>
+    <contact>R&amp;D Shenzhen, Huawei Technologies Co., Ltd.</contact>
+    <location>Shenzhen China</location>
+    <snmpPublicCommunity>tmx01rumbo01RO</snmpPublicCommunity>
+    <snmpUser></snmpUser>
+    <authenticationProtocol> </authenticationProtocol>
+    <securityLevel>0</securityLevel>
+    <sysObjectID>1.3.6.1.4.1.2011.2.224.6</sysObjectID>
+    <latencyMeasurementIp></latencyMeasurementIp>
+    <statsTableId>05656</statsTableId>
+    <telnetUser>gestion</telnetUser>
+    <telnetPassword>manager147</telnetPassword>
+    <privilegeModePassword>sys</privilegeModePassword>
+    <maxGetSize>0</maxGetSize>
+    <lastUpdateTime>1428895272041</lastUpdateTime>
+    <lastConfigTime>1428916332484</lastConfigTime>
+    <projectId>66</projectId>
+    <interfaces/>
+    <links/>
+    <ipSlas/>
+    <deviceResources/>
+    <properties/>
+  </com.gdc.nms.model.Device>
+  <com.gdc.nms.model.Device>
+    <id>11647</id>
+    <type>ROUTER</type>
+    <snmpVersion>V2</snmpVersion>
+    <protocolType>TELNET</protocolType>
+    <sysUpTime>1421057524052</sysUpTime>
+    <flags>719</flags>
+    <configurationFlags>284164096</configurationFlags>
+    <steelheadFlags>0</steelheadFlags>
+    <testTimeout>2000</testTimeout>
+    <intensiveTestDuration>120000</intensiveTestDuration>
+    <snmpTimeout>5000</snmpTimeout>
+    <snmpRetries>2</snmpRetries>
+    <ip>172.29.20.32</ip>
+    <hostname>ASOC_ORN0043</hostname>
+    <alias>ORN0043</alias>
+    <description>Huawei AR2240 Huawei Versatile Routing Platform Software  VRP (R) software,Version 5.120 (AR2240 V200R003C01SPC300) Copyright (C) 2011-2013 Huawei Technologies Co., Ltd</description>
+    <contact>R&amp;D Shenzhen, Huawei Technologies Co., Ltd.</contact>
+    <location>Shenzhen China</location>
+    <snmpPublicCommunity>tmx01rumbo01RO</snmpPublicCommunity>
+    <snmpUser>tmx01rumbo01RO</snmpUser>
+    <authenticationProtocol> </authenticationProtocol>
+    <securityLevel>0</securityLevel>
+    <sysObjectID>1.3.6.1.4.1.2011.2.224.6</sysObjectID>
+    <latencyMeasurementIp></latencyMeasurementIp>
+    <statsTableId>05657</statsTableId>
+    <telnetUser>gestion</telnetUser>
+    <telnetPassword>manager147</telnetPassword>
+    <privilegeModePassword>sys</privilegeModePassword>
+    <maxGetSize>0</maxGetSize>
+    <lastUpdateTime>1428867672268</lastUpdateTime>
+    <lastConfigTime>1428915981909</lastConfigTime>
+    <projectId>66</projectId>
+    <interfaces/>
+    <links/>
+    <ipSlas/>
+    <deviceResources/>
+    <properties/>
+  </com.gdc.nms.model.Device>
+  <com.gdc.nms.model.Device>
+    <id>11651</id>
+    <type>ROUTER</type>
+    <snmpVersion>V2</snmpVersion>
+    <protocolType>TELNET</protocolType>
+    <sysUpTime>1426722004657</sysUpTime>
+    <flags>719</flags>
+    <configurationFlags>284164096</configurationFlags>
+    <steelheadFlags>0</steelheadFlags>
+    <testTimeout>2000</testTimeout>
+    <intensiveTestDuration>120000</intensiveTestDuration>
+    <snmpTimeout>5000</snmpTimeout>
+    <snmpRetries>2</snmpRetries>
+    <ip>172.29.20.33</ip>
+    <hostname>ASOC_ORN0044</hostname>
+    <alias>ORN0044</alias>
+    <description>Huawei AR2240 Huawei Versatile Routing Platform Software  VRP (R) software,Version 5.120 (AR2240 V200R003C01SPC300) Copyright (C) 2011-2013 Huawei Technologies Co., Ltd</description>
+    <contact>R&amp;D Shenzhen, Huawei Technologies Co., Ltd.</contact>
+    <location>Shenzhen China</location>
+    <snmpPublicCommunity>tmx01rumbo01RO</snmpPublicCommunity>
+    <snmpUser>tmx01rumbo01RO</snmpUser>
+    <authenticationProtocol> </authenticationProtocol>
+    <securityLevel>0</securityLevel>
+    <sysObjectID>1.3.6.1.4.1.2011.2.224.6</sysObjectID>
+    <latencyMeasurementIp></latencyMeasurementIp>
+    <statsTableId>05659</statsTableId>
+    <telnetUser>gestion</telnetUser>
+    <telnetPassword>manager147</telnetPassword>
+    <privilegeModePassword>sys</privilegeModePassword>
+    <maxGetSize>0</maxGetSize>
+    <lastUpdateTime>1428909376268</lastUpdateTime>
+    <lastConfigTime>1428916362865</lastConfigTime>
+    <projectId>66</projectId>
+    <interfaces/>
+    <links/>
+    <ipSlas/>
+    <deviceResources/>
+    <properties/>
+  </com.gdc.nms.model.Device>
+  <com.gdc.nms.model.Device>
+    <id>11652</id>
+    <type>ROUTER</type>
+    <snmpVersion>V2</snmpVersion>
+    <protocolType>TELNET</protocolType>
+    <sysUpTime>1426195380210</sysUpTime>
+    <flags>719</flags>
+    <configurationFlags>284164096</configurationFlags>
+    <steelheadFlags>0</steelheadFlags>
+    <testTimeout>2000</testTimeout>
+    <intensiveTestDuration>120000</intensiveTestDuration>
+    <snmpTimeout>5000</snmpTimeout>
+    <snmpRetries>2</snmpRetries>
+    <ip>172.29.20.34</ip>
+    <hostname>ASOC_ORN0045</hostname>
+    <alias>ORN0045</alias>
+    <description>Huawei AR2240 Huawei Versatile Routing Platform Software  VRP (R) software,Version 5.120 (AR2240 V200R003C01SPC300) Copyright (C) 2011-2013 Huawei Technologies Co., Ltd</description>
+    <contact>R&amp;D Shenzhen, Huawei Technologies Co., Ltd.</contact>
+    <location>Shenzhen China</location>
+    <snmpPublicCommunity>tmx01rumbo01RO</snmpPublicCommunity>
+    <snmpUser></snmpUser>
+    <authenticationProtocol> </authenticationProtocol>
+    <securityLevel>0</securityLevel>
+    <sysObjectID>1.3.6.1.4.1.2011.2.224.6</sysObjectID>
+    <latencyMeasurementIp></latencyMeasurementIp>
+    <statsTableId>05659</statsTableId>
+    <telnetUser>gestion</telnetUser>
+    <telnetPassword>manager147</telnetPassword>
+    <privilegeModePassword>sys</privilegeModePassword>
+    <maxGetSize>0</maxGetSize>
+    <lastUpdateTime>1428892272768</lastUpdateTime>
+    <lastConfigTime>1428916730219</lastConfigTime>
+    <projectId>66</projectId>
+    <interfaces/>
+    <links/>
+    <ipSlas/>
+    <deviceResources/>
+    <properties/>
+  </com.gdc.nms.model.Device>
+  <com.gdc.nms.model.Device>
+    <id>11658</id>
+    <type>ROUTER</type>
+    <snmpVersion>V2</snmpVersion>
+    <protocolType>TELNET</protocolType>
+    <sysUpTime>1423456702304</sysUpTime>
+    <flags>719</flags>
+    <configurationFlags>284164100</configurationFlags>
+    <steelheadFlags>0</steelheadFlags>
+    <testTimeout>2000</testTimeout>
+    <intensiveTestDuration>120000</intensiveTestDuration>
+    <snmpTimeout>5000</snmpTimeout>
+    <snmpRetries>2</snmpRetries>
+    <ip>172.29.20.36</ip>
+    <hostname>ASOC_ORN0038</hostname>
+    <alias>ORN0038</alias>
+    <description>Huawei AR2220 Huawei Versatile Routing Platform Software  VRP (R) software,Version 5.120 (AR2220 V200R003C01SPC300) Copyright (C) 2011-2013 Huawei Technologies Co., Ltd</description>
+    <contact>R&amp;D Shenzhen, Huawei Technologies Co., Ltd.</contact>
+    <location>Shenzhen China</location>
+    <snmpPublicCommunity>tmx01rumbo01RO</snmpPublicCommunity>
+    <snmpUser></snmpUser>
+    <authenticationProtocol> </authenticationProtocol>
+    <securityLevel>0</securityLevel>
+    <sysObjectID>1.3.6.1.4.1.2011.2.224.5</sysObjectID>
+    <latencyMeasurementIp></latencyMeasurementIp>
+    <statsTableId>05661</statsTableId>
+    <telnetUser>gestion</telnetUser>
+    <telnetPassword>manager147</telnetPassword>
+    <privilegeModePassword></privilegeModePassword>
+    <maxGetSize>0</maxGetSize>
+    <lastUpdateTime>1428878779603</lastUpdateTime>
+    <lastConfigTime>1428916191815</lastConfigTime>
+    <projectId>66</projectId>
+    <interfaces/>
+    <links/>
+    <ipSlas/>
+    <deviceResources/>
+    <properties/>
+  </com.gdc.nms.model.Device>
+  <com.gdc.nms.model.Device>
+    <id>12339</id>
+    <type>ROUTER</type>
+    <snmpVersion>V2</snmpVersion>
+    <protocolType>TELNET</protocolType>
+    <sysUpTime>1424298685314</sysUpTime>
+    <flags>719</flags>
+    <configurationFlags>284164096</configurationFlags>
+    <steelheadFlags>0</steelheadFlags>
+    <testTimeout>2000</testTimeout>
+    <intensiveTestDuration>120000</intensiveTestDuration>
+    <snmpTimeout>5000</snmpTimeout>
+    <snmpRetries>2</snmpRetries>
+    <ip>172.29.20.38</ip>
+    <hostname>ASOC_ORN0022</hostname>
+    <alias>ORN0022</alias>
+    <description>Huawei AR2240 Huawei Versatile Routing Platform Software  VRP (R) software,Version 5.120 (AR2240 V200R003C01SPC300) Copyright (C) 2011-2013 Huawei Technologies Co., Ltd</description>
+    <contact>R&amp;D Shenzhen, Huawei Technologies Co., Ltd.</contact>
+    <location>Shenzhen China</location>
+    <snmpPublicCommunity>tmx01rumbo01RO</snmpPublicCommunity>
+    <snmpUser>tmx01rumbo01RO</snmpUser>
+    <authenticationProtocol> </authenticationProtocol>
+    <securityLevel>0</securityLevel>
+    <sysObjectID>1.3.6.1.4.1.2011.2.224.6</sysObjectID>
+    <latencyMeasurementIp></latencyMeasurementIp>
+    <statsTableId>05789</statsTableId>
+    <telnetUser>gestion</telnetUser>
+    <telnetPassword>manager147</telnetPassword>
+    <privilegeModePassword></privilegeModePassword>
+    <maxGetSize>0</maxGetSize>
+    <lastUpdateTime>1428948106260</lastUpdateTime>
+    <lastConfigTime>1428915762047</lastConfigTime>
+    <projectId>66</projectId>
+    <interfaces/>
+    <links/>
+    <ipSlas/>
+    <deviceResources/>
+    <properties/>
+  </com.gdc.nms.model.Device>
+  <com.gdc.nms.model.Device>
+    <id>12508</id>
+    <type>ROUTER</type>
+    <snmpVersion>V2</snmpVersion>
+    <protocolType>TELNET</protocolType>
+    <sysUpTime>1409325002401</sysUpTime>
+    <flags>719</flags>
+    <configurationFlags>284164096</configurationFlags>
+    <steelheadFlags>0</steelheadFlags>
+    <testTimeout>2000</testTimeout>
+    <intensiveTestDuration>120000</intensiveTestDuration>
+    <snmpTimeout>5000</snmpTimeout>
+    <snmpRetries>2</snmpRetries>
+    <ip>172.29.20.20</ip>
+    <hostname>ASOC_UDR0007</hostname>
+    <alias>UDR0007</alias>
+    <description>Huawei AR2240 Huawei Versatile Routing Platform Software  VRP (R) software,Version 5.120 (AR2240 V200R003C01SPC300) Copyright (C) 2011-2013 Huawei Technologies Co., Ltd</description>
+    <contact>R&amp;D Shenzhen, Huawei Technologies Co., Ltd.</contact>
+    <location>Shenzhen China</location>
+    <snmpPublicCommunity>tmx01rumbo01RO</snmpPublicCommunity>
+    <snmpUser>tmx01rumbo01RO</snmpUser>
+    <authenticationProtocol> </authenticationProtocol>
+    <securityLevel>0</securityLevel>
+    <sysObjectID>1.3.6.1.4.1.2011.2.224.6</sysObjectID>
+    <latencyMeasurementIp></latencyMeasurementIp>
+    <statsTableId>02181</statsTableId>
+    <telnetUser>gestion</telnetUser>
+    <telnetPassword>manager147</telnetPassword>
+    <privilegeModePassword>sys</privilegeModePassword>
+    <maxGetSize>0</maxGetSize>
+    <lastUpdateTime>1428891086808</lastUpdateTime>
+    <lastConfigTime>1428916210735</lastConfigTime>
+    <projectId>66</projectId>
+    <interfaces/>
+    <links/>
+    <ipSlas/>
+    <deviceResources/>
+    <properties/>
+  </com.gdc.nms.model.Device>
+  <com.gdc.nms.model.Device>
+    <id>12538</id>
+    <type>ROUTER</type>
+    <snmpVersion>V2</snmpVersion>
+    <protocolType>TELNET</protocolType>
+    <sysUpTime>1428501001899</sysUpTime>
+    <flags>207</flags>
+    <configurationFlags>15728655</configurationFlags>
+    <steelheadFlags>0</steelheadFlags>
+    <testTimeout>2000</testTimeout>
+    <intensiveTestDuration>120000</intensiveTestDuration>
+    <snmpTimeout>5000</snmpTimeout>
+    <snmpRetries>2</snmpRetries>
+    <ip>172.19.52.217</ip>
+    <hostname>TELM_TFP0619</hostname>
+    <alias>TFP0619 Extranet</alias>
+    <description>Huawei AR151 Huawei Versatile Routing Platform Software  VRP (R) software,Version 5.120 (AR151 V200R003C01SPC900) Copyright (C) 2011-2013 Huawei Technologies Co., Ltd</description>
+    <contact>R&amp;D Shenzhen, Huawei Technologies Co., Ltd.</contact>
+    <location>Shenzhen China</location>
+    <snmpPublicCommunity>tmxc01ittmx1008</snmpPublicCommunity>
+    <snmpUser></snmpUser>
+    <authenticationProtocol> </authenticationProtocol>
+    <securityLevel>0</securityLevel>
+    <sysObjectID>1.3.6.1.4.1.2011.2.224.27</sysObjectID>
+    <latencyMeasurementIp></latencyMeasurementIp>
+    <statsTableId>03393</statsTableId>
+    <telnetUser>gestion</telnetUser>
+    <telnetPassword>manager147</telnetPassword>
+    <privilegeModePassword>ATT_telm</privilegeModePassword>
+    <maxGetSize>0</maxGetSize>
+    <lastUpdateTime>1428871886296</lastUpdateTime>
+    <lastConfigTime>1428917960533</lastConfigTime>
+    <projectId>10</projectId>
+    <interfaces/>
+    <links/>
+    <ipSlas/>
+    <deviceResources/>
+    <properties/>
+  </com.gdc.nms.model.Device>
+  <com.gdc.nms.model.Device>
+    <id>12959</id>
+    <type>ROUTER</type>
+    <snmpVersion>V2</snmpVersion>
+    <protocolType>TELNET</protocolType>
+    <sysUpTime>1423962381276</sysUpTime>
+    <flags>717</flags>
+    <configurationFlags>284164096</configurationFlags>
+    <steelheadFlags>0</steelheadFlags>
+    <testTimeout>2000</testTimeout>
+    <intensiveTestDuration>120000</intensiveTestDuration>
+    <snmpTimeout>5000</snmpTimeout>
+    <snmpRetries>2</snmpRetries>
+    <ip>172.29.20.39</ip>
+    <hostname>ASOC_ORN0041</hostname>
+    <alias>ORN0041</alias>
+    <description>Huawei AR2240 Huawei Versatile Routing Platform Software  VRP (R) software,Version 5.120 (AR2240 V200R003C01SPC300) Copyright (C) 2011-2013 Huawei Technologies Co., Ltd</description>
+    <contact>R&amp;D Shenzhen, Huawei Technologies Co., Ltd.</contact>
+    <location>Shenzhen China</location>
+    <snmpPublicCommunity>tmx01rumbo01RO</snmpPublicCommunity>
+    <snmpUser></snmpUser>
+    <authenticationProtocol> </authenticationProtocol>
+    <securityLevel>0</securityLevel>
+    <sysObjectID>1.3.6.1.4.1.2011.2.224.6</sysObjectID>
+    <latencyMeasurementIp></latencyMeasurementIp>
+    <statsTableId>01497</statsTableId>
+    <telnetUser>gestion</telnetUser>
+    <telnetPassword>manager147</telnetPassword>
+    <privilegeModePassword></privilegeModePassword>
+    <maxGetSize>0</maxGetSize>
+    <lastUpdateTime>1424269005456</lastUpdateTime>
+    <lastConfigTime>1424250114993</lastConfigTime>
+    <projectId>66</projectId>
+    <interfaces/>
+    <links/>
+    <ipSlas/>
+    <deviceResources/>
+    <properties/>
+  </com.gdc.nms.model.Device>
+</list>

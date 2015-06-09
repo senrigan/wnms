@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;CfgFile.java&apos; to &apos;testMysql/src/com.gdc.nms.server.driver.test&apos;&#x0D;&#x0A;- Original project: &apos;testMysql&apos;&#x0D;&#x0A;- Destination element: &apos;testMysql/src/com.gdc.nms.server.driver.test&apos;&#x0D;&#x0A;- Original element: &apos;test.CfgFile.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;com.gdc.nms.server.driver.test" element1="/src&lt;test{CfgFile.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1427140930955" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/testMysql/src/com/gdc/nms/server/driver/test/TestPrueba2.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.gdc.nms.server.driver.test.TestPrueba2"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="testMysql"/>
+<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Xrunjdwp:transport=dt_socket,address=8000,server=y,suspend=n"/>
+</launchConfiguration>

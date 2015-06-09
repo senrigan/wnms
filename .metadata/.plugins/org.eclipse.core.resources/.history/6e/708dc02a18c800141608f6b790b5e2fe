@@ -1,0 +1,208 @@
+package com.gdc.nms.testing;
+
+import jade.core.AID;
+import jade.core.ProfileImpl;
+import jade.util.leap.Properties;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.net.InetAddress;
+import java.net.NetworkInterface;
+import java.net.SocketException;
+import java.net.URISyntaxException;
+import java.util.ArrayList;
+import java.util.Enumeration;
+import java.util.List;
+import java.util.concurrent.CountDownLatch;
+import java.util.concurrent.TimeUnit;
+
+import org.apache.commons.io.IOUtils;
+
+import com.gdc.nms.model.Device;
+import com.gdc.nms.testing.agent.ClientAgent;
+import com.gdc.nms.testing.client.Serv;
+import com.gdc.nms.testing.client.ssh.SecurityShell;
+import com.gdc.nms.testing.exception.IllegalLocalAddress;
+import com.gdc.nms.testing.interfaces.Executable;
+import com.gdc.nms.testing.response.DeviceDriverResponse;
+import com.gdc.nms.testing.response.DeviceInterfacesResponse;
+import com.gdc.nms.testing.response.DeviceResourcesResponse;
+import com.gdc.nms.testing.util.AgentUtil;
+import com.gdc.nms.testing.util.AgentsManager;
+import com.jcraft.jsch.JSchException;
+import com.jcraft.jsch.SftpException;
+import com.thoughtworks.xstream.XStream;
+import com.thoughtworks.xstream.io.xml.DomDriver;
+
+public class Client implements Executable {
+
+    private List<Serv> servers;
+    private List<SecurityShell> sshServerConnections;
+    private XStream xstream;
+    private ClientAgent agent;
+    private Properties jadeProps;
+    private AgentsManager manager;
+    private String localAddress;
+    private boolean running;
+    private int count;
+    private CountDownLatch discoveryLatch;
+
+    public Client() throws IllegalLocalAddress {
+        setLocalAddress(getLocalAddress());
+        count = 0;
+        xstream = new XStream(new DomDriver());
+        xstream.processAnnotations(Serv.class);
+        discoveryLatch = new CountDownLatch(1);
+        jadeProps = new Properties();
+        jadeProps.put(ProfileImpl.MAIN, "true");
+        // jadeProps.put(ProfileImpl.GUI, "true");
+        jadeProps.put(ProfileImpl.PLATFORM_ID, AgentUtil.CLIENT_PLATFORM_ID);
+        jadeProps.put(ProfileImpl.MTPS, AgentUtil.getMTP(localAddress));
+        manager = AgentsManager.getInstance();
+        agent = new ClientAgent(discoveryLatch);
+        running = false;
+    }
+
+    public File[] getLibraries() {
+        File libraries = new File(System.getProperty("user.dir") + "/libraries");
+        return libraries.listFiles();
+    }
+
+    public File getCurrentJarFile() {
+        try {
+            return new File(Main.class.getProtectionDomain().getCodeSource().getLocation().toURI());
+        } catch (URISyntaxException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+    private String getLocalAddress() throws IllegalLocalAddress {
+        try {
+            Enumeration<NetworkInterface> interfaces = NetworkInterface.getNetworkInterfaces();
+            while (interfaces.hasMoreElements()) {
+                NetworkInterface iface = interfaces.nextElement();
+                if (!iface.isLoopback()) {
+                    Enumeration<InetAddress> ifaceAddresses = iface.getInetAddresses();
+                    while (ifaceAddresses.hasMoreElements()) {
+                        InetAddress address = ifaceAddresses.nextElement();
+                        return address.getHostAddress();
+                    }
+                }
+            }
+        } catch (SocketException e) {
+            throw new IllegalLocalAddress("Exception while read Network Interfaces: " + e.getMessage());
+        }
+        return null;
+    }
+
+    private void setLocalAddress(String localAddress) throws IllegalLocalAddress {
+        if (localAddress == null) {
+            throw new IllegalLocalAddress("Could not get your local Network Interface");
+        }
+        this.localAddress = localAddress;
+    }
+
+    private void readServers() throws Exception {
+        List<String> lines = IOUtils.readLines(new FileInputStream(System.getProperty("user.dir") + "/servers.lst"));
+        if (lines.size() <= 0) {
+            throw new Exception("Empty List of Servers");
+        } else {
+            servers = new ArrayList<Serv>(lines.size());
+            for (String line : lines) {
+                servers.add((Serv) xstream.fromXML(line));
+            }
+        }
+    }
+
+    private void startSSHConnection() {
+        sshServerConnections = new ArrayList<SecurityShell>(servers.size());
+        for (final Serv server : servers) {
+            new Thread() {
+
+                @Override
+                public void run() {
+                    SecurityShell shell = new SecurityShell(server.getSshCredential());
+                    try {
+                        shell.connect();
+                        try {
+                        	System.out.println("labrarys "+getLibraries()+"glaspath"+server.getGlassfishPath());
+                            shell.uploadFiles(getLibraries(), server.getGlassfishPath(), "libraries");
+                            shell.uploadFile(new File(System.getProperty("user.dir") + "/" + "tester.jar"),
+                                server.getGlassfishPath(), "", null);
+                            shell.executeJar("tester.jar", new String[] { "--server",
+                                    server.getSshCredential().getHostname(), server.getJadeHosts().get(0),
+                                    localAddress, Integer.toString(count) });
+                            sshServerConnections.add(shell);
+
+                        } catch (SftpException e) {
+                            e.printStackTrace();
+                            shell.disconnect();
+                        }
+                    } catch (JSchException e) {
+                        e.printStackTrace();
+                    }
+                }
+            }.start();
+            count++;
+        }
+    }
+
+    @Override
+    public void start() {
+        try {
+            manager.start(new ProfileImpl(jadeProps));
+            manager.addAgent(AgentUtil.CLIENTAGENT_NAME, agent);
+            readServers();
+            startSSHConnection();
+            discovery(servers.size(), 4, TimeUnit.MINUTES);
+            running = true;
+        } catch (Exception e) {
+            running = false;
+            e.printStackTrace();
+        }
+    }
+
+    @Override
+    public void stop() {
+        if (isRunning()) {
+            if (sshServerConnections != null) {
+                for (SecurityShell sshServer : sshServerConnections) {
+                    sshServer.disconnect();
+                }
+            }
+            manager.stop();
+            running = false;
+        }
+    }
+
+    public void discovery(int messageLimit, long duration, TimeUnit unit) {
+        agent.discovery(messageLimit, duration, unit);
+        try {
+            discoveryLatch.await();
+        } catch (InterruptedException e) {
+        }
+    }
+
+    public DeviceDriverResponse getDeviceDriver(Device device, AID receiver, long timeout) throws Exception {
+        return agent.getDeviceDriver(device, receiver, timeout);
+    }
+
+    public DeviceResourcesResponse getDeviceResources(Device device, AID receiver, long timeout) throws Exception {
+        return agent.getDeviceResources(device, receiver, timeout);
+    }
+
+    public DeviceInterfacesResponse getInterfaces(Device device, AID receiver, long timeout) throws Exception {
+        return agent.getInterfaces(device, receiver, timeout);
+    }
+
+    public AID getServerByHostname(String hostname) {
+        return agent.getServerByHostname(hostname);
+    }
+
+    @Override
+    public boolean isRunning() {
+        return running;
+    }
+
+}

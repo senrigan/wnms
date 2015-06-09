@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="classes" path="src"/>
+	<classpathentry kind="var" path="JRE_LIB" rootpath="JRE_SRCROOT" sourcepath="JRE_SRC"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/slf4j/slf4j-api-1.5.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/truelicense/truelicense-core-1.31-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/imq/jms.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/imq/imq.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/jee/activation.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/jee/appserv-jstl.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/jee/appserv-rt.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/jee/appserv-tags.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/jee/appserv-ws.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/jee/javaee.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/jee/jsf-impl.jar"/>
+	<classpathentry kind="lib" path="C:/Users/senrigan/workspace/workspaceWork/dev/development/libraries/jee/mail.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

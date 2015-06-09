@@ -1,0 +1,121 @@
+package connection;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+import org.apache.commons.io.FileUtils;
+import org.apache.commons.io.LineIterator;
+
+import connection.credential.MysqlCredential;
+
+public class MysqlData {
+	
+	public MysqlData(){
+		
+	}
+	
+	public void createFilesAndFolders(){
+		
+	}
+	
+	
+	private void getMysqlDataDevice(MysqlCredential mysqlCredent){
+		MySql mysqlBase=new MySql(mysqlCredent);
+		
+	}
+	
+	private HashMap<String,String> getSysoOIDSuport(File deviceFile){
+//		 InputStream in = new URL( "http://commons.apache.org" ).openStream();
+//		 try {
+//		   System.out.println( IOUtils.toString( in ) );
+//		 } finally {
+//		   IOUtils.closeQuietly(in);
+//		 }
+		try {
+			long time_start, time_end;
+//			time_start = System.currentTimeMillis();
+//			String st=FileUtils.readFileToString(deviceFile);
+//			time_end = System.currentTimeMillis();
+//			System.out.println("the task has taken st"+ ( time_end - time_start ) +" milliseconds");
+//			time_start = System.currentTimeMillis();
+//
+//			List<String> lst=FileUtils.readLines(deviceFile);
+//			time_end = System.currentTimeMillis();
+//			System.out.println("the task has taken "+ ( time_end - time_start ) +" milliseconds");
+//			
+//			System.out.println("is string"+st);
+//			System.out.println("is lines"+lst);
+			 LineIterator it = FileUtils.lineIterator(deviceFile, "UTF-8");
+			 HashMap<String,String> hash=new HashMap<String,String>(); 
+			 try {
+				 time_start = System.currentTimeMillis();
+				 String name,key;
+//				 int i=0,o=0;
+				 //Pattern p=Pattern.compile("[^[0-9]*\\.*]*");
+				 Pattern p=Pattern.compile("[a-zA-Z]+");
+				 while (it.hasNext()) {
+			     String line = it.nextLine();
+			     
+			     if(line.startsWith("#")){
+			    	 line=line.replace("#", " ");
+			    	 name=line.replaceAll(" ","");
+			    	 line=it.nextLine();
+			    	 key=line.substring(0, line.indexOf("="));
+			    	System.out.println("lne"+key);
+//			    	 i++;
+			    	 Matcher m=p.matcher(key);
+			    	 if(key.indexOf(".")>=0){
+			    		 //System.out.println(""+key.substring(key.lastIndexOf("."),key.length()-1));
+				    	//m=p.matcher(key.substring(key.lastIndexOf("."),key.length()-1));
+			    		// System.out.println("key"+key);
+				    	 m=p.matcher(key);
+			    		 //if(key.matches("[.a-zA-Z]")){
+				    	 
+				    	 if(!m.find()){
+
+				    		 //key=line.substring(0, line.indexOf("="));
+					    	 
+					    	 hash.put(name, key);
+					    	 
+//					    	 System.out.println(" name "+name+" key "+key);
+				    	 }
+			    	 }
+			    		
+			    	 
+			    	 
+			     }
+			     /// do something with line
+			   }
+		    	// System.out.println("i"+i+" 0"+o);
+
+			   time_end = System.currentTimeMillis();
+				System.out.println("the task has taken "+ ( time_end - time_start ) +" milliseconds");
+				 return hash;
+			 } finally {
+			   LineIterator.closeQuietly(it);
+			   System.out.println("si acabo");
+			  
+			 }
+
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return null;
+	}
+	
+	
+	public static void main(String[] args) {
+		MysqlData msql=new MysqlData();
+//		try {
+			HashMap<String,String> hash=msql.getSysoOIDSuport(new File("C:\\Users\\senrigan\\workspace\\workspaceWork\\dev\\development\\source\\packages\\common\\src\\com\\gdc\\nms\\common\\device.properties"));
+			System.out.println("hash key"+hash.keySet());
+			System.out.println("content"+hash.entrySet());
+	}
+	
+	
+
+}

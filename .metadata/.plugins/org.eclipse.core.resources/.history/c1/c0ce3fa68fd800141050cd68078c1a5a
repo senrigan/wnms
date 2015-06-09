@@ -1,0 +1,16 @@
+class DriverTestType implements Checker{
+
+		@Override
+		public boolean satisfy() {
+			System.out.println("es igual"+dev.getDriverName().equals("172.28.2.189"));
+			return dev.getDriverName().equals("172.28.2.189");
+			// TODO Auto-generated method stub
+		}
+
+//		@Override
+//		public boolean isSatisfied() {
+//			System.out.println("es igual"+dev.equals("172.28.2.189"));
+//			return dev.equals("172.28.2.189");
+//			// TODO Auto-generated method stub
+//		}
+	}

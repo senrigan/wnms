@@ -1,0 +1,20 @@
+package com.gdc.nms.server.driver.test;
+
+import com.googlecode.junit.ext.checkers.Checker;
+
+class DriverTestType implements Checker{
+
+		@Override
+		public boolean satisfy() {
+			System.out.println("es igual");
+			return true;
+			// TODO Auto-generated method stub
+		}
+
+//		@Override
+//		public boolean isSatisfied() {
+//			System.out.println("es igual"+dev.equals("172.28.2.189"));
+//			return dev.equals("172.28.2.189");
+//			// TODO Auto-generated method stub
+//		}
+	}

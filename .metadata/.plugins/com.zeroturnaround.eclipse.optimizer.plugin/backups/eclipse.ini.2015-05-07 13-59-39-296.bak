@@ -1,0 +1,26 @@
+-startup
+plugins/org.eclipse.equinox.launcher_1.3.0.v20140415-2008.jar
+-vm
+C:/Program Files/Java/jdk1.8.0_20/bin/javaw.exe
+--launcher.library
+plugins/org.eclipse.equinox.launcher.win32.win32.x86_64_1.1.200.v20140603-1326
+-product
+org.eclipse.epp.package.jee.product
+--launcher.defaultAction
+openFile
+--launcher.XXMaxPermSize
+256m
+-showsplash
+org.eclipse.platform
+--launcher.XXMaxPermSize
+256m
+--launcher.defaultAction
+openFile
+--launcher.appendVmargs
+-vmargs
+-Dosgi.requiredJavaVersion=1.6
+-Xms512m
+-Xmx1024m
+-javaagent:C:\Users\senrigan\Documents\eclipse-jee-luna-R-win32-x86_64\eclipse\plugins\com.zeroturnaround.eclipse.optimizer.plugin_1.0.1/agent/eclipse-optimizer-agent.jar
+-server
+-XX:+UseParallelGC
