@@ -1,14 +1,10 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Date;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Random;
 
 import com.gdc.nms.model.Device;
-import com.gdc.nms.server.ServerManager;
-import com.gdc.nms.server.drivers.snmp.Driver;
-import com.gdc.nms.server.drivers.snmp.DriverManager;
+import com.gdc.nms.model.Device.Type;
 
 
 public class PachitaExample {
@@ -20,7 +16,12 @@ public class PachitaExample {
 		String pal2=String.format("%-20s%10s",palabra,"mundo");
 		PachitaExample pach=new PachitaExample();
 		pach.updateArray(new ArrayList<Integer>());
+		Device device=new Device("192.168.207.40");
+		device.setType(Type.MOCK);
 		
+		if(device.getType()==Type.MOCK){
+			System.out.println("si entra ");
+		}
 		
 		
 	}
